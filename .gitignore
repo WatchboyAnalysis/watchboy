@@ -1,0 +1,13 @@
+*~
+fix_scripts/corrupt_worker
+fix_scripts/gate_builder
+fix_scripts/gate_builder_addon
+library/RNDict.cc
+library/RNDict.h
+library/RNDict.o
+library/SLMarsDetector_16.o
+library/SLMarsDetector_2.o
+library/libRN.so
+scripts/cfneutrons
+scripts/monitor
+scripts/pedchi
