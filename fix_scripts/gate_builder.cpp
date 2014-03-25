@@ -159,7 +159,7 @@ void process(char* filename)
   }
   std::cout << "\nFinished filling " << tree_name << std::endl;
 
-  file->Write();
+  file->Write("", TObject::kOverwrite);
   return;
 }
 

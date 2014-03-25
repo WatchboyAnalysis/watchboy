@@ -1,6 +1,10 @@
 standard: main
 
-main: gate_builder corrupt_worker gate_builder_addon
+main: gate_builder corrupt_worker gate_builder_addon gate_builder_organize
+
+gate_builder_organize: gate_builder_organize.cpp
+	g++ `root-config --cflags --libs` -std=c++0x gate_builder_organize.cpp -o gate_builder_organize
+	chmod ug+rwx gate_builder_organize
 
 gate_builder_addon: gate_builder_addon.cpp
 	g++ `root-config --cflags --libs` -std=c++0x gate_builder_addon.cpp -o gate_builder_addon
@@ -15,4 +19,4 @@ corrupt_worker: corruption_test_worker.cpp
 	chmod ug+rwx corrupt_worker
 
 clean:
-	rm -f corrupt_worker gate_builder gate_builder_addon
+	rm -f corrupt_worker gate_builder gate_builder_addon gate_builder_organize

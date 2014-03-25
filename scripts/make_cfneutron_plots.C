@@ -87,7 +87,7 @@ void make_cfneutron_plots(string fname)
   c1->cd(3);
   c1->GetPad(3)->SetLogy();
   
-  mult->SetTitle("Event Multiplicity");
+  mult->SetTitle("Event Multiplicity (50 #muS window)");
   mult->GetXaxis()->SetTitle("Multiplicity");
   mult->GetXaxis()->SetRange(0, 12);
   TF1* salmon = new TF1("salmon", "[0]*TMath::Poisson(x, [1])", 0, 10);

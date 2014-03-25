@@ -467,7 +467,7 @@ void simplify(string input_name)
 
   cout << "\nWriting to file" << endl;
 
-  output->Write();
+  output->Write("", TObject::kOverwrite);
   output->Close();
   delete tree;
   delete file;

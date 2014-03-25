@@ -66,6 +66,6 @@ void fix(char* filename)
     output->Fill();
   }
 
-  out.Write();
+  out.Write("", TObject::kOverwrite);
   return;
 }

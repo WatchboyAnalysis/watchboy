@@ -91,7 +91,7 @@ void process(char* filename)
     time = mean(timelist);
     timebranch->Fill();
   }
-  file.Write();
+  file.Write("", TObject::kOverwrite);
   return;
 }
 
