@@ -20,6 +20,7 @@
 // cpp
 #include <iostream>
 #include <string>
+#include <vector>
 #include <cmath>
 
 TChain* createChain(int argc, char* argv[]);
@@ -44,6 +45,7 @@ int main(int argc, char* argv[])
   TH1F* hydrogen = new TH1F("nhspec", "capture on hydrogen", 200, 0, maxCharge);
   TH1F* externals = new TH1F("externspec", "externals", 200, 0, maxCharge);
   TH1F* tsa_neutrons = new TH1F("tsa_spec", "neutron spectrum from tsa plot", 200, 0, maxCharge);
+  TH1I* multiplicity = new TH1I("mult", "Event multiplicity", 20, 0, 20);
 
   unsigned long long t1=0;
   unsigned long long t2=0;
@@ -63,7 +65,19 @@ int main(int argc, char* argv[])
   double previous_charge = 0;
 
   // TSA Plots
-  TH2F* tsa = new TH2F("tsa", "time series analysis", 100, -0.3, 4.5, 100, -0.3, 4.5);
+  const int nbins = 100;
+  double logmin = -0.3;
+  double logmax = 4.5;
+  double binwidth = (logmax-logmin)/double(nbins);
+  double bin_array[nbins+1];
+  bin_array[0]=std::pow(10, logmin);
+  for(int i=1; i<=nbins; i++)
+    bin_array[i]=bin_array[0]+std::pow(10,logmin + i*binwidth);
+  TH2F* tsa = new TH2F("tsa", "time series analysis", nbins, bin_array, nbins, bin_array);
+
+  // Keep track of timing in order to get multiplicity
+  std::vector<unsigned long long> time_vec;
+  time_vec.resize(1, 0);
 
   for(int evt=0; evt<chainEntries; ++evt)
   {
@@ -87,14 +101,24 @@ int main(int argc, char* argv[])
 
     if(veto_total<max_veto_charge &&
        target_charge>min_target_charge &&
-       !bad_pmt)
+       !bad_pmt )
     {
+      
       t3=t2;
       t2=t1;
       t1=time;
-      long d12 = (t1-t2)*adc2us;
-      long d23 = (t2-t3)*adc2us;
-      tsa->Fill(std::log10(d23), std::log10(d12)); 
+      double d12 = (t1-t2)*adc2us;
+      double d23 = (t2-t3)*adc2us;
+      tsa->Fill(d23, d12);
+      if((time-time_vec[0])*adc2us < 50)
+	time_vec.push_back(time);
+      else
+      {
+	multiplicity->Fill(time_vec.size());
+	time_vec.clear();
+	time_vec.push_back(time);
+      }
+
       histogram->Fill(d12);
       if(d12 < neutrons_time && d12 > neutrons_min)
 	neutrons->Fill(target_charge);
@@ -112,11 +136,11 @@ int main(int argc, char* argv[])
   TF1* fitter_extern = new TF1("fitter_extern", "[0]*TMath::Exp([1]*x)",
 			       0, 2000);
   fitter_extern->SetParameters(1000, -4e-4);
-  histogram->Fit(fitter_extern, "QN", "", tale_min, tale_max);
+  histogram->Fit(fitter_extern, "QO", "", tale_min, tale_max);
   TF1* fitter_h = new TF1("fitter_h", "[0]*TMath::Exp([1]*x)",
 			  0, 2000);
   fitter_h->SetParameters(1000, -4e-3);
-  histogram->Fit(fitter_h, "QN", "", hydro_min, hydro_max);
+  histogram->Fit(fitter_h, "QO+", "", hydro_min, hydro_max);
 
   
 
@@ -137,7 +161,8 @@ int main(int argc, char* argv[])
 				- hydrogen->GetBinContent(i));
 
   file->Write();
-
+  std::cout << "Wrote histograms to neutrons.root" << std::endl;
+/*
   TRint* app = new TRint("EVIL", &argc, argv);
   TCanvas* c1 = new TCanvas();
   c1->Divide(1,2);
@@ -155,12 +180,12 @@ int main(int argc, char* argv[])
   hydrogen->Draw("same");
   pureNeutrons->Draw("same");
   app->Run();
-
+*/
   delete histogram;
   delete externals;
   delete neutrons;
   delete pureNeutrons;
-  delete c1;
+  //delete c1;
   delete chain;
   delete file;
   return 0;
