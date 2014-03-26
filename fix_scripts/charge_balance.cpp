@@ -9,12 +9,14 @@
 #include <cmath>
 
 void process(char* fname);
+void fill_slowTree(char* fname);
 
 int main(int argc, char* argv[])
 {
   for(int i=1; i<argc; i++)
   {
     process(argv[i]);
+    fill_slowTree(argv[i]);
     std::cout << "Processed: " << argv[i] << std::endl;
   }
   return 0;
@@ -75,9 +77,9 @@ void process(char* fname)
 
   for(int pmt=0; pmt<numPmts; pmt++)
   {
-    TF1* g_fit = new TF1("g_fit", "[0]*TMath::Gaus(x, [1], [2])", -100, 100);
-    g_fit->SetParameters(1000, 0, 20);
     TH1F* currentHist = (TH1F*)hists->At(pmt);
+    TF1* g_fit = new TF1("g_fit", "[0]*TMath::Gaus(x, [1], [2])", -100, 100);
+    g_fit->SetParameters(currentHist->GetMaximum(), 0, 20);
     currentHist->Fit(g_fit, "Q+", "", -75, 75);
   }
 
@@ -86,4 +88,60 @@ void process(char* fname)
   file->Write("", TObject::kOverwrite);
 
   return;
+}
+
+void fill_slowTree(char* fname)
+{
+  TFile* file = new TFile(fname, "update");
+  TTree* slowTree = (TTree*)file->Get("slowTree");
+  TTree* histTree = (TTree*)file->Get("histTree");
+
+  double target_voltages[16], target_currents[16], veto_voltages[36],
+    veto_currents[36], target_gate_start[8], target_gate_end[8],
+    target_gate_width[8], veto_gate_start[8], veto_gate_end[8],
+    veto_gate_width[8], fit_amplitudes[52], fit_means[52], fit_std_devs[52],
+    fit_chi2perndf[52];
+  slowTree->SetBranchAddress("target_voltages", &target_voltages);
+  slowTree->SetBranchAddress("target_currents", &target_currents);
+  slowTree->SetBranchAddress("veto_voltages", &veto_voltages);
+  slowTree->SetBranchAddress("veto_currents", &veto_currents);
+  slowTree->SetBranchAddress("target_gate_start", &target_gate_start);
+  slowTree->SetBranchAddress("target_gate_end", &target_gate_end);
+  slowTree->SetBranchAddress("target_gate_width", &target_gate_width);
+  slowTree->SetBranchAddress("veto_gate_start", &veto_gate_start);
+  slowTree->SetBranchAddress("veto_gate_end", &veto_gate_end);
+  slowTree->SetBranchAddress("veto_gate_width", &veto_gate_width);
+  slowTree->SetBranchAddress("fit_amplitudes", &fit_amplitudes);
+  slowTree->SetBranchAddress("fit_means", &fit_means);
+  slowTree->SetBranchAddress("fit_std_devs", &fit_std_devs);
+  slowTree->SetBranchAddress("fit_chi2perndf", &fit_chi2perndf);
+
+  // New branches
+  double gateAmp[52], gateMean[52], gateDev[52], gateChi[52];
+  TBranch* AmpBr = slowTree->Branch("gateAmp", &gateAmp, "gateAmp[52]/D");
+  TBranch* MeanBr = slowTree->Branch("gateMean", &gateMean, "gateMean[52]/D");
+  TBranch* DevBr = slowTree->Branch("gateDev", &gateDev, "gateDev[52]/D");
+  TBranch* ChiBr = slowTree->Branch("gateChi", &gateChi, "gateChi[52]/D");
+
+  TObjArray* gateCharge=0;
+  histTree->SetBranchAddress("gateCharge", &gateCharge);
+  histTree->GetEvent(0);
+  
+  for(int i=0; i<slowTree->GetEntries(); i++)
+  {
+    for(int pmt=0; pmt<52; pmt++)
+    {
+      TF1* fit=((TH1F*)gateCharge->At(pmt))->GetFunction("g_fit");
+      gateAmp[pmt]=fit->GetParameter(0);
+      gateMean[pmt]=fit->GetParameter(1);
+      gateDev[pmt]=fit->GetParameter(2);
+      gateChi[pmt]=fit->GetChisquare() / fit->GetNDF();
+    }
+    AmpBr->Fill();
+    MeanBr->Fill();
+    DevBr->Fill();
+    ChiBr->Fill();
+  }
+
+  file->Write("", TObject::kOverwrite);
 }

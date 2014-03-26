@@ -1,7 +1,8 @@
-*~
+fix_scripts/charge_balance
 fix_scripts/corrupt_worker
 fix_scripts/gate_builder
 fix_scripts/gate_builder_addon
+fix_scripts/gate_builder_organize
 library/RNDict.cc
 library/RNDict.h
 library/RNDict.o
