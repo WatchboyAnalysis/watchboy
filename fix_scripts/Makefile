@@ -1,6 +1,10 @@
 standard: main
 
-main: gate_builder corrupt_worker gate_builder_addon gate_builder_organize
+main: gate_builder corrupt_worker gate_builder_addon gate_builder_organize charge_balance
+
+charge_balance: charge_balance.cpp
+	g++ `root-config --cflags --libs` -std=c++0x charge_balance.cpp -o charge_balance
+	chmod ug+rwx charge_balance
 
 gate_builder_organize: gate_builder_organize.cpp
 	g++ `root-config --cflags --libs` -std=c++0x gate_builder_organize.cpp -o gate_builder_organize
