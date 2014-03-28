@@ -31,11 +31,16 @@ void process(char* fname)
   if(!tree)
   {
     std::cout << "histTree doesn't exist in "
-	      << file << std::endl;
+	      << fname << std::endl;
     return;
   }
   
-  
+  if(tree->GetLeaf("gateCharge"))
+  {
+    std::cout << "already processed " << fname << std::endl;
+    return;
+  }
+
   proc->SetBranchStatus("*", 0);
   proc->SetBranchStatus("target_4Minus2Mean1", 1);
   proc->SetBranchStatus("veto_4Minus2Mean1", 1);
@@ -71,7 +76,7 @@ void process(char* fname)
 	currentHist->Fill(veto[pmt-16]);
     }
     if(!(i%10000))
-      std::cout << std::floor(double(i)/entries*100) << "%\r" << std::flush;
+      std::cout << "\033[31;1m"<< std::floor(double(i)/entries*100) << "%\r" << std::flush;
   }
   std::cout << std::endl;
 
@@ -87,6 +92,7 @@ void process(char* fname)
   proc->SetBranchStatus("*", 1);
   file->Write("", TObject::kOverwrite);
 
+  delete file;
   return;
 }
 
@@ -95,6 +101,16 @@ void fill_slowTree(char* fname)
   TFile* file = new TFile(fname, "update");
   TTree* slowTree = (TTree*)file->Get("slowTree");
   TTree* histTree = (TTree*)file->Get("histTree");
+
+  if(!histTree)
+    return;
+
+  if(slowTree->GetLeaf("gateAmp"))
+  {
+    std::cout << "Already modified slowTree in file: "
+	      << fname << std::endl;
+    return;
+  }
 
   double target_voltages[16], target_currents[16], veto_voltages[36],
     veto_currents[36], target_gate_start[8], target_gate_end[8],
@@ -115,6 +131,7 @@ void fill_slowTree(char* fname)
   slowTree->SetBranchAddress("fit_means", &fit_means);
   slowTree->SetBranchAddress("fit_std_devs", &fit_std_devs);
   slowTree->SetBranchAddress("fit_chi2perndf", &fit_chi2perndf);
+  slowTree->GetEvent(0);
 
   // New branches
   double gateAmp[52], gateMean[52], gateDev[52], gateChi[52];
@@ -126,16 +143,17 @@ void fill_slowTree(char* fname)
   TObjArray* gateCharge=0;
   histTree->SetBranchAddress("gateCharge", &gateCharge);
   histTree->GetEvent(0);
-  
-  for(int i=0; i<slowTree->GetEntries(); i++)
+
+  int entries = slowTree->GetEntries();
+  for(int i=0; i<entries; i++)
   {
     for(int pmt=0; pmt<52; pmt++)
     {
       TF1* fit=((TH1F*)gateCharge->At(pmt))->GetFunction("g_fit");
-      gateAmp[pmt]=fit->GetParameter(0);
-      gateMean[pmt]=fit->GetParameter(1);
-      gateDev[pmt]=fit->GetParameter(2);
-      gateChi[pmt]=fit->GetChisquare() / fit->GetNDF();
+      gateAmp[pmt]=double(fit->GetParameter(0));
+      gateMean[pmt]=double(fit->GetParameter(1));
+      gateDev[pmt]=double(fit->GetParameter(2));
+      gateChi[pmt]=double(fit->GetChisquare() / fit->GetNDF());
     }
     AmpBr->Fill();
     MeanBr->Fill();
@@ -144,4 +162,6 @@ void fill_slowTree(char* fname)
   }
 
   file->Write("", TObject::kOverwrite);
+  delete file;
+  return; 
 }

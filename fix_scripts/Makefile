@@ -23,4 +23,4 @@ corrupt_worker: corruption_test_worker.cpp
 	chmod ug+rwx corrupt_worker
 
 clean:
-	rm -f corrupt_worker gate_builder gate_builder_addon gate_builder_organize
+	rm -f corrupt_worker gate_builder gate_builder_addon gate_builder_organize charge_balance

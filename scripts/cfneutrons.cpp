@@ -32,6 +32,7 @@ int main(int argc, char* argv[])
   TChain* chain = createChain(argc, argv);
   // Assign addresses
   double charge[16], veto_charge[36];
+  double charge_threshold[16], veto_charge_threshold[36];
   unsigned long long time;
   chain->SetBranchAddress("target_4Minus2Mean1", &charge);
   chain->SetBranchAddress("veto_4Minus2Mean1", &veto_charge);

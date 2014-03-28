@@ -24,7 +24,7 @@ def main(input_name, output_name):
         # END DEBUG ::
         keep_running = 1
         while keep_running != -1:
-            command = './corrupt_worker ' + tree + ' ' + str(input_name) + ' ' + str(event_start) + ' &> /dev/null > ' + temp_name
+            command = './corrupt_worker ' + tree + ' ' + str(input_name) + ' ' + str(event_start) + ' &> log.txt > ' + temp_name
             os.system(command)
             temp_file = open(temp_name, 'r')
             event_end = int((temp_file.readline()).split()[0])
