@@ -21,9 +21,8 @@ def main():
             output_name = fname.replace('.root', '_simplified.root')
             full_simplify.main( fname, output_name )
             for exe in programs:
-                os.system(programs+' '+output_name + '2>/dev/null')
-
-    return
+                print('running', exe, 'on', output_name)
+                os.system(exe+' '+output_name + ' 2>/dev/null')
 
 if __name__ == '__main__':
     main()

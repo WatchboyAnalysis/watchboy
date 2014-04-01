@@ -1,3 +1,8 @@
+builder/builder
+builder/objects/Processor.o
+builder/objects/Reader.o
+builder/objects/Writer.o
+builder/objects/builder.o
 fix_scripts/charge_balance
 fix_scripts/corrupt_worker
 fix_scripts/full_simplify.pyc

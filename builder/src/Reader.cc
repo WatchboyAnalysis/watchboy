@@ -32,7 +32,6 @@ void RN::Reader::NextFile()
     procTree = (TTree*)file->Get("procData");
     slowTree = (TTree*)file->Get("slowTree");
 
-    int out = 1;
     procTree->SetBranchAddress("target_4Minus2Mean1", &target_4Minus2Mean1);
     procTree->SetBranchAddress("veto_4Minus2Mean1", &veto_4Minus2Mean1);
     procTree->SetBranchAddress("time", &time);
@@ -61,7 +60,10 @@ void RN::Reader::NextEvent()
 		<< "%\r\033[37;0m" << std::flush;
   }
   else
+  {
+    std::cout << std::endl;
     NextFile();
+  }
 
   return;
 }

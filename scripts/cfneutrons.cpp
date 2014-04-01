@@ -31,11 +31,12 @@ int main(int argc, char* argv[])
 
   TChain* chain = createChain(argc, argv);
   // Assign addresses
-  double charge[16], veto_charge[36];
-  double charge_threshold[16], veto_charge_threshold[36];
+  double target_charge, veto_charge, target_cb, veto_cb;
   unsigned long long time;
-  chain->SetBranchAddress("target_4Minus2Mean1", &charge);
-  chain->SetBranchAddress("veto_4Minus2Mean1", &veto_charge);
+  chain->SetBranchAddress("target_total", &target_charge);
+  chain->SetBranchAddress("veto_total", &veto_charge);
+  chain->SetBranchAddress("target_cb", &target_cb);
+  chain->SetBranchAddress("veto_cb", &veto_cb);
   chain->SetBranchAddress("time", &time);
 
   const int chainEntries = chain->GetEntries();
@@ -53,6 +54,7 @@ int main(int argc, char* argv[])
   unsigned long long t3=0;
 
   // cuts
+  const double max_target_cb = 0.5;
   const double max_veto_charge = 500;
   const double min_target_charge = 0;
   const double tale_min = 800;
@@ -62,7 +64,6 @@ int main(int argc, char* argv[])
   const double hydro_min = 100;
   const double hydro_max = 150;
 
-  double target_charge = 0;
   double previous_charge = 0;
 
   // TSA Plots
@@ -86,23 +87,11 @@ int main(int argc, char* argv[])
     if(!(evt%1000))
       std::cout << std::floor(double(evt)/chainEntries*100) << "%\r";
     previous_charge = target_charge;
-    chain->GetEvent(evt);
-    double veto_total=0;
-    for(int i=0; i<sizeof(veto_charge)/sizeof(double); i++)
-      if(veto_charge[i] > -20000)	// past the error bin for orphans
-	veto_total+=veto_charge[i];
-    target_charge=0;
-    for(int i=0; i<sizeof(charge)/sizeof(double); i++)
-      target_charge+=charge[i];
+    chain->GetEvent(evt);    
 
-    bool bad_pmt=false;
-    for(int i=0; i<sizeof(charge)/sizeof(double); i++)
-      if(charge[i] >= 0.5*target_charge)
-	bad_pmt=true;
-
-    if(veto_total<max_veto_charge &&
+    if(veto_charge<max_veto_charge &&
        target_charge>min_target_charge &&
-       !bad_pmt )
+       target_cb < max_target_cb )
     {
       
       t3=t2;
@@ -127,7 +116,6 @@ int main(int argc, char* argv[])
 	externals->Fill(target_charge);
       if(d12 < hydro_max && d12 > hydro_min)
 	hydrogen->Fill(target_charge);
-
       if(d12 < neutrons_time && d23 < neutrons_time)
 	tsa_neutrons->Fill(previous_charge);
     }
@@ -195,7 +183,7 @@ int main(int argc, char* argv[])
 TChain* createChain(int argc, char* argv[])
 {
   // Load the files into the TChain
-  std::string treename = "procData";
+  std::string treename = "data";
   std::string endswith = ".root";
   TChain* chain = new TChain(treename.c_str());
   for(int addfile=0; addfile<argc; addfile++)
@@ -205,10 +193,6 @@ TChain* createChain(int argc, char* argv[])
     if( !fname.compare(fname.size()-endswith.size(), endswith.size(), endswith) )
       chain->Add(fname.c_str());
   }
-  
-  chain->SetBranchStatus("*", 0);
-  chain->SetBranchStatus("target_4Minus2Mean1", 1);
-  chain->SetBranchStatus("veto_4Minus2Mean1", 1);
 
   return chain;
 }

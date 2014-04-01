@@ -122,7 +122,7 @@ void process(char* filename)
   for(int i=0; i<entries; ++i)
   {
     if(!(i%10000))
-      std::cout << "Finished processing " << i << " entries\r" << std::endl;
+      std::cout << "\033[31;1m" << "Finished processing " << i << " entries\r" << std::flush;
     pureData->GetEvent(i);
     // Adding time
     std::vector<unsigned long long> timelist;
@@ -152,8 +152,6 @@ void process(char* filename)
 	veto_4Minus2Mean1[j-16]=(veto_pmt[j-16][3]-veto_pmt[j-16][1]) - 
 	  ((veto_gate_width[3] - veto_gate_width[1])/veto_gate_width[0])*means[j];
       }
-
-
 
     procTree->Fill();
   }
