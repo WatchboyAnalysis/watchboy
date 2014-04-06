@@ -11,7 +11,7 @@ RN::Processor::Processor(RN::Reader* reader, RN::Writer* writer)
 {
   // charge cut is actually number of hit pmts above threshold
   target_charge_cut = 0;
-  veto_charge_cut = 6;
+  veto_charge_cut = 36;
   target_cb_cut = 1.0;
   veto_cb_cut = 1.0;
 }

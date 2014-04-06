@@ -151,25 +151,25 @@ int main(int argc, char* argv[])
 
   file->Write();
   std::cout << "Wrote histograms to neutrons.root" << std::endl;
-/*
-  TRint* app = new TRint("EVIL", &argc, argv);
-  TCanvas* c1 = new TCanvas();
-  c1->Divide(1,2);
-  c1->cd(1);
-  histogram->Draw();
-  fitter_h->Draw("same");
-  fitter_extern->Draw("same");
-  c1->cd(2);
-  externals->SetLineColor(kBlack);
-  neutrons->SetLineColor(kGreen);
-  pureNeutrons->SetLineColor(kRed);
-  hydrogen->SetLineColor(kBlue);
-  neutrons->Draw();
-  externals->Draw("same");
-  hydrogen->Draw("same");
-  pureNeutrons->Draw("same");
-  app->Run();
-*/
+
+  // TRint* app = new TRint("EVIL", &argc, argv);
+  // TCanvas* c1 = new TCanvas();
+  //c1->Divide(1,2);
+  //c1->cd(1);
+  //histogram->Draw();
+  //fitter_h->Draw("same");
+  //fitter_extern->Draw("same");
+  //c1->cd(2);
+  // externals->SetLineColor(kBlack);
+  // neutrons->SetLineColor(kGreen);
+  // pureNeutrons->SetLineColor(kRed);
+  // hydrogen->SetLineColor(kBlue);
+  // neutrons->Draw();
+  // externals->Draw("same");
+  // hydrogen->Draw("same");
+  // pureNeutrons->Draw("same");
+  //app->Run();
+
   delete histogram;
   delete externals;
   delete neutrons;
