@@ -2,3 +2,5 @@ Set of files for the Watchman Radionuclide Detector (Watchboy)
 -- fix_scripts is a set of scripts to clean up the recorded root files
 -- library contains the necesserary .so
 -- analysis contains code for analysis of 'fixed' root files
+
+changes to readme
