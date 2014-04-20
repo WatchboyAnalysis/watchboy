@@ -1,4 +1,5 @@
-TARGET		= AnalysisResolution
+TARGET		= analysisTemplate
+#nTOFSimPlots
 
 # Linux with egcs, gcc 2.9x, gcc 3.x (>= RedHat 5.2)
 CXX           = g++
@@ -19,7 +20,12 @@ ROOTCFLAGS   := $(shell $(ROOTCONFIG) --cflags)
 ROOTLDFLAGS  := $(shell $(ROOTCONFIG) --ldflags)
 ROOTLIBS     := $(shell $(ROOTCONFIG) --libs)
 ROOTGLIBS    := $(shell $(ROOTCONFIG) --glibs)
+#HASTHREAD    := $(shell $(ROOTCONFIG) --has-thread)
 
+
+# debug mode trigger
+#  SETDEBUG=0 : Optimization (default)
+#  SETDEBUG=1 : Debug mode 
 SETDEBUG=1
 
 ROOTSYSDIR	= ${ROOTSYS}
@@ -33,33 +39,20 @@ GLIBS         = $(ROOTGLIBS) $(SYSLIBS)
 
 LDFLAGS 	+= -lMinuit
 
-ifndef SBLMCDIR
-SBLMCDIR = $(SBLMC)
-endif
-
-IDIR        	+= $(SBLMCDIR)/include
-CXXFLAGS	+= -I$(IDIR)
-LDFLAGS  += $(shell root-config --libs) $(SBLMC)/dict.cxx
-	 
-SDIR       	:= $(SBLMCDIR)/src
-HDIR       	:= $(SBLMCDIR)/include
-
-SRCS		:= $(SDIR)/Event.cc 
-
-HDRSTMP		= $(subst src,include,$(SRCS))
-HDRS		:= $(HDRSTMP:%.cc=%.hh)
-
-VPATH = $(SDIR):$(HDIR)
+#HDRS            = ExternalFunctions.hh FitFunction.hh LikelihoodFunction.hh
+#SRCS            = ExternalFunctions.cc FitFunction.cc LikelihoodFunction.cc
+#HDRS            = ${KLDIR}/KLFitFunctions.hh ${KLDIR}/KLPreTriggEffCorr.hh  ${KLDIR}/SphericalVolume.hh ${KLDIR}/kuFUNC.hh
+#SRCS            = ${KLDIR}/KLFitFunctions.cc ${KLDIR}/KLPreTriggEffCorr.cc  ${KLDIR}/SphericalVolume.cc ${KLDIR}/kuFUNC.cc
 
 OBJS = $(SRCS:.cc=.o)
+#OBJS	 	= libMinuit.so
+#OBJLISTS	= KVFVirtualEvent.o KVFWriter.o KVFReader.o
+#OBJLISTS	+= KVFConstHandler.o
+#OBJS=$(patsubst %.o,%.${SUFFIX}.o,$(OBJLISTS))
+
+#KLFitFunctions.o : ${KLDIR}/KLFitFunctions.cc ${KLDIR}/KLFitFunctions.hh
 
 all: examples
-
-#dict.cxx :
-#	rootcint -f dict.cxx -c include/Event.hh include/EventLinkDef.h
- 
-#libEventLib.so: dict.cxx src/Event.cc
-#	g++ -shared -o$@ -fPIC `root-config --ldflags` $(CPPFLAGS) -I$(ROOTSYS)/include $^
 
 EXAMPLE		= ${TARGET}.o
 
@@ -70,10 +63,62 @@ examples: ${OBJS} ${EXAMPLE}
 	${CXX} ${CXXFLAGS} -c $< -o $@
 
 clean:
-	rm -f *core ${OBJS} *.o ${TARGET}
+	rm -f core ${OBJS} *.o
 
 TAGS: $(SRCS) $(HDRS)
 	etags -t $(SRCS) $(HDRS)
 
 
+CXX           = g++
+CXXFLAGS      = -O -Wall -fPIC
+LD            = g++
+LDFLAGS       = -O
+SOFLAGS       = -shared
+
+ObjSuf        = o
+SrcSuf        = cxx
+ExeSuf        =
+DllSuf        = so
+OutPutOpt     = -o # keep whitespace after "-o"
+
+ROOTCONFIG   := root-config
+
+ROOTCFLAGS   := $(shell $(ROOTCONFIG) --cflags)
+ROOTLDFLAGS  := $(shell $(ROOTCONFIG) --ldflags)
+ROOTLIBS     := $(shell $(ROOTCONFIG) --libs)
+ROOTGLIBS    := $(shell $(ROOTCONFIG) --glibs)
+#HASTHREAD    := $(shell $(ROOTCONFIG) --has-thread)
+
+# debug mode trigger
+#  SETDEBUG=0 : Optimization (default)
+#  SETDEBUG=1 : Debug mode 
+SETDEBUG=1
+
+ROOTSYSDIR	= ${ROOTSYS}
+CXXFLAGS        += -I${ROOTSYSDIR}/include
+CXXFLAGS        += -I./include
+
+CXXFLAGS     += $(ROOTCFLAGS)
+LDFLAGS      += $(ROOTLDFLAGS)
+LIBS          = $(ROOTLIBS) $(SYSLIBS)
+GLIBS         = $(ROOTGLIBS) $(SYSLIBS)
+
+LDFLAGS       	+= -lm -L${ROOTSYSDIR}/lib
+LDFLAGS 	+= -lMinuit
+
+#AOBJS           = kuFUNC.o  SolarSpectra.o  ElasticScattCrossSect.o KLFitFunctions.o
+#OBJS            = ${addprefix obj/, ${AOBJS}}
+
+
+all: examples
+
+examples: ${OBJS} ${EXAMPLE}
+	${CXX} ${CXXFLAGS}  -o ${TARGET} ${EXAMPLE} $(LIBS) $(GLIBS) $(LDFLAGS)
+
+
+obj/%.o: src/%.cc
+	${CXX} ${CXXFLAGS} $(LIBS) $(GLIBS) $(LDFLAGS) -c $< -o $@
+
+clean:
+	rm -rf ./obj/*.o *~ ${TARGET} ${LIBNAME} ./include/*~ ./src/*~
 
