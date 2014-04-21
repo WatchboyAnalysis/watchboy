@@ -48,21 +48,21 @@ void analysisTemplate(char* inName, char* outName){
   double vetoPMTQ[36];
   double targetPMTPed[16];
   double vetoPMTPed[36];
+  double signalGateSigma[52];
+  double pedestalGateMean[52];
+  double pedestalGateSigma[52];
+
   unsigned long long eventTime;
 
-
-
-
-
   TChain *chain = new TChain("procData");  
-  //TChain *histChain = new TChain("histTree"); 
+  TChain *slowChain = new TChain("slowTree"); 
 
   Char_t files[200];
   sprintf(files,"%s*",inName);
 
   cout<<"Looking for files matching: "<<files<<endl;
   chain->Add(files);
-  //  histChain->Add(files);
+  slowChain->Add(files);
 
   chain->SetBranchAddress("target_4Minus2Mean1",&targetPMTQ);
   chain->SetBranchAddress("veto_4Minus2Mean1",&vetoPMTQ);
@@ -70,6 +70,9 @@ void analysisTemplate(char* inName, char* outName){
   chain->SetBranchAddress("veto_1",&vetoPMTPed);
   chain->SetBranchAddress("time",&eventTime);
 
+  slowChain->SetBranchAddress("fit_means",&pedestalGateMean);
+  slowChain->SetBranchAddress("fit_std_devs",&pedestalGateSigma);
+  slowChain->SetBranchAddress("gateDev",&signalGateSigma);
 
 
 
@@ -234,59 +237,23 @@ void analysisTemplate(char* inName, char* outName){
   // readin pedestal  mean, sigma, signal pedestal sigma.
   //being done here for 1st file in chain - should be made into function, so can be updated for each file in main event loop
 
-  cout<<"open first file in chain"<<endl;
-
-  TFile* firstFile = chain->GetFile();
-
-  TTree *histTree = (TTree *)firstFile->Get("histTree");
-
-
-  cout<<"Setup obj arrays"<<endl;
-
-  TObjArray* signalHistArray;
-  TObjArray* pedestalHistArray;
-
-  cout<<"Setup branches"<<endl;
-  histTree->SetBranchAddress("gateCharge", &signalHistArray);
-  histTree->SetBranchAddress("pedestalCharge", &pedestalHistArray);
-
-  Long64_t nHistEvent = histTree->GetEntries();
-  cout<<nHistEvent<<" entries in HistChain"<<endl;
+  Long64_t nSlowEvent = slowChain->GetEntries();
+  cout<<nSlowEvent<<" entries in slowChain"<<endl;
   cout<<"get entry"<<endl;
-  //histTree->GetEntry(0);
+  slowChain->GetEntry(0);
  
-  // cout<<"define hists"<<endl;
-  // TH1F* signalHists[52];
-  // TH1F* pedestalHists[52];
-  // TF1* signalFits[52];
-  // TF1* pedestalFits[52];
-  
-  // cout<<"Get sig and ped hists"<<endl;
-  // for (int k=0;k<(numPMTs[0] + numPMTs[1]);k++) {
-  //   cout<<"PMT "<<k<<endl;
-  //   signalHists[k] = (TH1F*)signalHistArray->At(k);
-  //   signalFits[k] = signalHists[k]->GetFunction("g_fit");
+  int totalPMTCounter;
+  for (int j=0;j<numPMTGroups;j++) {
+    for (int k=0;k<numPMTs[j];k++) {
+      totalPMTCounter = j*numPMTs[0]+k; //need to index total pmt # as well; only works becuse there are two groups - beware
 
-  //   pedestalHists[k] = (TH1F*)pedestalHistArray->At(k);
-  //   pedestalFits[k] = pedestalHists[k]->GetFunction("g_fit");
-  // }
+      //cout<<"PMT "<<k<<"\t"<<totalPMTCounter<<endl; 
 
-  // firstFile->Close();
-
-  // cout<<"Get sig and ped fits"<<endl;
-  // int totalPMTCounter;
-  // for (int j=0;j<numPMTGroups;j++) {
-  //   for (int k=0;k<numPMTs[j];k++) {
-  //     totalPMTCounter = j*numPMTs[0]+k; //need to index total pmt # as well; only works becuse there are two groups - beware
-
-  //     cout<<"PMT "<<k<<"\t"<<totalPMTCounter<<endl; 
-
-  //    signalThresholds[j][k] = 4 *  signalFits[totalPMTCounter]->GetParameter(2); //4 sigma above mean; par(2) of gaus fit is sigma; mean is already subtracted from tree value
-  //     pedestalThresholdsLower[j][k] = pedestalFits[totalPMTCounter]->GetParameter(1) - 4 *  pedestalFits[totalPMTCounter]->GetParameter(2); //4 sigma below mean; par(2) of gaus fit is sigma, par(1) is mean
-  //     pedestalThresholdsUpper[j][k] = pedestalFits[totalPMTCounter]->GetParameter(1) + 4 *  pedestalFits[totalPMTCounter]->GetParameter(2); //4 sigma below mean; par(2) of gaus fit is sigma, par(1) is mean
-
-  //   }
-  // }
+      signalThresholds[j][k] = 4 *  signalGateSigma[totalPMTCounter]; //4 sigma above mean
+      pedestalThresholdsLower[j][k] = pedestalGateMean[totalPMTCounter] - 4 *  pedestalGateSigma[totalPMTCounter]; //4 sigma below mean
+      pedestalThresholdsUpper[j][k] = pedestalGateMean[totalPMTCounter] + 4 *  pedestalGateSigma[totalPMTCounter]; //4 sigma above mean
+    }
+  }
 
   //temp init of spe cal values
   for (int j=0;j<numPMTGroups;j++) {
@@ -294,7 +261,8 @@ void analysisTemplate(char* inName, char* outName){
 
     for (int k=0;k<maxNumPMTs;k++) {
       pmtQperSPE[j][k] = 200; //approx 
-      signalThresholds[j][k] =0.25; //approx 1/4 spe
+      signalThresholds[j][k] =signalThresholds[j][k]/pmtQperSPE[j][k];
+      //      pedesThresholdsLower[j][k] =signalThresholds[j][k]/pmtQperSPE[j][k];
     }
   }
 
@@ -311,15 +279,15 @@ void analysisTemplate(char* inName, char* outName){
 
     //check if all pedestals are in range - i.e. that baseline is stable for each PMT
     //skip this event if _any_ PMT has unstable baseline
-    // baselineCut=1;
-    // for (int k=0;k<numPMTs[0];k++) {
-    //   if ( (targetPMTPed[k] < pedestalThresholdsLower[0][k]) || (targetPMTPed[k] >pedestalThresholdsUpper[0][k]) ) baselineCut=0;
-    // }
-    // for (int k=0;k<numPMTs[1];k++) {
-    //   if ( (vetoPMTPed[k] < pedestalThresholdsLower[1][k]) || (vetoPMTPed[k] >pedestalThresholdsUpper[1][k]) ) baselineCut=0;
-    // }
+    baselineCut=1;
+    for (int k=0;k<numPMTs[0];k++) {
+      if ( (targetPMTPed[k] < pedestalThresholdsLower[0][k]) || (targetPMTPed[k] >pedestalThresholdsUpper[0][k]) ) baselineCut=0;
+    }
+    for (int k=0;k<numPMTs[1];k++) {
+      if ( (vetoPMTPed[k] < pedestalThresholdsLower[1][k]) || (vetoPMTPed[k] >pedestalThresholdsUpper[1][k]) ) baselineCut=0;
+    }
 
-    // if (baselineCut ==1) {
+    if (baselineCut ==1) {
       //init and fill analysis variables
       for (int k=0;k<numPMTs[0];k++) {
 	qPMT[0][k] = targetPMTQ[k]/pmtQperSPE[0][k];
@@ -457,7 +425,7 @@ void analysisTemplate(char* inName, char* outName){
       
       }
     
-      //  }
+    }
 
   }
 
