@@ -99,16 +99,16 @@ void process(char* filename)
   // The new tree will have: gate 1, gate 4-2, gate 8, gate 4 - gate 2 - mean(1)
   TTree* procTree = new TTree(tree_name.c_str(), "Contains processed gate charges");
   double target_1[16], target_4Minus2[16], target_8[16], target_4Minus2Mean1[16];
-  double veto_1[36], veto_4Minus2[36], veto_8[36], veto_4Minus2Mean1[36];
+  double veto_1[36], veto_3[36], veto_8[36], veto_3MinusMean1[36];
   unsigned long long time;
   procTree->Branch("target_1", &target_1, "target_1[16]/D");
   procTree->Branch("target_4Minus2", &target_4Minus2, "target_4Minus2[16]/D");
   procTree->Branch("target_8", &target_8, "target_8[16]/D");
   procTree->Branch("target_4Minus2Mean1", &target_4Minus2Mean1, "target_4Minus2Mean1[16]/D");
   procTree->Branch("veto_1", &veto_1, "veto_1[36]/D");
-  procTree->Branch("veto_4Minus2", &veto_4Minus2, "veto_4Minus2[36]/D");
+  procTree->Branch("veto_3", &veto_3, "veto_3[36]/D");
   procTree->Branch("veto_8", &veto_8, "veto_8[36]/D");
-  procTree->Branch("veto_4Minus2Mean1", &veto_4Minus2Mean1, "veto_4Minus2Mean1[36]/D");
+  procTree->Branch("veto_3MinusMean1", &veto_3MinusMean1, "veto_3MinusMean1[36]/D");
   procTree->Branch("time", &time);
 
   int num_pmts=16+36;
@@ -146,11 +146,10 @@ void process(char* filename)
       else
       {// Veto
 	veto_1[j-16]=veto_pmt[j-16][0];
-	veto_4Minus2[j-16]=veto_pmt[j-16][3]-
-	  (veto_gate_width[3]/veto_gate_width[0])*veto_pmt[j-16][0];
+	veto_3[j-16]=veto_pmt[j-16][2];
 	veto_8[j-16]=veto_pmt[j-16][7];
-	veto_4Minus2Mean1[j-16]=(veto_pmt[j-16][3]-veto_pmt[j-16][1]) - 
-	  ((veto_gate_width[3] - veto_gate_width[1])/veto_gate_width[0])*means[j];
+	veto_3MinusMean1[j-16]=(veto_pmt[j-16][2]) - 
+	  ((veto_gate_width[2])/veto_gate_width[0])*means[j];
       }
 
     procTree->Fill();
