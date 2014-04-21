@@ -150,6 +150,8 @@ void analysisTemplate(char* inName, char* outName){
   TH1D* h_tLastMuonVT;
   TH1D* h_tLastMuonVT_Phy;
 
+  TH1D* h_tLastMuonVT_DoubleN;
+  TH1D* h_tLastMuonVT_DoubleN_Phy;
 
 
 
@@ -217,6 +219,16 @@ void analysisTemplate(char* inName, char* outName){
   h_tLastMuonVT = new TH1D(hName,hTitle,220,-1*tRangeAll[0]/10,tRangeAll[0]);
   hList->Add(h_tLastMuonVT); 
 
+  sprintf(hName,"h_tLastMuonVT_DoubleN_Physics");
+  sprintf(hTitle,"Time since Last Muon in Veto and Target to double neutron; Time since last muon (#mus); ");
+  h_tLastMuonVT_DoubleN_Phy = new TH1D(hName,hTitle,550,-1*tRangePhysics[0]/10,tRangePhysics[0]);
+  hList->Add(h_tLastMuonVT_DoubleN_Phy); 
+
+  sprintf(hName,"h_tLastMuonVT_DoubleN");
+  sprintf(hTitle,"Time since Last Muon in Veto and Target to double n; Time since last muon (#mus); ");
+  h_tLastMuonVT_DoubleN = new TH1D(hName,hTitle,220,-1*tRangeAll[0]/10,tRangeAll[0]);
+  hList->Add(h_tLastMuonVT_DoubleN); 
+
 
 
   // readin pedestal  mean, sigma, signal pedestal sigma.
@@ -241,40 +253,40 @@ void analysisTemplate(char* inName, char* outName){
   Long64_t nHistEvent = histTree->GetEntries();
   cout<<nHistEvent<<" entries in HistChain"<<endl;
   cout<<"get entry"<<endl;
-  histTree->GetEntry(0);
+  //histTree->GetEntry(0);
  
-  cout<<"define hists"<<endl;
-  TH1F* signalHists[52];
-  TH1F* pedestalHists[52];
-  TF1* signalFits[52];
-  TF1* pedestalFits[52];
+  // cout<<"define hists"<<endl;
+  // TH1F* signalHists[52];
+  // TH1F* pedestalHists[52];
+  // TF1* signalFits[52];
+  // TF1* pedestalFits[52];
   
-  cout<<"Get sig and ped hists"<<endl;
-  for (int k=0;k<(numPMTs[0] + numPMTs[1]);k++) {
-    cout<<"PMT "<<k<<endl;
-    signalHists[k] = (TH1F*)signalHistArray->At(k);
-    signalFits[k] = signalHists[k]->GetFunction("g_fit");
+  // cout<<"Get sig and ped hists"<<endl;
+  // for (int k=0;k<(numPMTs[0] + numPMTs[1]);k++) {
+  //   cout<<"PMT "<<k<<endl;
+  //   signalHists[k] = (TH1F*)signalHistArray->At(k);
+  //   signalFits[k] = signalHists[k]->GetFunction("g_fit");
 
-    pedestalHists[k] = (TH1F*)pedestalHistArray->At(k);
-    pedestalFits[k] = pedestalHists[k]->GetFunction("g_fit");
-  }
+  //   pedestalHists[k] = (TH1F*)pedestalHistArray->At(k);
+  //   pedestalFits[k] = pedestalHists[k]->GetFunction("g_fit");
+  // }
 
-  firstFile->Close();
+  // firstFile->Close();
 
-  cout<<"Get sig and ped fits"<<endl;
-  int totalPMTCounter;
-  for (int j=0;j<numPMTGroups;j++) {
-    for (int k=0;k<numPMTs[j];k++) {
-      totalPMTCounter = j*numPMTs[0]+k; //need to index total pmt # as well; only works becuse there are two groups - beware
+  // cout<<"Get sig and ped fits"<<endl;
+  // int totalPMTCounter;
+  // for (int j=0;j<numPMTGroups;j++) {
+  //   for (int k=0;k<numPMTs[j];k++) {
+  //     totalPMTCounter = j*numPMTs[0]+k; //need to index total pmt # as well; only works becuse there are two groups - beware
 
-      cout<<"PMT "<<k<<"\t"<<totalPMTCounter<<endl; 
+  //     cout<<"PMT "<<k<<"\t"<<totalPMTCounter<<endl; 
 
-     signalThresholds[j][k] = 4 *  signalFits[totalPMTCounter]->GetParameter(2); //4 sigma above mean; par(2) of gaus fit is sigma; mean is already subtracted from tree value
-      pedestalThresholdsLower[j][k] = pedestalFits[totalPMTCounter]->GetParameter(1) - 4 *  pedestalFits[totalPMTCounter]->GetParameter(2); //4 sigma below mean; par(2) of gaus fit is sigma, par(1) is mean
-      pedestalThresholdsUpper[j][k] = pedestalFits[totalPMTCounter]->GetParameter(1) + 4 *  pedestalFits[totalPMTCounter]->GetParameter(2); //4 sigma below mean; par(2) of gaus fit is sigma, par(1) is mean
+  //    signalThresholds[j][k] = 4 *  signalFits[totalPMTCounter]->GetParameter(2); //4 sigma above mean; par(2) of gaus fit is sigma; mean is already subtracted from tree value
+  //     pedestalThresholdsLower[j][k] = pedestalFits[totalPMTCounter]->GetParameter(1) - 4 *  pedestalFits[totalPMTCounter]->GetParameter(2); //4 sigma below mean; par(2) of gaus fit is sigma, par(1) is mean
+  //     pedestalThresholdsUpper[j][k] = pedestalFits[totalPMTCounter]->GetParameter(1) + 4 *  pedestalFits[totalPMTCounter]->GetParameter(2); //4 sigma below mean; par(2) of gaus fit is sigma, par(1) is mean
 
-    }
-  }
+  //   }
+  // }
 
   //temp init of spe cal values
   for (int j=0;j<numPMTGroups;j++) {
@@ -282,6 +294,7 @@ void analysisTemplate(char* inName, char* outName){
 
     for (int k=0;k<maxNumPMTs;k++) {
       pmtQperSPE[j][k] = 200; //approx 
+      signalThresholds[j][k] =0.25; //approx 1/4 spe
     }
   }
 
@@ -298,15 +311,15 @@ void analysisTemplate(char* inName, char* outName){
 
     //check if all pedestals are in range - i.e. that baseline is stable for each PMT
     //skip this event if _any_ PMT has unstable baseline
-    baselineCut=1;
-    for (int k=0;k<numPMTs[0];k++) {
-      if ( (targetPMTPed[k] < pedestalThresholdsLower[0][k]) || (targetPMTPed[k] >pedestalThresholdsUpper[0][k]) ) baselineCut=0;
-    }
-    for (int k=0;k<numPMTs[1];k++) {
-      if ( (vetoPMTPed[k] < pedestalThresholdsLower[1][k]) || (vetoPMTPed[k] >pedestalThresholdsUpper[1][k]) ) baselineCut=0;
-    }
+    // baselineCut=1;
+    // for (int k=0;k<numPMTs[0];k++) {
+    //   if ( (targetPMTPed[k] < pedestalThresholdsLower[0][k]) || (targetPMTPed[k] >pedestalThresholdsUpper[0][k]) ) baselineCut=0;
+    // }
+    // for (int k=0;k<numPMTs[1];k++) {
+    //   if ( (vetoPMTPed[k] < pedestalThresholdsLower[1][k]) || (vetoPMTPed[k] >pedestalThresholdsUpper[1][k]) ) baselineCut=0;
+    // }
 
-    if (baselineCut ==1) {
+    // if (baselineCut ==1) {
       //init and fill analysis variables
       for (int k=0;k<numPMTs[0];k++) {
 	qPMT[0][k] = targetPMTQ[k]/pmtQperSPE[0][k];
@@ -413,6 +426,18 @@ void analysisTemplate(char* inName, char* outName){
 	  h_tLastMuonV_Phy->Fill(lastMuonV_DeltaT[1]);
 	  h_tLastMuonVT->Fill(lastMuonVT_DeltaT[1]);
 	  h_tLastMuonVT_Phy->Fill(lastMuonVT_DeltaT[1]);
+	
+	  //look for isolated double neutrons and apply muon veto
+	
+	  if (lastMuonV_DeltaT[1]>100.0) { //no muon in veto within 100us of neutron[1]
+	    if ( (physicsDeltaT[0][1]) < 50.0) { //two neutrons within 50us (neutron[1],neutron[2])
+	      if ((physicsDeltaT[0][0]) > 50.0 && (physicsDeltaT[0][2]) > 50.0 ) { //two neutrons are isolated: > 50us to (neutron[0],neutron[3]) from (neutron[1],neutron[2])
+		h_tLastMuonVT_DoubleN->Fill(lastMuonVT_DeltaT[1]);
+		h_tLastMuonVT_DoubleN_Phy->Fill(lastMuonVT_DeltaT[1]);
+	      }
+	    }
+	  }
+
 	}
       }
 
@@ -432,7 +457,7 @@ void analysisTemplate(char* inName, char* outName){
       
       }
     
-    }
+      //  }
 
   }
 
