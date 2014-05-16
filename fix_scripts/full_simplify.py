@@ -47,7 +47,7 @@ def main(input_name, output_name):
         temp_file.close()
 
     print( "Simplifying the code format" )
-    os.system('root -b -q -l \"simplify.C(\\\"' + str(input_name) + '\\\")\" 2> /dev/null')
+    os.system('root -b -q -l \"simplify.C(\\\"' + str(input_name) + '\\\")\" 2> log_simp.txt')
     print( "Finished writing to: ", str(output_name) )
 
     for tree in trees_to_explore:

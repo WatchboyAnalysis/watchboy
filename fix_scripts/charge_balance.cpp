@@ -77,9 +77,9 @@ void process(char* fname)
     }
     if(!(i%10000))
       std::cout << "\033[31;1m"<< std::floor(double(i)/entries*100) 
-		<< "%\033[37;1m\r" << std::flush;
+		<< "%\033[37;0m\r" << std::flush;
   }
-  std::cout << std::endl;
+  std::cout << "" << std::endl;
 
   for(int pmt=0; pmt<numPmts; pmt++)
   {

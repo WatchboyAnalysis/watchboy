@@ -122,7 +122,8 @@ void process(char* filename)
   for(int i=0; i<entries; ++i)
   {
     if(!(i%10000))
-      std::cout << "\033[31;1m" << "Finished processing " << i << " entries\r" << std::flush;
+      std::cout << "\033[31;1m" << "Finished processing " << i << " entries\r" 
+		<< std::flush << "\033[37;0m";
     pureData->GetEvent(i);
     // Adding time
     std::vector<unsigned long long> timelist;

@@ -238,7 +238,7 @@ void simplify(string input_name)
 
       if( event_nums[0] % 10000 == 0 | event_nums[0] % 10000 == 1 | event_nums[0] % 10000 == 2 )
       {
-	double evpersecond = watch.RealTime() / 10000;
+	double evpersecond = 10000/watch.RealTime();
 	cout << "Processed event: " << event_nums[0] << " with a rate of " << evpersecond
 	     << " events per second\r" << flush;
 	watch.Start();
@@ -599,6 +599,9 @@ void addslowtree(TTree* slow)
   // For earlier data it's this:
   if( slow->GetLeaf("ISEG0.channel.measuredVoltage") )
   {
+    cout << "#### in ISEG0.channel.measuredVoltage" << endl;
+
+
     // Voltages in this leaf setup are as follows:
     // ISEG0 (V16-V31, excluding V20 & V27)
     // ISEG1 (V0 - V15)
@@ -619,35 +622,36 @@ void addslowtree(TTree* slow)
       slow->GetEvent(ent);
       for(int slot=0; slot<16; slot++)
       {
-	target_voltages[slot] = VoltLeaf2->GetValue(slot);
-	target_currents[slot] = CurrLeaf2->GetValue(slot);
-	veto_voltages[slot] = VoltLeaf1->GetValue(slot);
-	veto_currents[slot] = CurrLeaf1->GetValue(slot);
+	if (VoltLeaf2!=0) target_voltages[slot] = VoltLeaf2->GetValue(slot);
+	if (CurrLeaf2!=0) target_currents[slot] = CurrLeaf2->GetValue(slot);
+	if (VoltLeaf1!=0) veto_voltages[slot] = VoltLeaf1->GetValue(slot);
+	if (CurrLeaf1!=0) veto_currents[slot] = CurrLeaf1->GetValue(slot);
 	if( slot!=4 && slot!=11 )
 	{
-	  veto_voltages[slot+16] = VoltLeaf0->GetValue(slot);
-	  veto_currents[slot+16] = CurrLeaf0->GetValue(slot);
+	  if (VoltLeaf0!=0) veto_voltages[slot+16] = VoltLeaf0->GetValue(slot);
+	  if (CurrLeaf0!=0) veto_currents[slot+16] = CurrLeaf0->GetValue(slot);
 	}
       }
       // Now the less straigt forward pmts
-      veto_voltages[32] = VoltLeaf3->GetValue(0);
-      veto_voltages[33] = VoltLeaf3->GetValue(1);
-      veto_voltages[34] = VoltLeaf3->GetValue(2);
-      veto_voltages[35] = VoltLeaf3->GetValue(3);
-      veto_voltages[20] = VoltLeaf3->GetValue(4);
-      veto_voltages[27] = VoltLeaf3->GetValue(5);
-      veto_currents[32] = CurrLeaf3->GetValue(0);
-      veto_currents[33] = CurrLeaf3->GetValue(1);
-      veto_currents[34] = CurrLeaf3->GetValue(2);
-      veto_currents[35] = CurrLeaf3->GetValue(3);
-      veto_currents[20] = CurrLeaf3->GetValue(4);
-      veto_currents[27] = CurrLeaf3->GetValue(5);
+      if (VoltLeaf3!=0) veto_voltages[32] = VoltLeaf3->GetValue(0);
+      if (VoltLeaf3!=0) veto_voltages[33] = VoltLeaf3->GetValue(1);
+      if (VoltLeaf3!=0) veto_voltages[34] = VoltLeaf3->GetValue(2);
+      if (VoltLeaf3!=0) veto_voltages[35] = VoltLeaf3->GetValue(3);
+      if (VoltLeaf3!=0) veto_voltages[20] = VoltLeaf3->GetValue(4);
+      if (VoltLeaf3!=0) veto_voltages[27] = VoltLeaf3->GetValue(5);
+      if (CurrLeaf3!=0) veto_currents[32] = CurrLeaf3->GetValue(0);
+      if (CurrLeaf3!=0) veto_currents[33] = CurrLeaf3->GetValue(1);
+      if (CurrLeaf3!=0) veto_currents[34] = CurrLeaf3->GetValue(2);
+      if (CurrLeaf3!=0) veto_currents[35] = CurrLeaf3->GetValue(3);
+      if (CurrLeaf3!=0) veto_currents[20] = CurrLeaf3->GetValue(4);
+      if (CurrLeaf3!=0) veto_currents[27] = CurrLeaf3->GetValue(5);
       tree->Fill();
     }
   } // End ISEG style
 
-  if(slow->GetLeaf("VHS_4_1.VM.0"))
-  {
+  //if(slow->GetLeaf("VHS_4_1.VM.0"))
+  else {
+
     const std::string target_card[16]={"12_3", "12_3", "12_3", "12_3", "12_3", "12_3",
 				       "12_3", "12_3", "12_3", "12_3", "12_3", "12_3",
 				       "4_1", "4_1", "4_1", "4_1"};
@@ -663,16 +667,18 @@ void addslowtree(TTree* slow)
 					"2", "11", "0", "4", "4", "1", "0",
 					"2", "1", "6", "5", "3", "8", "9",
 					"6", "7", "10", "11", "0", "0", "4", "4"};
+
     for(int evt=0; evt<slow->GetEntries(); evt++)
     {
       slow->GetEvent(evt);
       for(int slot=0; slot<16; slot++)
       {
 	TLeaf* vleaf = slow->GetLeaf(("VHS_"+target_card[slot]+".VM."+target_channel[slot]).c_str());
-	target_voltages[slot]=vleaf->GetValue(0);
+	if (vleaf!=0) target_voltages[slot]=vleaf->GetValue(0);
 	TLeaf* ileaf = slow->GetLeaf(("VHS_"+target_card[slot]+".IM."+target_channel[slot]).c_str());
-	target_currents[slot]=ileaf->GetValue(0);
+	if (ileaf!=0) target_currents[slot]=ileaf->GetValue(0);
       }	// Filled Target
+
       for(int slot=0; slot<36; slot++)
       {
 	if(veto_card[slot]=="4_3")
@@ -683,9 +689,9 @@ void addslowtree(TTree* slow)
 	else
 	{
 	  TLeaf* vleaf = slow->GetLeaf(("VHS_"+veto_card[slot]+".VM."+veto_channel[slot]).c_str());
-	  veto_voltages[slot]=vleaf->GetValue(0);
+	  if (vleaf!=0) veto_voltages[slot]=vleaf->GetValue(0);
 	  TLeaf* ileaf =slow->GetLeaf(("VHS_"+veto_card[slot]+".IM."+veto_channel[slot]).c_str());
-	  veto_currents[slot]=ileaf->GetValue(0);
+	  if (ileaf!=0) veto_currents[slot]=ileaf->GetValue(0);
 	}
       }	// Filled Veto
       tree->Fill();
