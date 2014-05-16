@@ -19,3 +19,5 @@ library/libRN.so
 scripts/cfneutrons
 scripts/monitor
 scripts/pedchi
+fix_scripts/organize
+fix_scripts/simpfix
