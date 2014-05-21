@@ -24,7 +24,7 @@ def main(input_name, output_name):
         # END DEBUG ::
         keep_running = 1
         while keep_running != -1:
-            command = './corrupt_worker ' + tree + ' ' + str(input_name) + ' ' + str(event_start) + ' &> log.txt > ' + temp_name
+            command = './corrupt_worker ' + tree + ' ' + str(input_name) + ' ' + str(event_start) + ' > ' + temp_name #&> log.txt > ' + temp_name
             os.system(command)
             temp_file = open(temp_name, 'r')
             event_end = int((temp_file.readline()).split()[0])
@@ -47,7 +47,7 @@ def main(input_name, output_name):
         temp_file.close()
 
     print( "Simplifying the code format" )
-    os.system('root -b -q -l \"simplify.C(\\\"' + str(input_name) + '\\\")\" 2> log_simp.txt')
+    os.system('root -b -q -l \"simplify.C(\\\"' + str(input_name) + '\\\")\" ')#2> log_simp.txt')
     print( "Finished writing to: ", str(output_name) )
 
     for tree in trees_to_explore:
