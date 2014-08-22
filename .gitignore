@@ -21,3 +21,5 @@ scripts/monitor
 scripts/pedchi
 fix_scripts/organize
 fix_scripts/simpfix
+fix_scripts/__pycache__/
+fix_scripts/log_simp.txt
