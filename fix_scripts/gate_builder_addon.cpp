@@ -58,7 +58,7 @@ void process(char* filename)
   // This is a bit painful, but to add a branch to an existing tree we must
   // grab EVERYTHING from that tree as well and rewrite it
   double target_1[16], target_4Minus2[16], target_8[16], target_4Minus2Mean1[16];
-  double veto_1[36], veto_4Minus2[36], veto_8[36], veto_4Minus2Mean1[36];
+  double veto_1[36], veto_4Minus2[36], veto_8[36], veto_3MinusMean1[36];
   // And the variable we want to add
   unsigned long long time;
   procData->SetBranchAddress("target_1", &target_1);
@@ -68,7 +68,7 @@ void process(char* filename)
   procData->SetBranchAddress("veto_1", &veto_1);
   procData->SetBranchAddress("veto_4Minus2", &veto_4Minus2);
   procData->SetBranchAddress("veto_8", &veto_8);
-  procData->SetBranchAddress("veto_4Minus2Mean1", &veto_4Minus2Mean1);
+  procData->SetBranchAddress("veto_3MinusMean1", &veto_3MinusMean1);
   //procData->SetBranchAddress("time", &time);
   TBranch* timebranch = procData->Branch("time", &time);
   const int entries = procData->GetEntries();

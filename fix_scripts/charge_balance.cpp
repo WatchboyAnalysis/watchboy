@@ -43,11 +43,11 @@ void process(char* fname)
 
   proc->SetBranchStatus("*", 0);
   proc->SetBranchStatus("target_4Minus2Mean1", 1);
-  proc->SetBranchStatus("veto_4Minus2Mean1", 1);
+  proc->SetBranchStatus("veto_3MinusMean1", 1);
 
   double target[16], veto[36];
   proc->SetBranchAddress("target_4Minus2Mean1", &target);
-  proc->SetBranchAddress("veto_4Minus2Mean1", &veto);
+  proc->SetBranchAddress("veto_3MinusMean1", &veto);
 
   int entries = proc->GetEntries();
   const int numPmts = 52;
