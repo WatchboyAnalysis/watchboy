@@ -1,0 +1,36 @@
+Start time 1410462891
+Looking at Data from y13m12.txt
+/p/lscratche/adg/Watchboy/simplifiedData/y13m12/led_consolidated_y14m01_SPEFits.root
+Error in <TFile::TFile>: no read permission, could not open file /p/lscratche/adg/Watchboy/simplifiedData/y13m12/mars_2013-12-06_11-49-03_simplified.root
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00002aaaafb708ce in __libc_waitpid (pid=22132, stat_loc=0x7ffffffece1c, options=0) at ../sysdeps/unix/sysv/linux/waitpid.c:32
+#1  0x00002aaaafb02909 in do_system (line=<value optimized out>) at ../sysdeps/posix/system.c:149
+#2  0x00002aaaaaf22a98 in TUnixSystem::StackTrace() () from /usr/gapps/adg/Utilities/rootV5.34.01/lib/libCore.so
+#3  0x00002aaaaaf21593 in TUnixSystem::DispatchSignals(ESignals) () from /usr/gapps/adg/Utilities/rootV5.34.01/lib/libCore.so
+#4  <signal handler called>
+#5  0x0000000000403d9b in SoH(char*) ()
+#6  0x0000000000402ea6 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x0000000000403d9b in SoH(char*) ()
+#6  0x0000000000402ea6 in main ()
+===========================================================
+
+
+Stop time 1410462898
+CPU time: 7 seconds

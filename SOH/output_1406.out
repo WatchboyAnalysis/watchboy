@@ -1,0 +1,5843 @@
+Start time 1411427807
+Looking at Data from y14m06.txt
+/p/lscratche/adg/Watchboy/simplifiedData/y14m06/led_consolidated_y14m03_SPEFits.root
+Warning in <TClass::TClass>: no dictionary for class SLMpodModuleData is available
+Warning in <TClass::TClass>: no dictionary for class SLCaen_V1495_MARS_Config is available
+Warning in <TClass::TClass>: no dictionary for class SLIseg_VHS_mod_mod is available
+Warning in <TClass::TClass>: no dictionary for class SLIseg_VHS_mod_ch is available
+Warning in <TClass::TClass>: no dictionary for class SLSis3316ModuleData is available
+1789117 events in the file 1
+day and hour 1
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1272987 single Target Events
+325985 single Veto Events
+Target: 24.6769 Hz, 0.95055% cut
+Veto: 12.8599 Hz, 0.97423 % cut
+All: 463.149 Hz, 0.928095 % cut
+88471 events in 3585.18 s of data taking. Event rate is 499.032 Hz
+next event
+1783688 events in the file 2
+day and hour 1.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1271663 single Target Events
+324204 single Veto Events
+Target: 24.6215 Hz, 0.9506% cut
+Veto: 13.2715 Hz, 0.973372 % cut
+All: 462.222 Hz, 0.927401 % cut
+88115 events in 3578.78 s of data taking. Event rate is 498.406 Hz
+next event
+1760947 events in the file 3
+day and hour 1.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247089 single Target Events
+326598 single Veto Events
+Target: 24.7109 Hz, 0.949693% cut
+Veto: 12.6999 Hz, 0.974145 % cut
+All: 455.438 Hz, 0.927191 % cut
+88588 events in 3584.98 s of data taking. Event rate is 491.202 Hz
+next event
+1771734 events in the file 4
+day and hour 1.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247584 single Target Events
+330383 single Veto Events
+Target: 24.3366 Hz, 0.950857% cut
+Veto: 13.3563 Hz, 0.973029 % cut
+All: 459.163 Hz, 0.927199 % cut
+87069 events in 3577.7 s of data taking. Event rate is 495.216 Hz
+next event
+1779102 events in the file 5
+day and hour 1.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1260366 single Target Events
+331237 single Veto Events
+Target: 24.6257 Hz, 0.950494% cut
+Veto: 12.6711 Hz, 0.974526 % cut
+All: 461.754 Hz, 0.928291 % cut
+88077 events in 3576.63 s of data taking. Event rate is 497.424 Hz
+next event
+1792678 events in the file 6
+day and hour 1.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1269601 single Target Events
+333422 single Veto Events
+Target: 24.9689 Hz, 0.950109% cut
+Veto: 12.7636 Hz, 0.974497 % cut
+All: 464.381 Hz, 0.927885 % cut
+89438 events in 3581.97 s of data taking. Event rate is 500.473 Hz
+next event
+1774721 events in the file 7
+day and hour 1.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1186518 single Target Events
+312796 single Veto Events
+Target: 23.5246 Hz, 0.952578% cut
+Veto: 12.1455 Hz, 0.975517 % cut
+All: 461.991 Hz, 0.931293 % cut
+84160 events in 3577.53 s of data taking. Event rate is 496.075 Hz
+next event
+1764771 events in the file 8
+day and hour 1.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1239474 single Target Events
+333764 single Veto Events
+Target: 24.8173 Hz, 0.949661% cut
+Veto: 12.7781 Hz, 0.974081 % cut
+All: 457.077 Hz, 0.927129 % cut
+88837 events in 3579.64 s of data taking. Event rate is 493.003 Hz
+next event
+1756028 events in the file 9
+day and hour 1.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1207471 single Target Events
+334408 single Veto Events
+Target: 24.3428 Hz, 0.9503% cut
+Veto: 13.5577 Hz, 0.97232 % cut
+All: 453.529 Hz, 0.925951 % cut
+87274 events in 3585.21 s of data taking. Event rate is 489.798 Hz
+next event
+1762710 events in the file 10
+day and hour 1.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216374 single Target Events
+327100 single Veto Events
+Target: 24.4851 Hz, 0.950244% cut
+Veto: 12.7786 Hz, 0.974033 % cut
+All: 456.478 Hz, 0.927611 % cut
+87706 events in 3582.01 s of data taking. Event rate is 492.1 Hz
+next event
+1796186 events in the file 11
+day and hour 1.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1238239 single Target Events
+345917 single Veto Events
+Target: 24.0814 Hz, 0.952041% cut
+Veto: 14.421 Hz, 0.97128 % cut
+All: 465.239 Hz, 0.926549 % cut
+86144 events in 3577.21 s of data taking. Event rate is 502.12 Hz
+next event
+1804811 events in the file 12
+day and hour 1.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1289397 single Target Events
+328795 single Veto Events
+Target: 24.6263 Hz, 0.951173% cut
+Veto: 12.5897 Hz, 0.975038 % cut
+All: 468.746 Hz, 0.929386 % cut
+88123 events in 3578.41 s of data taking. Event rate is 504.361 Hz
+next event
+1789311 events in the file 13
+day and hour 1.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1230229 single Target Events
+315245 single Veto Events
+Target: 23.8318 Hz, 0.952335% cut
+Veto: 12.4182 Hz, 0.975163 % cut
+All: 465.378 Hz, 0.930777 % cut
+85287 events in 3578.7 s of data taking. Event rate is 499.989 Hz
+next event
+1806896 events in the file 14
+day and hour 1.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1296223 single Target Events
+323201 single Veto Events
+Target: 24.5109 Hz, 0.951419% cut
+Veto: 12.7276 Hz, 0.974774 % cut
+All: 468.958 Hz, 0.929475 % cut
+87780 events in 3581.27 s of data taking. Event rate is 504.541 Hz
+next event
+1797233 events in the file 15
+day and hour 1.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1288884 single Target Events
+324577 single Veto Events
+Target: 24.2958 Hz, 0.951615% cut
+Veto: 12.5103 Hz, 0.975086 % cut
+All: 466.995 Hz, 0.930029 % cut
+86960 events in 3579.22 s of data taking. Event rate is 502.129 Hz
+next event
+1776603 events in the file 16
+day and hour 1.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1266452 single Target Events
+322662 single Veto Events
+Target: 24.5544 Hz, 0.950445% cut
+Veto: 12.6915 Hz, 0.974387 % cut
+All: 459.958 Hz, 0.928269 % cut
+88039 events in 3585.47 s of data taking. Event rate is 495.501 Hz
+next event
+1768865 events in the file 17
+day and hour 1.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1246323 single Target Events
+317205 single Veto Events
+Target: 24.2546 Hz, 0.950901% cut
+Veto: 12.6614 Hz, 0.974369 % cut
+All: 458.714 Hz, 0.928578 % cut
+86849 events in 3580.73 s of data taking. Event rate is 493.996 Hz
+next event
+1742691 events in the file 18
+day and hour 1.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1226260 single Target Events
+324129 single Veto Events
+Target: 24.3528 Hz, 0.950008% cut
+Veto: 12.904 Hz, 0.973511 % cut
+All: 451.536 Hz, 0.926916 % cut
+87120 events in 3577.41 s of data taking. Event rate is 487.137 Hz
+next event
+1780412 events in the file 19
+day and hour 1.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1268752 single Target Events
+324297 single Veto Events
+Target: 24.5705 Hz, 0.950571% cut
+Veto: 12.5678 Hz, 0.974717 % cut
+All: 461.603 Hz, 0.928619 % cut
+88004 events in 3581.7 s of data taking. Event rate is 497.086 Hz
+next event
+1773471 events in the file 20
+day and hour 1.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1262478 single Target Events
+321888 single Veto Events
+Target: 24.5123 Hz, 0.950444% cut
+Veto: 12.8191 Hz, 0.974084 % cut
+All: 458.984 Hz, 0.927926 % cut
+87887 events in 3585.42 s of data taking. Event rate is 494.634 Hz
+next event
+1758951 events in the file 21
+day and hour 1.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247395 single Target Events
+324214 single Veto Events
+Target: 24.6699 Hz, 0.949767% cut
+Veto: 12.8847 Hz, 0.973764 % cut
+All: 455.201 Hz, 0.926891 % cut
+88358 events in 3581.61 s of data taking. Event rate is 491.106 Hz
+next event
+1760178 events in the file 22
+day and hour 1.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1250161 single Target Events
+326428 single Veto Events
+Target: 24.2542 Hz, 0.950616% cut
+Veto: 12.5764 Hz, 0.974393 % cut
+All: 455.931 Hz, 0.928328 % cut
+86925 events in 3583.92 s of data taking. Event rate is 491.132 Hz
+next event
+1730520 events in the file 23
+day and hour 1.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1214511 single Target Events
+327943 single Veto Events
+Target: 24.6217 Hz, 0.949074% cut
+Veto: 12.9847 Hz, 0.973143 % cut
+All: 447.552 Hz, 0.925682 % cut
+88128 events in 3579.28 s of data taking. Event rate is 483.483 Hz
+next event
+1735869 events in the file 24
+day and hour 1.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1207820 single Target Events
+334370 single Veto Events
+Target: 24.472 Hz, 0.949568% cut
+Veto: 13.7219 Hz, 0.971722 % cut
+All: 448.691 Hz, 0.92466 % cut
+87543 events in 3577.27 s of data taking. Event rate is 485.25 Hz
+next event
+1758752 events in the file 25
+day and hour 2
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191171 single Target Events
+348891 single Veto Events
+Target: 23.8222 Hz, 0.951528% cut
+Veto: 15.3941 Hz, 0.968677 % cut
+All: 453.819 Hz, 0.923413 % cut
+85251 events in 3578.64 s of data taking. Event rate is 491.458 Hz
+next event
+1737563 events in the file 26
+day and hour 2.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1225546 single Target Events
+322339 single Veto Events
+Target: 24.2829 Hz, 0.949975% cut
+Veto: 13.6323 Hz, 0.971916 % cut
+All: 449.082 Hz, 0.925144 % cut
+86921 events in 3579.52 s of data taking. Event rate is 485.419 Hz
+next event
+1735914 events in the file 27
+day and hour 2.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1218660 single Target Events
+328248 single Veto Events
+Target: 24.8842 Hz, 0.948658% cut
+Veto: 12.8238 Hz, 0.973541 % cut
+All: 448.639 Hz, 0.925655 % cut
+89126 events in 3581.63 s of data taking. Event rate is 484.672 Hz
+next event
+1732265 events in the file 28
+day and hour 2.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1222157 single Target Events
+325101 single Veto Events
+Target: 24.5379 Hz, 0.94931% cut
+Veto: 12.7981 Hz, 0.973562 % cut
+All: 448.378 Hz, 0.926255 % cut
+87809 events in 3578.5 s of data taking. Event rate is 484.076 Hz
+next event
+1740426 events in the file 29
+day and hour 2.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1224180 single Target Events
+327001 single Veto Events
+Target: 24.8598 Hz, 0.948913% cut
+Veto: 12.7344 Hz, 0.973831 % cut
+All: 450.682 Hz, 0.926161 % cut
+88914 events in 3576.61 s of data taking. Event rate is 486.613 Hz
+next event
+1743822 events in the file 30
+day and hour 2.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1213278 single Target Events
+335242 single Veto Events
+Target: 24.4619 Hz, 0.949739% cut
+Veto: 13.6009 Hz, 0.972054 % cut
+All: 450.279 Hz, 0.925179 % cut
+87647 events in 3582.99 s of data taking. Event rate is 486.694 Hz
+next event
+1772589 events in the file 31
+day and hour 2.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1225873 single Target Events
+344936 single Veto Events
+Target: 24.3894 Hz, 0.950667% cut
+Veto: 14.5997 Hz, 0.970469 % cut
+All: 457.055 Hz, 0.924506 % cut
+87448 events in 3585.5 s of data taking. Event rate is 494.378 Hz
+next event
+1777611 events in the file 32
+day and hour 2.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1256757 single Target Events
+318291 single Veto Events
+Target: 24.3742 Hz, 0.95086% cut
+Veto: 16.5285 Hz, 0.966678 % cut
+All: 456.542 Hz, 0.92041 % cut
+87351 events in 3583.74 s of data taking. Event rate is 496.021 Hz
+next event
+1775229 events in the file 33
+day and hour 2.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1248249 single Target Events
+333531 single Veto Events
+Target: 25.0022 Hz, 0.94952% cut
+Veto: 12.9155 Hz, 0.973923 % cut
+All: 459.003 Hz, 0.926733 % cut
+89613 events in 3584.21 s of data taking. Event rate is 495.292 Hz
+next event
+1792445 events in the file 34
+day and hour 2.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1273339 single Target Events
+329816 single Veto Events
+Target: 24.9909 Hz, 0.950122% cut
+Veto: 12.9361 Hz, 0.974182 % cut
+All: 464.811 Hz, 0.927687 % cut
+89403 events in 3577.43 s of data taking. Event rate is 501.043 Hz
+next event
+1890342 events in the file 35
+day and hour 2.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190708 single Target Events
+388768 single Veto Events
+Target: 23.1793 Hz, 0.956038% cut
+Veto: 12.7066 Hz, 0.975901 % cut
+All: 492.924 Hz, 0.934881 % cut
+83103 events in 3585.23 s of data taking. Event rate is 527.259 Hz
+next event
+1735099 events in the file 36
+day and hour 2.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1220556 single Target Events
+326870 single Veto Events
+Target: 24.7363 Hz, 0.948905% cut
+Veto: 12.892 Hz, 0.97337 % cut
+All: 448.132 Hz, 0.925656 % cut
+88655 events in 3584 s of data taking. Event rate is 484.124 Hz
+next event
+1724417 events in the file 37
+day and hour 2.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199448 single Target Events
+311134 single Veto Events
+Target: 24.0972 Hz, 0.949985% cut
+Veto: 12.5327 Hz, 0.973988 % cut
+All: 446.772 Hz, 0.9273 % cut
+86247 events in 3579.13 s of data taking. Event rate is 481.798 Hz
+next event
+1788964 events in the file 38
+day and hour 2.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1276030 single Target Events
+321710 single Veto Events
+Target: 24.2898 Hz, 0.951396% cut
+Veto: 12.9684 Hz, 0.97405 % cut
+All: 464.135 Hz, 0.92873 % cut
+86950 events in 3579.7 s of data taking. Event rate is 499.753 Hz
+next event
+1709978 events in the file 39
+day and hour 2.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1214839 single Target Events
+312393 single Veto Events
+Target: 24.4321 Hz, 0.948778% cut
+Veto: 12.3577 Hz, 0.974092 % cut
+All: 441.81 Hz, 0.926252 % cut
+87588 events in 3584.96 s of data taking. Event rate is 476.986 Hz
+next event
+1744806 events in the file 40
+day and hour 2.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1245043 single Target Events
+314182 single Veto Events
+Target: 24.7692 Hz, 0.949204% cut
+Veto: 12.629 Hz, 0.974101 % cut
+All: 451.885 Hz, 0.926714 % cut
+88629 events in 3578.2 s of data taking. Event rate is 487.621 Hz
+next event
+1760606 events in the file 41
+day and hour 2.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1263611 single Target Events
+312286 single Veto Events
+Target: 24.4897 Hz, 0.950161% cut
+Veto: 12.5438 Hz, 0.974472 % cut
+All: 455.983 Hz, 0.927962 % cut
+87746 events in 3582.98 s of data taking. Event rate is 491.381 Hz
+next event
+1708417 events in the file 42
+day and hour 2.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1142826 single Target Events
+295385 single Veto Events
+Target: 23.1243 Hz, 0.951546% cut
+Veto: 11.494 Hz, 0.975916 % cut
+All: 444.171 Hz, 0.930709 % cut
+82780 events in 3579.79 s of data taking. Event rate is 477.24 Hz
+next event
+1714656 events in the file 43
+day and hour 2.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1212415 single Target Events
+309255 single Veto Events
+Target: 24.3611 Hz, 0.949065% cut
+Veto: 12.4238 Hz, 0.974024 % cut
+All: 443.14 Hz, 0.926531 % cut
+87336 events in 3585.06 s of data taking. Event rate is 478.279 Hz
+next event
+1762305 events in the file 44
+day and hour 2.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1264168 single Target Events
+309816 single Veto Events
+Target: 24.4859 Hz, 0.950291% cut
+Veto: 12.7132 Hz, 0.974191 % cut
+All: 457.021 Hz, 0.927809 % cut
+87603 events in 3577.7 s of data taking. Event rate is 492.581 Hz
+next event
+1742301 events in the file 45
+day and hour 2.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1245622 single Target Events
+311829 single Veto Events
+Target: 24.5216 Hz, 0.949641% cut
+Veto: 12.5853 Hz, 0.974154 % cut
+All: 451.497 Hz, 0.927213 % cut
+87740 events in 3578.07 s of data taking. Event rate is 486.939 Hz
+next event
+1692871 events in the file 46
+day and hour 2.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1200867 single Target Events
+308098 single Veto Events
+Target: 24.3499 Hz, 0.948434% cut
+Veto: 12.3109 Hz, 0.973929 % cut
+All: 437.209 Hz, 0.925884 % cut
+87295 events in 3585.02 s of data taking. Event rate is 472.207 Hz
+next event
+1732659 events in the file 47
+day and hour 2.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1235235 single Target Events
+312029 single Veto Events
+Target: 24.6861 Hz, 0.949022% cut
+Veto: 12.6003 Hz, 0.97398 % cut
+All: 448.626 Hz, 0.92643 % cut
+88327 events in 3578.01 s of data taking. Event rate is 484.253 Hz
+next event
+1739498 events in the file 48
+day and hour 2.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1243087 single Target Events
+313021 single Veto Events
+Target: 24.2996 Hz, 0.949978% cut
+Veto: 12.4862 Hz, 0.974297 % cut
+All: 450.614 Hz, 0.92761 % cut
+87013 events in 3580.84 s of data taking. Event rate is 485.779 Hz
+next event
+1754375 events in the file 49
+day and hour 3
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1253454 single Target Events
+314524 single Veto Events
+Target: 24.7124 Hz, 0.94955% cut
+Veto: 12.6996 Hz, 0.974074 % cut
+All: 454.063 Hz, 0.926963 % cut
+88508 events in 3581.53 s of data taking. Event rate is 489.84 Hz
+next event
+1731789 events in the file 50
+day and hour 3.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216961 single Target Events
+308917 single Veto Events
+Target: 24.447 Hz, 0.949406% cut
+Veto: 12.4732 Hz, 0.974186 % cut
+All: 447.906 Hz, 0.926955 % cut
+87618 events in 3583.99 s of data taking. Event rate is 483.201 Hz
+next event
+1748564 events in the file 51
+day and hour 3.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1225003 single Target Events
+307591 single Veto Events
+Target: 24.1009 Hz, 0.950701% cut
+Veto: 12.4472 Hz, 0.974539 % cut
+All: 453.946 Hz, 0.928553 % cut
+86202 events in 3576.71 s of data taking. Event rate is 488.875 Hz
+next event
+1721110 events in the file 52
+day and hour 3.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1149509 single Target Events
+298609 single Veto Events
+Target: 23.2113 Hz, 0.951767% cut
+Veto: 11.9722 Hz, 0.975122 % cut
+All: 447.67 Hz, 0.930255 % cut
+83014 events in 3576.46 s of data taking. Event rate is 481.234 Hz
+next event
+1754875 events in the file 53
+day and hour 3.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1254883 single Target Events
+313854 single Veto Events
+Target: 24.5621 Hz, 0.949839% cut
+Veto: 12.5198 Hz, 0.974432 % cut
+All: 454.242 Hz, 0.927665 % cut
+88027 events in 3583.85 s of data taking. Event rate is 489.662 Hz
+next event
+1763620 events in the file 54
+day and hour 3.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1262634 single Target Events
+313545 single Veto Events
+Target: 24.7887 Hz, 0.949737% cut
+Veto: 12.6842 Hz, 0.974281 % cut
+All: 457.381 Hz, 0.927413 % cut
+88645 events in 3576.02 s of data taking. Event rate is 493.179 Hz
+next event
+1711988 events in the file 55
+day and hour 3.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1215481 single Target Events
+313757 single Veto Events
+Target: 24.3213 Hz, 0.949184% cut
+Veto: 12.39 Hz, 0.974113 % cut
+All: 443.551 Hz, 0.926746 % cut
+86997 events in 3576.99 s of data taking. Event rate is 478.611 Hz
+next event
+1745171 events in the file 56
+day and hour 3.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1238943 single Target Events
+318023 single Veto Events
+Target: 24.8378 Hz, 0.948997% cut
+Veto: 12.7765 Hz, 0.973764 % cut
+All: 451.036 Hz, 0.926178 % cut
+89009 events in 3583.62 s of data taking. Event rate is 486.986 Hz
+next event
+1750142 events in the file 57
+day and hour 3.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1230848 single Target Events
+308630 single Veto Events
+Target: 24.4208 Hz, 0.95001% cut
+Veto: 12.5395 Hz, 0.974331 % cut
+All: 453.193 Hz, 0.927701 % cut
+87490 events in 3582.59 s of data taking. Event rate is 488.512 Hz
+next event
+1726724 events in the file 58
+day and hour 3.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1212140 single Target Events
+319566 single Veto Events
+Target: 24.6405 Hz, 0.948867% cut
+Veto: 13.3092 Hz, 0.972381 % cut
+All: 445.633 Hz, 0.924764 % cut
+88293 events in 3583.25 s of data taking. Event rate is 481.888 Hz
+next event
+1756574 events in the file 59
+day and hour 3.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1249876 single Target Events
+314600 single Veto Events
+Target: 24.3559 Hz, 0.950294% cut
+Veto: 12.3902 Hz, 0.974714 % cut
+All: 454.905 Hz, 0.928378 % cut
+87312 events in 3584.84 s of data taking. Event rate is 490 Hz
+next event
+1747207 events in the file 60
+day and hour 3.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1250595 single Target Events
+312685 single Veto Events
+Target: 24.6254 Hz, 0.949568% cut
+Veto: 12.5204 Hz, 0.974359 % cut
+All: 452.773 Hz, 0.927272 % cut
+88116 events in 3578.25 s of data taking. Event rate is 488.285 Hz
+next event
+1726592 events in the file 61
+day and hour 3.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1225996 single Target Events
+314134 single Veto Events
+Target: 24.7668 Hz, 0.948686% cut
+Veto: 12.678 Hz, 0.973733 % cut
+All: 446.885 Hz, 0.925892 % cut
+88598 events in 3577.29 s of data taking. Event rate is 482.653 Hz
+next event
+1749121 events in the file 62
+day and hour 3.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1245447 single Target Events
+315184 single Veto Events
+Target: 24.8789 Hz, 0.949108% cut
+Veto: 12.6668 Hz, 0.974089 % cut
+All: 452.97 Hz, 0.926597 % cut
+89017 events in 3578.01 s of data taking. Event rate is 488.853 Hz
+next event
+1736399 events in the file 63
+day and hour 3.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1234053 single Target Events
+314729 single Veto Events
+Target: 24.8679 Hz, 0.948727% cut
+Veto: 12.7113 Hz, 0.973792 % cut
+All: 449.126 Hz, 0.926011 % cut
+89030 events in 3580.12 s of data taking. Event rate is 485.011 Hz
+next event
+1699927 events in the file 64
+day and hour 3.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1202783 single Target Events
+309666 single Veto Events
+Target: 24.7243 Hz, 0.947986% cut
+Veto: 12.6339 Hz, 0.973421 % cut
+All: 439.673 Hz, 0.924968 % cut
+88420 events in 3576.24 s of data taking. Event rate is 475.339 Hz
+next event
+1731498 events in the file 65
+day and hour 3.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1234854 single Target Events
+312996 single Veto Events
+Target: 24.7768 Hz, 0.948816% cut
+Veto: 12.3469 Hz, 0.974494 % cut
+All: 448.598 Hz, 0.926717 % cut
+88625 events in 3576.94 s of data taking. Event rate is 484.072 Hz
+next event
+1695633 events in the file 66
+day and hour 3.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199872 single Target Events
+306797 single Veto Events
+Target: 24.4457 Hz, 0.948416% cut
+Veto: 13.6998 Hz, 0.971092 % cut
+All: 437.369 Hz, 0.922905 % cut
+87467 events in 3578 s of data taking. Event rate is 473.905 Hz
+next event
+1689272 events in the file 67
+day and hour 3.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1187917 single Target Events
+315747 single Veto Events
+Target: 24.7317 Hz, 0.947538% cut
+Veto: 12.6721 Hz, 0.973119 % cut
+All: 435.7 Hz, 0.92423 % cut
+88623 events in 3583.38 s of data taking. Event rate is 471.419 Hz
+next event
+1709535 events in the file 68
+day and hour 3.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1210822 single Target Events
+311823 single Veto Events
+Target: 24.6193 Hz, 0.948415% cut
+Veto: 12.4674 Hz, 0.973877 % cut
+All: 441.839 Hz, 0.925786 % cut
+88186 events in 3581.99 s of data taking. Event rate is 477.258 Hz
+next event
+1733329 events in the file 69
+day and hour 3.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1221671 single Target Events
+311745 single Veto Events
+Target: 24.5625 Hz, 0.94922% cut
+Veto: 12.8201 Hz, 0.973496 % cut
+All: 447.94 Hz, 0.926056 % cut
+88018 events in 3583.43 s of data taking. Event rate is 483.707 Hz
+next event
+1734293 events in the file 70
+day and hour 3.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1155099 single Target Events
+291367 single Veto Events
+Target: 22.9553 Hz, 0.952648% cut
+Veto: 11.8367 Hz, 0.975583 % cut
+All: 451.532 Hz, 0.931426 % cut
+82123 events in 3577.52 s of data taking. Event rate is 484.775 Hz
+next event
+1744682 events in the file 71
+day and hour 3.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216019 single Target Events
+321143 single Veto Events
+Target: 24.0561 Hz, 0.950587% cut
+Veto: 13.6356 Hz, 0.971991 % cut
+All: 450.806 Hz, 0.92599 % cut
+86210 events in 3583.71 s of data taking. Event rate is 486.837 Hz
+next event
+1717997 events in the file 72
+day and hour 4
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1212994 single Target Events
+314937 single Veto Events
+Target: 24.691 Hz, 0.948486% cut
+Veto: 12.5655 Hz, 0.973784 % cut
+All: 443.728 Hz, 0.925772 % cut
+88501 events in 3584.34 s of data taking. Event rate is 479.306 Hz
+next event
+1722919 events in the file 73
+day and hour 4.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1218716 single Target Events
+315412 single Veto Events
+Target: 24.639 Hz, 0.948747% cut
+Veto: 12.8 Hz, 0.973374 % cut
+All: 444.98 Hz, 0.925619 % cut
+88304 events in 3583.91 s of data taking. Event rate is 480.738 Hz
+next event
+1728712 events in the file 74
+day and hour 4.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1230226 single Target Events
+314269 single Veto Events
+Target: 24.5031 Hz, 0.949269% cut
+Veto: 12.356 Hz, 0.974418 % cut
+All: 447.757 Hz, 0.927041 % cut
+87700 events in 3579.14 s of data taking. Event rate is 482.996 Hz
+next event
+1737476 events in the file 75
+day and hour 4.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1236539 single Target Events
+313703 single Veto Events
+Target: 24.8095 Hz, 0.948847% cut
+Veto: 12.6274 Hz, 0.973965 % cut
+All: 449.249 Hz, 0.926274 % cut
+88877 events in 3582.38 s of data taking. Event rate is 485.007 Hz
+next event
+1715488 events in the file 76
+day and hour 4.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199781 single Target Events
+310199 single Veto Events
+Target: 24.4805 Hz, 0.948911% cut
+Veto: 12.4544 Hz, 0.974009 % cut
+All: 443.869 Hz, 0.926324 % cut
+87643 events in 3580.11 s of data taking. Event rate is 479.172 Hz
+next event
+1717931 events in the file 77
+day and hour 4.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1185715 single Target Events
+319738 single Veto Events
+Target: 23.8002 Hz, 0.950343% cut
+Veto: 13.7333 Hz, 0.971346 % cut
+All: 443.391 Hz, 0.925104 % cut
+85308 events in 3584.34 s of data taking. Event rate is 479.288 Hz
+next event
+1707987 events in the file 78
+day and hour 4.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1208188 single Target Events
+315525 single Veto Events
+Target: 24.4872 Hz, 0.948689% cut
+Veto: 12.5286 Hz, 0.973747 % cut
+All: 441.891 Hz, 0.925942 % cut
+87638 events in 3578.93 s of data taking. Event rate is 477.234 Hz
+next event
+1725331 events in the file 79
+day and hour 4.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1222928 single Target Events
+314897 single Veto Events
+Target: 24.706 Hz, 0.948671% cut
+Veto: 12.6066 Hz, 0.973809 % cut
+All: 445.677 Hz, 0.925939 % cut
+88560 events in 3584.55 s of data taking. Event rate is 481.324 Hz
+next event
+1712709 events in the file 80
+day and hour 4.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1212723 single Target Events
+314666 single Veto Events
+Target: 24.5192 Hz, 0.948799% cut
+Veto: 12.6888 Hz, 0.973503 % cut
+All: 443.319 Hz, 0.925733 % cut
+87692 events in 3576.46 s of data taking. Event rate is 478.884 Hz
+next event
+1887583 events in the file 81
+day and hour 4.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1220507 single Target Events
+444470 single Veto Events
+Target: 24.4421 Hz, 0.953583% cut
+Veto: 14.3927 Hz, 0.972668 % cut
+All: 489.38 Hz, 0.92935 % cut
+87615 events in 3584.59 s of data taking. Event rate is 526.583 Hz
+next event
+1711750 events in the file 82
+day and hour 4.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1208629 single Target Events
+316702 single Veto Events
+Target: 24.6586 Hz, 0.948466% cut
+Veto: 12.7057 Hz, 0.973446 % cut
+All: 442.838 Hz, 0.925482 % cut
+88213 events in 3577.37 s of data taking. Event rate is 478.494 Hz
+next event
+1707486 events in the file 83
+day and hour 4.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1211388 single Target Events
+310272 single Veto Events
+Target: 24.5619 Hz, 0.948459% cut
+Veto: 12.6739 Hz, 0.973405 % cut
+All: 440.993 Hz, 0.925391 % cut
+88006 events in 3583.03 s of data taking. Event rate is 476.548 Hz
+next event
+1697880 events in the file 84
+day and hour 4.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1202459 single Target Events
+309927 single Veto Events
+Target: 24.6248 Hz, 0.948043% cut
+Veto: 12.6009 Hz, 0.973413 % cut
+All: 438.388 Hz, 0.924977 % cut
+88217 events in 3582.44 s of data taking. Event rate is 473.945 Hz
+next event
+1686756 events in the file 85
+day and hour 4.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1188514 single Target Events
+309842 single Veto Events
+Target: 24.4116 Hz, 0.948239% cut
+Veto: 12.4404 Hz, 0.973622 % cut
+All: 436.423 Hz, 0.925367 % cut
+87308 events in 3576.5 s of data taking. Event rate is 471.622 Hz
+next event
+1728301 events in the file 86
+day and hour 4.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1230050 single Target Events
+312091 single Veto Events
+Target: 24.588 Hz, 0.949088% cut
+Veto: 12.6725 Hz, 0.97376 % cut
+All: 447.388 Hz, 0.926359 % cut
+87991 events in 3578.61 s of data taking. Event rate is 482.953 Hz
+next event
+1714505 events in the file 87
+day and hour 4.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1220713 single Target Events
+311246 single Veto Events
+Target: 24.1722 Hz, 0.949503% cut
+Veto: 12.2472 Hz, 0.974415 % cut
+All: 443.878 Hz, 0.927293 % cut
+86578 events in 3581.72 s of data taking. Event rate is 478.681 Hz
+next event
+1713630 events in the file 88
+day and hour 4.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1215718 single Target Events
+310635 single Veto Events
+Target: 24.544 Hz, 0.94869% cut
+Veto: 12.5358 Hz, 0.973794 % cut
+All: 442.931 Hz, 0.925955 % cut
+87926 events in 3582.38 s of data taking. Event rate is 478.35 Hz
+next event
+1682015 events in the file 89
+day and hour 4.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190360 single Target Events
+306421 single Veto Events
+Target: 24.4699 Hz, 0.947909% cut
+Veto: 12.4623 Hz, 0.973471 % cut
+All: 434.474 Hz, 0.924901 % cut
+87618 events in 3580.64 s of data taking. Event rate is 469.753 Hz
+next event
+1695575 events in the file 90
+day and hour 4.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199202 single Target Events
+310473 single Veto Events
+Target: 24.5824 Hz, 0.948121% cut
+Veto: 12.5955 Hz, 0.973418 % cut
+All: 438.324 Hz, 0.925038 % cut
+87964 events in 3578.34 s of data taking. Event rate is 473.844 Hz
+next event
+1679692 events in the file 91
+day and hour 4.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1185028 single Target Events
+309464 single Veto Events
+Target: 24.3058 Hz, 0.948242% cut
+Veto: 12.3714 Hz, 0.973656 % cut
+All: 434.589 Hz, 0.925432 % cut
+86937 events in 3576.81 s of data taking. Event rate is 469.607 Hz
+next event
+1715290 events in the file 92
+day and hour 4.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1214933 single Target Events
+313435 single Veto Events
+Target: 24.4978 Hz, 0.94883% cut
+Veto: 13.4693 Hz, 0.971866 % cut
+All: 442.53 Hz, 0.924337 % cut
+87771 events in 3582.82 s of data taking. Event rate is 478.754 Hz
+next event
+1699958 events in the file 93
+day and hour 4.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1201183 single Target Events
+314533 single Veto Events
+Target: 24.6289 Hz, 0.948192% cut
+Veto: 12.6316 Hz, 0.973429 % cut
+All: 439.775 Hz, 0.925091 % cut
+88072 events in 3575.96 s of data taking. Event rate is 475.386 Hz
+next event
+1699696 events in the file 94
+day and hour 4.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1200065 single Target Events
+314208 single Veto Events
+Target: 24.5039 Hz, 0.948337% cut
+Veto: 12.3371 Hz, 0.973989 % cut
+All: 439.121 Hz, 0.925831 % cut
+87812 events in 3583.59 s of data taking. Event rate is 474.299 Hz
+next event
+1682967 events in the file 95
+day and hour 4.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1182978 single Target Events
+313408 single Veto Events
+Target: 24.7378 Hz, 0.947433% cut
+Veto: 12.6698 Hz, 0.973077 % cut
+All: 434.86 Hz, 0.924057 % cut
+88468 events in 3576.22 s of data taking. Event rate is 470.599 Hz
+next event
+1700875 events in the file 96
+day and hour 5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195510 single Target Events
+316580 single Veto Events
+Target: 24.6455 Hz, 0.948096% cut
+Veto: 12.782 Hz, 0.973081 % cut
+All: 439.087 Hz, 0.924726 % cut
+88282 events in 3582.08 s of data taking. Event rate is 474.829 Hz
+next event
+1692869 events in the file 97
+day and hour 5.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190375 single Target Events
+313874 single Veto Events
+Target: 24.4132 Hz, 0.948349% cut
+Veto: 12.6296 Hz, 0.97328 % cut
+All: 437.261 Hz, 0.925111 % cut
+87438 events in 3581.59 s of data taking. Event rate is 472.658 Hz
+next event
+1682697 events in the file 98
+day and hour 5.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1186384 single Target Events
+311114 single Veto Events
+Target: 24.5063 Hz, 0.947904% cut
+Veto: 12.3845 Hz, 0.973673 % cut
+All: 435.172 Hz, 0.9251 % cut
+87662 events in 3577.12 s of data taking. Event rate is 470.405 Hz
+next event
+1684999 events in the file 99
+day and hour 5.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1188587 single Target Events
+310766 single Veto Events
+Target: 24.8084 Hz, 0.947227% cut
+Veto: 12.6063 Hz, 0.973183 % cut
+All: 434.335 Hz, 0.923931 % cut
+88923 events in 3584.38 s of data taking. Event rate is 470.094 Hz
+next event
+1702632 events in the file 100
+day and hour 5.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1207612 single Target Events
+309487 single Veto Events
+Target: 24.2104 Hz, 0.949068% cut
+Veto: 12.496 Hz, 0.973712 % cut
+All: 440.312 Hz, 0.926292 % cut
+86718 events in 3581.86 s of data taking. Event rate is 475.349 Hz
+next event
+1714777 events in the file 101
+day and hour 5.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1218695 single Target Events
+311012 single Veto Events
+Target: 24.5593 Hz, 0.948728% cut
+Veto: 12.5467 Hz, 0.973807 % cut
+All: 443.552 Hz, 0.925993 % cut
+87920 events in 3579.9 s of data taking. Event rate is 479.001 Hz
+next event
+1691338 events in the file 102
+day and hour 5.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195263 single Target Events
+295116 single Veto Events
+Target: 23.9903 Hz, 0.949227% cut
+Veto: 16.5377 Hz, 0.964999 % cut
+All: 433.418 Hz, 0.917292 % cut
+85875 events in 3579.57 s of data taking. Event rate is 472.497 Hz
+next event
+1692173 events in the file 103
+day and hour 5.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176423 single Target Events
+315607 single Veto Events
+Target: 24.0523 Hz, 0.949136% cut
+Veto: 13.4289 Hz, 0.971602 % cut
+All: 437.014 Hz, 0.924167 % cut
+86071 events in 3578.49 s of data taking. Event rate is 472.874 Hz
+next event
+1696986 events in the file 104
+day and hour 5.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1197978 single Target Events
+310878 single Veto Events
+Target: 24.1717 Hz, 0.948951% cut
+Veto: 13.7517 Hz, 0.970957 % cut
+All: 437.327 Hz, 0.923603 % cut
+86629 events in 3583.91 s of data taking. Event rate is 473.501 Hz
+next event
+1690996 events in the file 105
+day and hour 5.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195549 single Target Events
+310619 single Veto Events
+Target: 24.5441 Hz, 0.948031% cut
+Veto: 12.4631 Hz, 0.973611 % cut
+All: 436.916 Hz, 0.925121 % cut
+87880 events in 3580.5 s of data taking. Event rate is 472.279 Hz
+next event
+1661162 events in the file 106
+day and hour 5.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1166558 single Target Events
+310390 single Veto Events
+Target: 24.5398 Hz, 0.947163% cut
+Veto: 12.6949 Hz, 0.972667 % cut
+All: 428.906 Hz, 0.923474 % cut
+87770 events in 3576.64 s of data taking. Event rate is 464.448 Hz
+next event
+1673359 events in the file 107
+day and hour 5.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1174428 single Target Events
+296971 single Veto Events
+Target: 24.1105 Hz, 0.948357% cut
+Veto: 16.6995 Hz, 0.964231 % cut
+All: 427.451 Hz, 0.915575 % cut
+86418 events in 3584.24 s of data taking. Event rate is 466.866 Hz
+next event
+1666725 events in the file 108
+day and hour 5.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1172364 single Target Events
+309862 single Veto Events
+Target: 24.5048 Hz, 0.947405% cut
+Veto: 12.5993 Hz, 0.972958 % cut
+All: 430.503 Hz, 0.924001 % cut
+87662 events in 3577.34 s of data taking. Event rate is 465.912 Hz
+next event
+1666466 events in the file 109
+day and hour 5.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1172119 single Target Events
+309763 single Veto Events
+Target: 24.5224 Hz, 0.947296% cut
+Veto: 12.6377 Hz, 0.972839 % cut
+All: 429.765 Hz, 0.923654 % cut
+87829 events in 3581.58 s of data taking. Event rate is 465.288 Hz
+next event
+1663860 events in the file 110
+day and hour 5.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1165414 single Target Events
+309221 single Veto Events
+Target: 24.3937 Hz, 0.947576% cut
+Veto: 12.9455 Hz, 0.972179 % cut
+All: 429.647 Hz, 0.923344 % cut
+87226 events in 3575.76 s of data taking. Event rate is 465.317 Hz
+next event
+1668027 events in the file 111
+day and hour 5.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176018 single Target Events
+306853 single Veto Events
+Target: 24.335 Hz, 0.947796% cut
+Veto: 12.1584 Hz, 0.973918 % cut
+All: 431.32 Hz, 0.92527 % cut
+87077 events in 3578.26 s of data taking. Event rate is 466.156 Hz
+next event
+1667356 events in the file 112
+day and hour 5.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1170213 single Target Events
+310772 single Veto Events
+Target: 24.7274 Hz, 0.946833% cut
+Veto: 12.6904 Hz, 0.972714 % cut
+All: 429.347 Hz, 0.923145 % cut
+88648 events in 3585 s of data taking. Event rate is 465.092 Hz
+next event
+1674258 events in the file 113
+day and hour 5.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1178110 single Target Events
+310908 single Veto Events
+Target: 24.5283 Hz, 0.947516% cut
+Veto: 12.7592 Hz, 0.972699 % cut
+All: 431.732 Hz, 0.923783 % cut
+87871 events in 3582.43 s of data taking. Event rate is 467.353 Hz
+next event
+1688549 events in the file 114
+day and hour 5.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195318 single Target Events
+309648 single Veto Events
+Target: 24.574 Hz, 0.947926% cut
+Veto: 12.3581 Hz, 0.973812 % cut
+All: 436.638 Hz, 0.92526 % cut
+87929 events in 3578.13 s of data taking. Event rate is 471.909 Hz
+next event
+1681956 events in the file 115
+day and hour 5.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1186647 single Target Events
+310694 single Veto Events
+Target: 24.4128 Hz, 0.948051% cut
+Veto: 12.6842 Hz, 0.973009 % cut
+All: 434.51 Hz, 0.924612 % cut
+87376 events in 3579.1 s of data taking. Event rate is 469.938 Hz
+next event
+1697877 events in the file 116
+day and hour 5.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1174429 single Target Events
+313678 single Veto Events
+Target: 24.1897 Hz, 0.948942% cut
+Veto: 13.1262 Hz, 0.972294 % cut
+All: 438.105 Hz, 0.92472 % cut
+86690 events in 3583.76 s of data taking. Event rate is 473.77 Hz
+next event
+1725628 events in the file 117
+day and hour 5.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1227564 single Target Events
+311384 single Veto Events
+Target: 24.4652 Hz, 0.949176% cut
+Veto: 12.5871 Hz, 0.973851 % cut
+All: 445.986 Hz, 0.926499 % cut
+87704 events in 3584.85 s of data taking. Event rate is 481.367 Hz
+next event
+1728536 events in the file 118
+day and hour 5.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1232541 single Target Events
+311437 single Veto Events
+Target: 24.5872 Hz, 0.949028% cut
+Veto: 12.4447 Hz, 0.974201 % cut
+All: 447.022 Hz, 0.926725 % cut
+88107 events in 3583.44 s of data taking. Event rate is 482.367 Hz
+next event
+1695497 events in the file 119
+day and hour 5.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1201368 single Target Events
+309326 single Veto Events
+Target: 24.585 Hz, 0.948145% cut
+Veto: 12.6009 Hz, 0.973422 % cut
+All: 438.628 Hz, 0.925159 % cut
+87920 events in 3576.16 s of data taking. Event rate is 474.111 Hz
+next event
+1691287 events in the file 120
+day and hour 6
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195852 single Target Events
+312265 single Veto Events
+Target: 24.3409 Hz, 0.948523% cut
+Veto: 12.4986 Hz, 0.973567 % cut
+All: 437.66 Hz, 0.925584 % cut
+87063 events in 3576.81 s of data taking. Event rate is 472.847 Hz
+next event
+1682538 events in the file 121
+day and hour 6.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1183129 single Target Events
+313581 single Veto Events
+Target: 24.3853 Hz, 0.948075% cut
+Veto: 12.4648 Hz, 0.973458 % cut
+All: 434.43 Hz, 0.925057 % cut
+87366 events in 3582.73 s of data taking. Event rate is 469.625 Hz
+next event
+1700740 events in the file 122
+day and hour 6.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1193757 single Target Events
+307434 single Veto Events
+Target: 24.1702 Hz, 0.949083% cut
+Veto: 12.4827 Hz, 0.973704 % cut
+All: 439.676 Hz, 0.92623 % cut
+86597 events in 3582.81 s of data taking. Event rate is 474.695 Hz
+next event
+1696283 events in the file 123
+day and hour 6.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1196301 single Target Events
+290107 single Veto Events
+Target: 23.4257 Hz, 0.950607% cut
+Veto: 18.7632 Hz, 0.960438 % cut
+All: 433.334 Hz, 0.913689 % cut
+83785 events in 3576.63 s of data taking. Event rate is 474.268 Hz
+next event
+1679490 events in the file 124
+day and hour 6.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1185056 single Target Events
+307692 single Veto Events
+Target: 23.7264 Hz, 0.94942% cut
+Veto: 12.581 Hz, 0.97318 % cut
+All: 434.408 Hz, 0.926063 % cut
+84948 events in 3580.31 s of data taking. Event rate is 469.091 Hz
+next event
+1691171 events in the file 125
+day and hour 6.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198400 single Target Events
+308145 single Veto Events
+Target: 24.5139 Hz, 0.948051% cut
+Veto: 12.4347 Hz, 0.973649 % cut
+All: 436.626 Hz, 0.925274 % cut
+87854 events in 3583.84 s of data taking. Event rate is 471.888 Hz
+next event
+1714819 events in the file 126
+day and hour 6.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1223476 single Target Events
+309901 single Veto Events
+Target: 24.1882 Hz, 0.949548% cut
+Veto: 12.4181 Hz, 0.974098 % cut
+All: 444.465 Hz, 0.927071 % cut
+86516 events in 3576.79 s of data taking. Event rate is 479.429 Hz
+next event
+1702941 events in the file 127
+day and hour 6.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1208135 single Target Events
+309533 single Veto Events
+Target: 24.5148 Hz, 0.948464% cut
+Veto: 12.5271 Hz, 0.973665 % cut
+All: 440.293 Hz, 0.925606 % cut
+87763 events in 3580 s of data taking. Event rate is 475.681 Hz
+next event
+1702616 events in the file 128
+day and hour 6.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1188664 single Target Events
+297758 single Veto Events
+Target: 23.9887 Hz, 0.949481% cut
+Veto: 14.4123 Hz, 0.969648 % cut
+All: 438.011 Hz, 0.922425 % cut
+86014 events in 3585.61 s of data taking. Event rate is 474.847 Hz
+next event
+1694727 events in the file 129
+day and hour 6.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1182660 single Target Events
+318702 single Veto Events
+Target: 24.1358 Hz, 0.948997% cut
+Veto: 13.5885 Hz, 0.971285 % cut
+All: 437.133 Hz, 0.923742 % cut
+86437 events in 3581.27 s of data taking. Event rate is 473.219 Hz
+next event
+1706586 events in the file 130
+day and hour 6.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1207885 single Target Events
+314360 single Veto Events
+Target: 24.5745 Hz, 0.948386% cut
+Veto: 12.4881 Hz, 0.973771 % cut
+All: 440.707 Hz, 0.925621 % cut
+88084 events in 3584.36 s of data taking. Event rate is 476.12 Hz
+next event
+1742329 events in the file 131
+day and hour 6.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195683 single Target Events
+336491 single Veto Events
+Target: 24.81 Hz, 0.949053% cut
+Veto: 13.6763 Hz, 0.971916 % cut
+All: 450.151 Hz, 0.924385 % cut
+88767 events in 3577.87 s of data taking. Event rate is 486.974 Hz
+next event
+1691934 events in the file 132
+day and hour 6.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1188089 single Target Events
+316032 single Veto Events
+Target: 24.5697 Hz, 0.947936% cut
+Veto: 12.6827 Hz, 0.973125 % cut
+All: 436.344 Hz, 0.924628 % cut
+88089 events in 3585.27 s of data taking. Event rate is 471.913 Hz
+next event
+1706732 events in the file 133
+day and hour 6.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1201445 single Target Events
+318209 single Veto Events
+Target: 24.7848 Hz, 0.948037% cut
+Veto: 12.6902 Hz, 0.973394 % cut
+All: 441.131 Hz, 0.924862 % cut
+88687 events in 3578.28 s of data taking. Event rate is 476.97 Hz
+next event
+1701337 events in the file 134
+day and hour 6.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195879 single Target Events
+319114 single Veto Events
+Target: 24.5827 Hz, 0.948219% cut
+Veto: 12.6905 Hz, 0.973269 % cut
+All: 439.094 Hz, 0.924909 % cut
+88097 events in 3583.7 s of data taking. Event rate is 474.743 Hz
+next event
+1696857 events in the file 135
+day and hour 6.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176725 single Target Events
+325387 single Veto Events
+Target: 24.6343 Hz, 0.948033% cut
+Veto: 13.0919 Hz, 0.972382 % cut
+All: 437.996 Hz, 0.923976 % cut
+88181 events in 3579.61 s of data taking. Event rate is 474.034 Hz
+next event
+1687973 events in the file 136
+day and hour 6.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1182354 single Target Events
+320119 single Veto Events
+Target: 24.5433 Hz, 0.947987% cut
+Veto: 12.633 Hz, 0.973228 % cut
+All: 436.378 Hz, 0.924791 % cut
+87797 events in 3577.23 s of data taking. Event rate is 471.866 Hz
+next event
+1698111 events in the file 137
+day and hour 6.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1192554 single Target Events
+319002 single Veto Events
+Target: 24.6823 Hz, 0.947909% cut
+Veto: 12.6235 Hz, 0.973359 % cut
+All: 438.194 Hz, 0.924789 % cut
+88456 events in 3583.79 s of data taking. Event rate is 473.831 Hz
+next event
+1682288 events in the file 138
+day and hour 6.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1177113 single Target Events
+318991 single Veto Events
+Target: 24.8965 Hz, 0.947054% cut
+Veto: 12.6234 Hz, 0.973154 % cut
+All: 434.398 Hz, 0.923817 % cut
+89071 events in 3577.65 s of data taking. Event rate is 470.221 Hz
+next event
+1683663 events in the file 139
+day and hour 6.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176086 single Target Events
+317778 single Veto Events
+Target: 24.5817 Hz, 0.947684% cut
+Veto: 12.3573 Hz, 0.973701 % cut
+All: 434.585 Hz, 0.924898 % cut
+88082 events in 3583.23 s of data taking. Event rate is 469.873 Hz
+next event
+1664860 events in the file 140
+day and hour 6.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1151054 single Target Events
+317617 single Veto Events
+Target: 24.5474 Hz, 0.947213% cut
+Veto: 12.5607 Hz, 0.972989 % cut
+All: 429.589 Hz, 0.923795 % cut
+87883 events in 3580.14 s of data taking. Event rate is 465.026 Hz
+next event
+1669182 events in the file 141
+day and hour 6.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1154953 single Target Events
+322282 single Veto Events
+Target: 24.6671 Hz, 0.947144% cut
+Veto: 13.0706 Hz, 0.971993 % cut
+All: 430.594 Hz, 0.922661 % cut
+88226 events in 3576.66 s of data taking. Event rate is 466.687 Hz
+next event
+1673051 events in the file 142
+day and hour 6.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1167539 single Target Events
+318895 single Veto Events
+Target: 24.7076 Hz, 0.947058% cut
+Veto: 12.6231 Hz, 0.972952 % cut
+All: 431.028 Hz, 0.923585 % cut
+88575 events in 3584.93 s of data taking. Event rate is 466.69 Hz
+next event
+1682542 events in the file 143
+day and hour 6.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176960 single Target Events
+317041 single Veto Events
+Target: 24.7017 Hz, 0.947487% cut
+Veto: 12.4044 Hz, 0.97363 % cut
+All: 434.934 Hz, 0.924617 % cut
+88355 events in 3576.88 s of data taking. Event rate is 470.393 Hz
+next event
+1689024 events in the file 144
+day and hour 7
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1181781 single Target Events
+318520 single Veto Events
+Target: 24.8338 Hz, 0.947345% cut
+Veto: 12.6515 Hz, 0.973175 % cut
+All: 435.838 Hz, 0.924109 % cut
+88936 events in 3581.25 s of data taking. Event rate is 471.63 Hz
+next event
+1698097 events in the file 145
+day and hour 7.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1196520 single Target Events
+317427 single Veto Events
+Target: 24.2251 Hz, 0.948855% cut
+Veto: 12.5735 Hz, 0.973454 % cut
+All: 438.51 Hz, 0.925798 % cut
+86849 events in 3585.08 s of data taking. Event rate is 473.656 Hz
+next event
+1695291 events in the file 146
+day and hour 7.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199614 single Target Events
+310551 single Veto Events
+Target: 24.4553 Hz, 0.948325% cut
+Veto: 12.5258 Hz, 0.973533 % cut
+All: 437.949 Hz, 0.925404 % cut
+87604 events in 3582.21 s of data taking. Event rate is 473.252 Hz
+next event
+1691787 events in the file 147
+day and hour 7.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1196183 single Target Events
+310696 single Veto Events
+Target: 24.621 Hz, 0.947905% cut
+Veto: 12.5762 Hz, 0.97339 % cut
+All: 437.115 Hz, 0.924884 % cut
+88134 events in 3579.62 s of data taking. Event rate is 472.616 Hz
+next event
+1667240 events in the file 148
+day and hour 7.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1168166 single Target Events
+313377 single Veto Events
+Target: 24.7483 Hz, 0.946931% cut
+Veto: 12.7092 Hz, 0.972747 % cut
+All: 430.568 Hz, 0.923282 % cut
+88478 events in 3575.12 s of data taking. Event rate is 466.346 Hz
+next event
+1666936 events in the file 149
+day and hour 7.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1167493 single Target Events
+314701 single Veto Events
+Target: 24.3759 Hz, 0.947685% cut
+Veto: 12.4817 Hz, 0.973212 % cut
+All: 430.73 Hz, 0.924426 % cut
+87206 events in 3577.55 s of data taking. Event rate is 465.943 Hz
+next event
+1658041 events in the file 150
+day and hour 7.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1160140 single Target Events
+314157 single Veto Events
+Target: 24.4179 Hz, 0.947309% cut
+Veto: 12.6282 Hz, 0.97275 % cut
+All: 428.015 Hz, 0.92361 % cut
+87364 events in 3577.87 s of data taking. Event rate is 463.416 Hz
+next event
+1652260 events in the file 151
+day and hour 7.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1159736 single Target Events
+308823 single Veto Events
+Target: 24.2534 Hz, 0.947481% cut
+Veto: 12.403 Hz, 0.973142 % cut
+All: 426.788 Hz, 0.924178 % cut
+86775 events in 3577.84 s of data taking. Event rate is 461.803 Hz
+next event
+1674716 events in the file 152
+day and hour 7.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176670 single Target Events
+312760 single Veto Events
+Target: 24.4947 Hz, 0.947609% cut
+Veto: 12.6371 Hz, 0.972971 % cut
+All: 432.077 Hz, 0.924157 % cut
+87740 events in 3582 s of data taking. Event rate is 467.536 Hz
+next event
+1681174 events in the file 153
+day and hour 7.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1153683 single Target Events
+312459 single Veto Events
+Target: 24.3066 Hz, 0.948186% cut
+Veto: 12.6257 Hz, 0.973086 % cut
+All: 433.811 Hz, 0.924746 % cut
+87108 events in 3583.72 s of data taking. Event rate is 469.114 Hz
+next event
+1678018 events in the file 154
+day and hour 7.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1170011 single Target Events
+322940 single Veto Events
+Target: 24.5792 Hz, 0.947489% cut
+Veto: 12.5874 Hz, 0.973108 % cut
+All: 432.542 Hz, 0.92409 % cut
+88115 events in 3584.94 s of data taking. Event rate is 468.074 Hz
+next event
+1691037 events in the file 155
+day and hour 7.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1180930 single Target Events
+324784 single Veto Events
+Target: 24.8638 Hz, 0.947383% cut
+Veto: 12.4579 Hz, 0.973636 % cut
+All: 436.828 Hz, 0.924424 % cut
+88978 events in 3578.61 s of data taking. Event rate is 472.54 Hz
+next event
+1692264 events in the file 156
+day and hour 7.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1180415 single Target Events
+323582 single Veto Events
+Target: 24.953 Hz, 0.947153% cut
+Veto: 12.8539 Hz, 0.972777 % cut
+All: 436.001 Hz, 0.923388 % cut
+89431 events in 3583.98 s of data taking. Event rate is 472.175 Hz
+next event
+1710542 events in the file 157
+day and hour 7.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1207198 single Target Events
+318904 single Veto Events
+Target: 24.56 Hz, 0.94864% cut
+Veto: 12.5534 Hz, 0.973748 % cut
+All: 442.73 Hz, 0.925846 % cut
+87854 events in 3577.12 s of data taking. Event rate is 478.19 Hz
+next event
+1705986 events in the file 158
+day and hour 7.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190860 single Target Events
+318430 single Veto Events
+Target: 24.636 Hz, 0.948291% cut
+Veto: 12.5792 Hz, 0.973597 % cut
+All: 440.919 Hz, 0.925457 % cut
+88215 events in 3580.74 s of data taking. Event rate is 476.434 Hz
+next event
+1687625 events in the file 159
+day and hour 7.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1171088 single Target Events
+312119 single Veto Events
+Target: 24.4045 Hz, 0.948246% cut
+Veto: 12.5841 Hz, 0.973313 % cut
+All: 436.202 Hz, 0.92504 % cut
+87341 events in 3578.89 s of data taking. Event rate is 471.549 Hz
+next event
+1674209 events in the file 160
+day and hour 7.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1164910 single Target Events
+316974 single Veto Events
+Target: 24.188 Hz, 0.94834% cut
+Veto: 13.277 Hz, 0.971643 % cut
+All: 432.408 Hz, 0.923526 % cut
+86490 events in 3575.73 s of data taking. Event rate is 468.214 Hz
+next event
+1676713 events in the file 161
+day and hour 7.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1181347 single Target Events
+309930 single Veto Events
+Target: 24.1759 Hz, 0.948331% cut
+Veto: 12.1948 Hz, 0.973937 % cut
+All: 433.162 Hz, 0.925759 % cut
+86634 events in 3583.49 s of data taking. Event rate is 467.899 Hz
+next event
+1683225 events in the file 162
+day and hour 7.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1184051 single Target Events
+314670 single Veto Events
+Target: 24.5593 Hz, 0.947746% cut
+Veto: 12.5529 Hz, 0.973292 % cut
+All: 434.527 Hz, 0.924526 % cut
+87955 events in 3581.33 s of data taking. Event rate is 470 Hz
+next event
+1689004 events in the file 163
+day and hour 7.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190214 single Target Events
+316374 single Veto Events
+Target: 24.1996 Hz, 0.948735% cut
+Veto: 12.3265 Hz, 0.973888 % cut
+All: 437.17 Hz, 0.926101 % cut
+86586 events in 3577.99 s of data taking. Event rate is 472.054 Hz
+next event
+1686482 events in the file 164
+day and hour 7.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1185783 single Target Events
+312931 single Veto Events
+Target: 24.6277 Hz, 0.947697% cut
+Veto: 12.5394 Hz, 0.973369 % cut
+All: 435.342 Hz, 0.924555 % cut
+88208 events in 3581.66 s of data taking. Event rate is 470.866 Hz
+next event
+1678901 events in the file 165
+day and hour 7.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1162927 single Target Events
+315907 single Veto Events
+Target: 24.2963 Hz, 0.948239% cut
+Veto: 13.0322 Hz, 0.972236 % cut
+All: 433.701 Hz, 0.923964 % cut
+86902 events in 3576.76 s of data taking. Event rate is 469.392 Hz
+next event
+1674565 events in the file 166
+day and hour 7.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1158161 single Target Events
+311269 single Veto Events
+Target: 24.3019 Hz, 0.948096% cut
+Veto: 12.3851 Hz, 0.973548 % cut
+All: 433.144 Hz, 0.925112 % cut
+86917 events in 3576.55 s of data taking. Event rate is 468.207 Hz
+next event
+1671579 events in the file 167
+day and hour 7.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1173071 single Target Events
+313754 single Veto Events
+Target: 24.4338 Hz, 0.947599% cut
+Veto: 12.134 Hz, 0.973977 % cut
+All: 431.348 Hz, 0.92507 % cut
+87592 events in 3584.87 s of data taking. Event rate is 466.287 Hz
+next event
+1681549 events in the file 168
+day and hour 8
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1177075 single Target Events
+317055 single Veto Events
+Target: 24.7745 Hz, 0.947195% cut
+Veto: 12.6865 Hz, 0.972959 % cut
+All: 433.406 Hz, 0.92378 % cut
+88795 events in 3584.13 s of data taking. Event rate is 469.166 Hz
+next event
+1676777 events in the file 169
+day and hour 8.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1172904 single Target Events
+319144 single Veto Events
+Target: 24.4499 Hz, 0.947803% cut
+Veto: 12.5215 Hz, 0.973268 % cut
+All: 433.099 Hz, 0.924607 % cut
+87523 events in 3579.69 s of data taking. Event rate is 468.414 Hz
+next event
+1680109 events in the file 170
+day and hour 8.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1170574 single Target Events
+316913 single Veto Events
+Target: 24.6945 Hz, 0.947361% cut
+Veto: 12.5685 Hz, 0.973209 % cut
+All: 433.543 Hz, 0.924142 % cut
+88439 events in 3581.32 s of data taking. Event rate is 469.131 Hz
+next event
+1673820 events in the file 171
+day and hour 8.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1164244 single Target Events
+320768 single Veto Events
+Target: 24.6376 Hz, 0.947312% cut
+Veto: 12.8943 Hz, 0.972425 % cut
+All: 431.73 Hz, 0.923261 % cut
+88190 events in 3579.49 s of data taking. Event rate is 467.614 Hz
+next event
+1658956 events in the file 172
+day and hour 8.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1160609 single Target Events
+314021 single Veto Events
+Target: 24.4572 Hz, 0.947219% cut
+Veto: 12.5699 Hz, 0.972873 % cut
+All: 427.983 Hz, 0.923636 % cut
+87562 events in 3580.22 s of data taking. Event rate is 463.368 Hz
+next event
+1669611 events in the file 173
+day and hour 8.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1159575 single Target Events
+314511 single Veto Events
+Target: 24.2205 Hz, 0.948006% cut
+Veto: 12.3826 Hz, 0.973418 % cut
+All: 430.891 Hz, 0.924993 % cut
+86810 events in 3584.15 s of data taking. Event rate is 465.832 Hz
+next event
+1664218 events in the file 174
+day and hour 8.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1163697 single Target Events
+314982 single Veto Events
+Target: 24.6827 Hz, 0.946815% cut
+Veto: 12.4932 Hz, 0.97308 % cut
+All: 428.591 Hz, 0.923501 % cut
+88511 events in 3585.95 s of data taking. Event rate is 464.094 Hz
+next event
+1674226 events in the file 175
+day and hour 8.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1171092 single Target Events
+318374 single Veto Events
+Target: 24.3822 Hz, 0.94785% cut
+Veto: 12.561 Hz, 0.973134 % cut
+All: 432.275 Hz, 0.924575 % cut
+87311 events in 3580.93 s of data taking. Event rate is 467.539 Hz
+next event
+1670880 events in the file 176
+day and hour 8.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1161493 single Target Events
+316625 single Veto Events
+Target: 24.3693 Hz, 0.947751% cut
+Veto: 12.5526 Hz, 0.973087 % cut
+All: 431.132 Hz, 0.924369 % cut
+87302 events in 3582.45 s of data taking. Event rate is 466.407 Hz
+next event
+1664052 events in the file 177
+day and hour 8.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1161696 single Target Events
+315288 single Veto Events
+Target: 24.3957 Hz, 0.947448% cut
+Veto: 12.8136 Hz, 0.972397 % cut
+All: 428.678 Hz, 0.923443 % cut
+87450 events in 3584.64 s of data taking. Event rate is 464.217 Hz
+next event
+1657595 events in the file 178
+day and hour 8.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1156001 single Target Events
+313670 single Veto Events
+Target: 24.4129 Hz, 0.947287% cut
+Veto: 12.6135 Hz, 0.972765 % cut
+All: 427.799 Hz, 0.923708 % cut
+87376 events in 3579.1 s of data taking. Event rate is 463.132 Hz
+next event
+1658275 events in the file 179
+day and hour 8.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1155698 single Target Events
+314236 single Veto Events
+Target: 23.8534 Hz, 0.948457% cut
+Veto: 12.6099 Hz, 0.972752 % cut
+All: 427.959 Hz, 0.924739 % cut
+85472 events in 3583.22 s of data taking. Event rate is 462.789 Hz
+next event
+1656247 events in the file 180
+day and hour 8.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1161311 single Target Events
+311089 single Veto Events
+Target: 24.4956 Hz, 0.947086% cut
+Veto: 12.3947 Hz, 0.973226 % cut
+All: 427.734 Hz, 0.92397 % cut
+87639 events in 3577.74 s of data taking. Event rate is 462.931 Hz
+next event
+1665544 events in the file 181
+day and hour 8.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1166206 single Target Events
+314055 single Veto Events
+Target: 24.5165 Hz, 0.947222% cut
+Veto: 12.6013 Hz, 0.972873 % cut
+All: 429.069 Hz, 0.923678 % cut
+87904 events in 3585.5 s of data taking. Event rate is 464.522 Hz
+next event
+1651873 events in the file 182
+day and hour 8.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1156440 single Target Events
+311742 single Veto Events
+Target: 24.316 Hz, 0.947308% cut
+Veto: 12.4948 Hz, 0.972924 % cut
+All: 426.309 Hz, 0.923805 % cut
+87041 events in 3579.58 s of data taking. Event rate is 461.471 Hz
+next event
+1649339 events in the file 183
+day and hour 8.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150938 single Target Events
+311864 single Veto Events
+Target: 24.5572 Hz, 0.946689% cut
+Veto: 12.5193 Hz, 0.972822 % cut
+All: 425.213 Hz, 0.923091 % cut
+87928 events in 3580.54 s of data taking. Event rate is 460.64 Hz
+next event
+1648271 events in the file 184
+day and hour 8.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1153356 single Target Events
+310679 single Veto Events
+Target: 24.3827 Hz, 0.947004% cut
+Veto: 12.6262 Hz, 0.972557 % cut
+All: 424.758 Hz, 0.923216 % cut
+87352 events in 3582.54 s of data taking. Event rate is 460.085 Hz
+next event
+1650789 events in the file 185
+day and hour 8.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1156426 single Target Events
+312545 single Veto Events
+Target: 24.2591 Hz, 0.947431% cut
+Veto: 12.3258 Hz, 0.97329 % cut
+All: 426.539 Hz, 0.924299 % cut
+86780 events in 3577.21 s of data taking. Event rate is 461.473 Hz
+next event
+1656316 events in the file 186
+day and hour 8.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1080075 single Target Events
+292335 single Veto Events
+Target: 22.79 Hz, 0.950727% cut
+Veto: 11.6036 Hz, 0.974912 % cut
+All: 429.71 Hz, 0.929058 % cut
+81612 events in 3581.05 s of data taking. Event rate is 462.522 Hz
+next event
+1665167 events in the file 187
+day and hour 8.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1166189 single Target Events
+313150 single Veto Events
+Target: 24.6971 Hz, 0.946861% cut
+Veto: 12.5711 Hz, 0.972952 % cut
+All: 429.172 Hz, 0.923417 % cut
+88485 events in 3582.81 s of data taking. Event rate is 464.765 Hz
+next event
+1681862 events in the file 188
+day and hour 8.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1182183 single Target Events
+314031 single Veto Events
+Target: 24.2828 Hz, 0.94827% cut
+Veto: 12.4642 Hz, 0.973447 % cut
+All: 434.303 Hz, 0.925207 % cut
+87003 events in 3582.91 s of data taking. Event rate is 469.412 Hz
+next event
+1640876 events in the file 189
+day and hour 8.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1138296 single Target Events
+310560 single Veto Events
+Target: 24.3784 Hz, 0.946848% cut
+Veto: 12.6029 Hz, 0.972522 % cut
+All: 423.294 Hz, 0.922905 % cut
+87216 events in 3577.59 s of data taking. Event rate is 458.654 Hz
+next event
+1644193 events in the file 190
+day and hour 8.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1147651 single Target Events
+310647 single Veto Events
+Target: 24.2455 Hz, 0.947268% cut
+Veto: 12.8114 Hz, 0.972136 % cut
+All: 424.4 Hz, 0.923029 % cut
+86701 events in 3575.96 s of data taking. Event rate is 459.79 Hz
+next event
+1652823 events in the file 191
+day and hour 8.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150754 single Target Events
+313910 single Veto Events
+Target: 24.3159 Hz, 0.947291% cut
+Veto: 12.7925 Hz, 0.97227 % cut
+All: 425.876 Hz, 0.923167 % cut
+87119 events in 3582.8 s of data taking. Event rate is 461.321 Hz
+next event
+1658015 events in the file 192
+day and hour 9
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1161103 single Target Events
+1251745 single Veto Events
+Target: 24.285 Hz, 0.947536% cut
+Veto: 99.4002 Hz, 0.785261 % cut
+All: 341.159 Hz, 0.737022 % cut
+86986 events in 3581.89 s of data taking. Event rate is 462.889 Hz
+next event
+1679016 events in the file 193
+day and hour 9.04167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1178682 single Target Events
+313890 single Veto Events
+Target: 24.5268 Hz, 0.947682% cut
+Veto: 12.5517 Hz, 0.973226 % cut
+All: 433.372 Hz, 0.924428 % cut
+87843 events in 3581.52 s of data taking. Event rate is 468.8 Hz
+next event
+1699487 events in the file 194
+day and hour 9.08333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198438 single Target Events
+315548 single Veto Events
+Target: 24.0908 Hz, 0.949184% cut
+Veto: 12.4319 Hz, 0.973777 % cut
+All: 439.191 Hz, 0.926407 % cut
+86361 events in 3584.81 s of data taking. Event rate is 474.08 Hz
+next event
+1658648 events in the file 195
+day and hour 9.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1160272 single Target Events
+313385 single Veto Events
+Target: 24.3102 Hz, 0.947513% cut
+Veto: 12.4623 Hz, 0.973093 % cut
+All: 428.023 Hz, 0.92413 % cut
+87058 events in 3581.13 s of data taking. Event rate is 463.163 Hz
+next event
+1651268 events in the file 196
+day and hour 9.16667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1141312 single Target Events
+306492 single Veto Events
+Target: 24.0167 Hz, 0.947937% cut
+Veto: 14.7956 Hz, 0.967926 % cut
+All: 423.99 Hz, 0.919117 % cut
+85970 events in 3579.59 s of data taking. Event rate is 461.301 Hz
+next event
+1653785 events in the file 197
+day and hour 9.20833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150768 single Target Events
+317486 single Veto Events
+Target: 24.6227 Hz, 0.946674% cut
+Veto: 12.6987 Hz, 0.972498 % cut
+All: 426.117 Hz, 0.922847 % cut
+88189 events in 3581.62 s of data taking. Event rate is 461.742 Hz
+next event
+1651521 events in the file 198
+day and hour 9.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150875 single Target Events
+316176 single Veto Events
+Target: 24.1405 Hz, 0.947649% cut
+Veto: 12.5494 Hz, 0.972786 % cut
+All: 426.078 Hz, 0.923982 % cut
+86458 events in 3581.45 s of data taking. Event rate is 461.132 Hz
+next event
+1656597 events in the file 199
+day and hour 9.29167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1155581 single Target Events
+314767 single Veto Events
+Target: 24.4811 Hz, 0.94702% cut
+Veto: 12.3401 Hz, 0.973295 % cut
+All: 426.904 Hz, 0.923864 % cut
+87766 events in 3585.05 s of data taking. Event rate is 462.085 Hz
+next event
+1659866 events in the file 200
+day and hour 9.33333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1159377 single Target Events
+317050 single Veto Events
+Target: 24.5112 Hz, 0.94707% cut
+Veto: 12.559 Hz, 0.97288 % cut
+All: 427.638 Hz, 0.923452 % cut
+87857 events in 3584.35 s of data taking. Event rate is 463.086 Hz
+next event
+1656220 events in the file 201
+day and hour 9.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1154629 single Target Events
+316507 single Veto Events
+Target: 24.4462 Hz, 0.947111% cut
+Veto: 12.4634 Hz, 0.973036 % cut
+All: 426.966 Hz, 0.923737 % cut
+87596 events in 3583.22 s of data taking. Event rate is 462.216 Hz
+next event
+1669250 events in the file 202
+day and hour 9.41667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1165297 single Target Events
+309124 single Veto Events
+Target: 24.3502 Hz, 0.947801% cut
+Veto: 15.1917 Hz, 0.967434 % cut
+All: 428.471 Hz, 0.918504 % cut
+87133 events in 3578.33 s of data taking. Event rate is 466.489 Hz
+next event
+1665110 events in the file 203
+day and hour 9.45833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1160811 single Target Events
+314213 single Veto Events
+Target: 24.5654 Hz, 0.947137% cut
+Veto: 12.7973 Hz, 0.972461 % cut
+All: 429.042 Hz, 0.92326 % cut
+88022 events in 3583.17 s of data taking. Event rate is 464.703 Hz
+next event
+1643447 events in the file 204
+day and hour 9.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1148749 single Target Events
+312095 single Veto Events
+Target: 24.2387 Hz, 0.947201% cut
+Veto: 12.868 Hz, 0.97197 % cut
+All: 423.66 Hz, 0.922853 % cut
+86772 events in 3579.9 s of data taking. Event rate is 459.076 Hz
+next event
+1657239 events in the file 205
+day and hour 9.54167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1158214 single Target Events
+314005 single Veto Events
+Target: 24.4259 Hz, 0.947289% cut
+Veto: 12.5962 Hz, 0.972817 % cut
+All: 428.043 Hz, 0.923717 % cut
+87355 events in 3576.33 s of data taking. Event rate is 463.392 Hz
+next event
+1651417 events in the file 206
+day and hour 9.58333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1155277 single Target Events
+311765 single Veto Events
+Target: 24.6975 Hz, 0.946468% cut
+Veto: 12.6172 Hz, 0.972652 % cut
+All: 425.7 Hz, 0.922712 % cut
+88404 events in 3579.48 s of data taking. Event rate is 461.357 Hz
+next event
+1655099 events in the file 207
+day and hour 9.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1155370 single Target Events
+314938 single Veto Events
+Target: 24.3141 Hz, 0.947328% cut
+Veto: 12.3743 Hz, 0.973193 % cut
+All: 426.569 Hz, 0.924089 % cut
+87178 events in 3585.49 s of data taking. Event rate is 461.61 Hz
+next event
+1664639 events in the file 208
+day and hour 9.66667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1163840 single Target Events
+313707 single Veto Events
+Target: 24.4254 Hz, 0.947467% cut
+Veto: 12.5448 Hz, 0.973019 % cut
+All: 429.65 Hz, 0.924066 % cut
+87448 events in 3580.21 s of data taking. Event rate is 464.956 Hz
+next event
+1687771 events in the file 209
+day and hour 9.70833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1186017 single Target Events
+313909 single Veto Events
+Target: 24.6858 Hz, 0.947552% cut
+Veto: 12.6661 Hz, 0.973089 % cut
+All: 434.983 Hz, 0.924172 % cut
+88520 events in 3585.86 s of data taking. Event rate is 470.673 Hz
+next event
+1675052 events in the file 210
+day and hour 9.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150762 single Target Events
+319265 single Veto Events
+Target: 23.8903 Hz, 0.948968% cut
+Veto: 13.4162 Hz, 0.971342 % cut
+All: 432.481 Hz, 0.92382 % cut
+85481 events in 3578.07 s of data taking. Event rate is 468.144 Hz
+next event
+1664988 events in the file 211
+day and hour 9.79167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1170756 single Target Events
+312867 single Veto Events
+Target: 24.157 Hz, 0.948024% cut
+Veto: 12.2012 Hz, 0.973748 % cut
+All: 430.113 Hz, 0.925423 % cut
+86539 events in 3582.36 s of data taking. Event rate is 464.774 Hz
+next event
+1675826 events in the file 212
+day and hour 9.83333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176419 single Target Events
+314965 single Veto Events
+Target: 24.5726 Hz, 0.947484% cut
+Veto: 12.6597 Hz, 0.972944 % cut
+All: 432.351 Hz, 0.924004 % cut
+88007 events in 3581.52 s of data taking. Event rate is 467.91 Hz
+next event
+1680263 events in the file 213
+day and hour 9.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1177641 single Target Events
+316486 single Veto Events
+Target: 24.6951 Hz, 0.947351% cut
+Veto: 12.5627 Hz, 0.973217 % cut
+All: 433.465 Hz, 0.924139 % cut
+88465 events in 3582.29 s of data taking. Event rate is 469.048 Hz
+next event
+1682257 events in the file 214
+day and hour 9.91667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1178151 single Target Events
+317036 single Veto Events
+Target: 24.49 Hz, 0.947839% cut
+Veto: 12.5166 Hz, 0.973341 % cut
+All: 434.154 Hz, 0.924697 % cut
+87748 events in 3583.01 s of data taking. Event rate is 469.51 Hz
+next event
+1681036 events in the file 215
+day and hour 9.95833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1172844 single Target Events
+314923 single Veto Events
+Target: 24.404 Hz, 0.947954% cut
+Veto: 16.3847 Hz, 0.965057 % cut
+All: 430.162 Hz, 0.917396 % cut
+87491 events in 3585.11 s of data taking. Event rate is 468.894 Hz
+next event
+1650531 events in the file 216
+day and hour 10
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1138086 single Target Events
+311409 single Veto Events
+Target: 24.1619 Hz, 0.947602% cut
+Veto: 12.5637 Hz, 0.972754 % cut
+All: 426 Hz, 0.923826 % cut
+86484 events in 3579.35 s of data taking. Event rate is 461.126 Hz
+next event
+1664440 events in the file 217
+day and hour 10.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1147545 single Target Events
+318174 single Veto Events
+Target: 23.9645 Hz, 0.948487% cut
+Veto: 13.1109 Hz, 0.971818 % cut
+All: 429.806 Hz, 0.923887 % cut
+85740 events in 3577.79 s of data taking. Event rate is 465.214 Hz
+next event
+1687238 events in the file 218
+day and hour 10.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1187511 single Target Events
+314542 single Veto Events
+Target: 24.5441 Hz, 0.947862% cut
+Veto: 12.3926 Hz, 0.973675 % cut
+All: 435.478 Hz, 0.925076 % cut
+87970 events in 3584.16 s of data taking. Event rate is 470.748 Hz
+next event
+1682191 events in the file 219
+day and hour 10.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1182493 single Target Events
+314074 single Veto Events
+Target: 24.6637 Hz, 0.947434% cut
+Veto: 12.5187 Hz, 0.973319 % cut
+All: 433.684 Hz, 0.924314 % cut
+88426 events in 3585.26 s of data taking. Event rate is 469.196 Hz
+next event
+1685150 events in the file 220
+day and hour 10.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1186500 single Target Events
+315829 single Veto Events
+Target: 24.2442 Hz, 0.948547% cut
+Veto: 12.4439 Hz, 0.97359 % cut
+All: 436.132 Hz, 0.925595 % cut
+86706 events in 3576.36 s of data taking. Event rate is 471.191 Hz
+next event
+1678715 events in the file 221
+day and hour 10.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1098060 single Target Events
+293748 single Veto Events
+Target: 23.087 Hz, 0.950697% cut
+Veto: 11.7676 Hz, 0.97487 % cut
+All: 434.956 Hz, 0.928854 % cut
+82765 events in 3584.92 s of data taking. Event rate is 468.271 Hz
+next event
+1679647 events in the file 222
+day and hour 10.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1174824 single Target Events
+314436 single Veto Events
+Target: 24.2515 Hz, 0.948333% cut
+Veto: 12.7853 Hz, 0.972762 % cut
+All: 433.994 Hz, 0.924604 % cut
+86782 events in 3578.41 s of data taking. Event rate is 469.383 Hz
+next event
+1672278 events in the file 223
+day and hour 10.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1162865 single Target Events
+317707 single Veto Events
+Target: 24.1975 Hz, 0.948187% cut
+Veto: 13.1856 Hz, 0.971767 % cut
+All: 431.29 Hz, 0.923493 % cut
+86645 events in 3580.74 s of data taking. Event rate is 467.021 Hz
+next event
+1678416 events in the file 224
+day and hour 10.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1176913 single Target Events
+315311 single Veto Events
+Target: 24.5223 Hz, 0.947655% cut
+Veto: 12.3911 Hz, 0.97355 % cut
+All: 433.226 Hz, 0.924762 % cut
+87857 events in 3582.74 s of data taking. Event rate is 468.472 Hz
+next event
+1683231 events in the file 225
+day and hour 10.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1183911 single Target Events
+313272 single Veto Events
+Target: 24.7269 Hz, 0.947405% cut
+Veto: 12.5053 Hz, 0.973401 % cut
+All: 434.556 Hz, 0.924321 % cut
+88530 events in 3580.31 s of data taking. Event rate is 470.135 Hz
+next event
+1678186 events in the file 226
+day and hour 10.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1180341 single Target Events
+312935 single Veto Events
+Target: 24.5388 Hz, 0.947666% cut
+Veto: 12.6818 Hz, 0.972954 % cut
+All: 433.359 Hz, 0.924226 % cut
+87826 events in 3579.07 s of data taking. Event rate is 468.889 Hz
+next event
+1674998 events in the file 227
+day and hour 10.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1178829 single Target Events
+314638 single Veto Events
+Target: 24.3671 Hz, 0.947938% cut
+Veto: 12.1558 Hz, 0.974029 % cut
+All: 433.175 Hz, 0.9255 % cut
+87203 events in 3578.72 s of data taking. Event rate is 468.044 Hz
+next event
+1674377 events in the file 228
+day and hour 10.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1178294 single Target Events
+313244 single Veto Events
+Target: 24.2138 Hz, 0.948253% cut
+Veto: 12.4643 Hz, 0.973363 % cut
+All: 432.924 Hz, 0.925196 % cut
+86644 events in 3578.29 s of data taking. Event rate is 467.926 Hz
+next event
+1655016 events in the file 229
+day and hour 10.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1156203 single Target Events
+313783 single Veto Events
+Target: 24.5963 Hz, 0.946807% cut
+Veto: 12.6224 Hz, 0.972702 % cut
+All: 426.853 Hz, 0.923127 % cut
+88035 events in 3579.2 s of data taking. Event rate is 462.399 Hz
+next event
+1667964 events in the file 230
+day and hour 10.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1143795 single Target Events
+319963 single Veto Events
+Target: 24.1092 Hz, 0.948315% cut
+Veto: 13.2886 Hz, 0.971512 % cut
+All: 430.72 Hz, 0.923376 % cut
+86209 events in 3575.78 s of data taking. Event rate is 466.462 Hz
+next event
+1668925 events in the file 231
+day and hour 10.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1173208 single Target Events
+314511 single Veto Events
+Target: 24.2798 Hz, 0.94797% cut
+Veto: 12.2629 Hz, 0.973721 % cut
+All: 431.751 Hz, 0.925214 % cut
+86834 events in 3576.39 s of data taking. Event rate is 466.65 Hz
+next event
+1677443 events in the file 232
+day and hour 10.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1174412 single Target Events
+316307 single Veto Events
+Target: 24.4993 Hz, 0.947661% cut
+Veto: 12.5778 Hz, 0.973129 % cut
+All: 432.664 Hz, 0.924326 % cut
+87796 events in 3583.62 s of data taking. Event rate is 468.086 Hz
+next event
+1649257 events in the file 233
+day and hour 10.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1154283 single Target Events
+312593 single Veto Events
+Target: 24.2227 Hz, 0.947438% cut
+Veto: 12.4011 Hz, 0.97309 % cut
+All: 425.859 Hz, 0.924091 % cut
+86688 events in 3578.8 s of data taking. Event rate is 460.841 Hz
+next event
+1663632 events in the file 234
+day and hour 10.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1166554 single Target Events
+313404 single Veto Events
+Target: 24.3053 Hz, 0.947713% cut
+Veto: 12.386 Hz, 0.973355 % cut
+All: 429.781 Hz, 0.924567 % cut
+86986 events in 3578.89 s of data taking. Event rate is 464.845 Hz
+next event
+1670800 events in the file 235
+day and hour 10.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1170502 single Target Events
+314138 single Veto Events
+Target: 24.4446 Hz, 0.947644% cut
+Veto: 12.6021 Hz, 0.973009 % cut
+All: 431.511 Hz, 0.924216 % cut
+87476 events in 3578.54 s of data taking. Event rate is 466.894 Hz
+next event
+1654913 events in the file 236
+day and hour 10.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1153963 single Target Events
+313679 single Veto Events
+Target: 24.5383 Hz, 0.946863% cut
+Veto: 12.4953 Hz, 0.972942 % cut
+All: 426.386 Hz, 0.923325 % cut
+87937 events in 3583.66 s of data taking. Event rate is 461.794 Hz
+next event
+1663083 events in the file 237
+day and hour 10.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1161654 single Target Events
+315319 single Veto Events
+Target: 24.4005 Hz, 0.947469% cut
+Veto: 12.4694 Hz, 0.973155 % cut
+All: 429.296 Hz, 0.924212 % cut
+87363 events in 3580.38 s of data taking. Event rate is 464.499 Hz
+next event
+1655504 events in the file 238
+day and hour 10.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1154287 single Target Events
+315166 single Veto Events
+Target: 24.3733 Hz, 0.947285% cut
+Veto: 12.4838 Hz, 0.973 % cut
+All: 427.139 Hz, 0.923824 % cut
+87270 events in 3580.55 s of data taking. Event rate is 462.36 Hz
+next event
+1663765 events in the file 239
+day and hour 10.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1158089 single Target Events
+315706 single Veto Events
+Target: 24.4132 Hz, 0.947389% cut
+Veto: 12.768 Hz, 0.972485 % cut
+All: 428.547 Hz, 0.923526 % cut
+87532 events in 3585.44 s of data taking. Event rate is 464.034 Hz
+next event
+1662805 events in the file 240
+day and hour 11
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1161430 single Target Events
+314540 single Veto Events
+Target: 24.3982 Hz, 0.947391% cut
+Veto: 12.7835 Hz, 0.972435 % cut
+All: 428.24 Hz, 0.923405 % cut
+87479 events in 3585.47 s of data taking. Event rate is 463.762 Hz
+next event
+1644584 events in the file 241
+day and hour 11.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150629 single Target Events
+309793 single Veto Events
+Target: 24.4271 Hz, 0.946873% cut
+Veto: 12.6231 Hz, 0.972546 % cut
+All: 424.412 Hz, 0.923065 % cut
+87372 events in 3576.85 s of data taking. Event rate is 459.785 Hz
+next event
+1652363 events in the file 242
+day and hour 11.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1160235 single Target Events
+311473 single Veto Events
+Target: 23.9854 Hz, 0.94799% cut
+Veto: 12.1609 Hz, 0.97363 % cut
+All: 426.663 Hz, 0.925173 % cut
+85939 events in 3582.97 s of data taking. Event rate is 461.171 Hz
+next event
+1659185 events in the file 243
+day and hour 11.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1163246 single Target Events
+312002 single Veto Events
+Target: 24.4961 Hz, 0.947091% cut
+Veto: 12.4222 Hz, 0.973169 % cut
+All: 427.745 Hz, 0.923887 % cut
+87786 events in 3583.68 s of data taking. Event rate is 462.984 Hz
+next event
+1681365 events in the file 244
+day and hour 11.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1184333 single Target Events
+312146 single Veto Events
+Target: 24.5044 Hz, 0.947751% cut
+Veto: 12.4819 Hz, 0.973386 % cut
+All: 433.673 Hz, 0.924683 % cut
+87849 events in 3585.03 s of data taking. Event rate is 468.996 Hz
+next event
+1662180 events in the file 245
+day and hour 11.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1084131 single Target Events
+291045 single Veto Events
+Target: 22.5999 Hz, 0.95136% cut
+Veto: 11.6934 Hz, 0.974833 % cut
+All: 431.876 Hz, 0.929499 % cut
+80849 events in 3577.4 s of data taking. Event rate is 464.633 Hz
+next event
+1661633 events in the file 246
+day and hour 11.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1159310 single Target Events
+312214 single Veto Events
+Target: 24.2425 Hz, 0.947716% cut
+Veto: 12.5229 Hz, 0.972992 % cut
+All: 428.53 Hz, 0.924217 % cut
+86877 events in 3583.67 s of data taking. Event rate is 463.668 Hz
+next event
+1653461 events in the file 247
+day and hour 11.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1154249 single Target Events
+315270 single Veto Events
+Target: 24.3189 Hz, 0.947268% cut
+Veto: 12.5863 Hz, 0.972708 % cut
+All: 425.937 Hz, 0.923591 % cut
+87191 events in 3585.32 s of data taking. Event rate is 461.175 Hz
+next event
+1664186 events in the file 248
+day and hour 11.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1170392 single Target Events
+311750 single Veto Events
+Target: 24.2301 Hz, 0.947802% cut
+Veto: 12.375 Hz, 0.973341 % cut
+All: 429.255 Hz, 0.924737 % cut
+86868 events in 3585.13 s of data taking. Event rate is 464.191 Hz
+next event
+1671428 events in the file 249
+day and hour 11.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1175326 single Target Events
+311658 single Veto Events
+Target: 24.232 Hz, 0.948041% cut
+Veto: 12.4261 Hz, 0.973356 % cut
+All: 431.341 Hz, 0.924888 % cut
+86845 events in 3583.9 s of data taking. Event rate is 466.371 Hz
+next event
+1658793 events in the file 250
+day and hour 11.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1164596 single Target Events
+311286 single Veto Events
+Target: 24.5021 Hz, 0.947164% cut
+Veto: 12.4781 Hz, 0.973092 % cut
+All: 428.441 Hz, 0.923884 % cut
+87644 events in 3577 s of data taking. Event rate is 463.739 Hz
+next event
+1680848 events in the file 251
+day and hour 11.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1189262 single Target Events
+309657 single Veto Events
+Target: 24.1691 Hz, 0.948551% cut
+Veto: 12.5524 Hz, 0.97328 % cut
+All: 434.745 Hz, 0.925448 % cut
+86478 events in 3578.04 s of data taking. Event rate is 469.767 Hz
+next event
+1692759 events in the file 252
+day and hour 11.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1197172 single Target Events
+1286692 single Veto Events
+Target: 23.9683 Hz, 0.949297% cut
+Veto: 99.7249 Hz, 0.78904 % cut
+All: 350.983 Hz, 0.742475 % cut
+85828 events in 3580.89 s of data taking. Event rate is 472.72 Hz
+next event
+1685730 events in the file 253
+day and hour 11.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1112770 single Target Events
+290335 single Veto Events
+Target: 22.5371 Hz, 0.952167% cut
+Veto: 11.685 Hz, 0.975199 % cut
+All: 438.462 Hz, 0.930604 % cut
+80634 events in 3577.84 s of data taking. Event rate is 471.159 Hz
+next event
+1684935 events in the file 254
+day and hour 11.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191310 single Target Events
+309964 single Veto Events
+Target: 24.3446 Hz, 0.94825% cut
+Veto: 12.5115 Hz, 0.973404 % cut
+All: 435.24 Hz, 0.925206 % cut
+87196 events in 3581.73 s of data taking. Event rate is 470.424 Hz
+next event
+1670148 events in the file 255
+day and hour 11.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1174205 single Target Events
+311288 single Veto Events
+Target: 24.3235 Hz, 0.94783% cut
+Veto: 12.6599 Hz, 0.972847 % cut
+All: 430.967 Hz, 0.924349 % cut
+87131 events in 3582.18 s of data taking. Event rate is 466.238 Hz
+next event
+1665443 events in the file 256
+day and hour 11.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1171266 single Target Events
+311007 single Veto Events
+Target: 24.1169 Hz, 0.94808% cut
+Veto: 12.2965 Hz, 0.973528 % cut
+All: 429.739 Hz, 0.925155 % cut
+86469 events in 3585.42 s of data taking. Event rate is 464.505 Hz
+next event
+1655804 events in the file 257
+day and hour 11.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1164683 single Target Events
+306978 single Veto Events
+Target: 24.3554 Hz, 0.947322% cut
+Veto: 12.4719 Hz, 0.973025 % cut
+All: 427.185 Hz, 0.923959 % cut
+87225 events in 3581.34 s of data taking. Event rate is 462.342 Hz
+next event
+1652305 events in the file 258
+day and hour 11.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1157440 single Target Events
+312200 single Veto Events
+Target: 24.2605 Hz, 0.947433% cut
+Veto: 12.2382 Hz, 0.973482 % cut
+All: 426.673 Hz, 0.924507 % cut
+86857 events in 3580.19 s of data taking. Event rate is 461.514 Hz
+next event
+1654223 events in the file 259
+day and hour 11.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1158208 single Target Events
+304500 single Veto Events
+Target: 24.0093 Hz, 0.947971% cut
+Veto: 14.5877 Hz, 0.968388 % cut
+All: 424.427 Hz, 0.919744 % cut
+86067 events in 3584.74 s of data taking. Event rate is 461.462 Hz
+next event
+1668592 events in the file 260
+day and hour 11.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1174464 single Target Events
+310241 single Veto Events
+Target: 24.2732 Hz, 0.947944% cut
+Veto: 12.4957 Hz, 0.973202 % cut
+All: 431.19 Hz, 0.924721 % cut
+86860 events in 3578.43 s of data taking. Event rate is 466.292 Hz
+next event
+1695615 events in the file 261
+day and hour 11.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198020 single Target Events
+312038 single Veto Events
+Target: 24.432 Hz, 0.948388% cut
+Veto: 12.6099 Hz, 0.973362 % cut
+All: 437.976 Hz, 0.925213 % cut
+87514 events in 3581.94 s of data taking. Event rate is 473.379 Hz
+next event
+1663852 events in the file 262
+day and hour 11.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1173246 single Target Events
+309929 single Veto Events
+Target: 24.0597 Hz, 0.948274% cut
+Veto: 12.2137 Hz, 0.973742 % cut
+All: 430.458 Hz, 0.925448 % cut
+86065 events in 3577.14 s of data taking. Event rate is 465.134 Hz
+next event
+1673199 events in the file 263
+day and hour 12
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1179910 single Target Events
+310347 single Veto Events
+Target: 24.367 Hz, 0.947902% cut
+Veto: 12.507 Hz, 0.973259 % cut
+All: 432.502 Hz, 0.92472 % cut
+87171 events in 3577.42 s of data taking. Event rate is 467.711 Hz
+next event
+1688829 events in the file 264
+day and hour 12.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1192703 single Target Events
+315163 single Veto Events
+Target: 24.1252 Hz, 0.948848% cut
+Veto: 12.3362 Hz, 0.973844 % cut
+All: 436.824 Hz, 0.926184 % cut
+86387 events in 3580.77 s of data taking. Event rate is 471.638 Hz
+next event
+1688077 events in the file 265
+day and hour 12.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1189779 single Target Events
+312198 single Veto Events
+Target: 24.3375 Hz, 0.948377% cut
+Veto: 12.5103 Hz, 0.973464 % cut
+All: 436.293 Hz, 0.925438 % cut
+87144 events in 3580.64 s of data taking. Event rate is 471.445 Hz
+next event
+1703327 events in the file 266
+day and hour 12.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195112 single Target Events
+310760 single Veto Events
+Target: 24.0663 Hz, 0.949443% cut
+Veto: 13.0525 Hz, 0.97258 % cut
+All: 440.535 Hz, 0.925449 % cut
+86115 events in 3578.24 s of data taking. Event rate is 476.023 Hz
+next event
+1668925 events in the file 267
+day and hour 12.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1172008 single Target Events
+306764 single Veto Events
+Target: 24.1873 Hz, 0.948149% cut
+Veto: 13.8361 Hz, 0.970339 % cut
+All: 430.046 Hz, 0.921908 % cut
+86536 events in 3577.75 s of data taking. Event rate is 466.474 Hz
+next event
+1679540 events in the file 268
+day and hour 12.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1185318 single Target Events
+311070 single Veto Events
+Target: 24.1129 Hz, 0.948554% cut
+Veto: 12.2754 Hz, 0.97381 % cut
+All: 433.979 Hz, 0.925908 % cut
+86405 events in 3583.35 s of data taking. Event rate is 468.706 Hz
+next event
+1658803 events in the file 269
+day and hour 12.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1165082 single Target Events
+311378 single Veto Events
+Target: 24.2054 Hz, 0.947696% cut
+Veto: 12.2863 Hz, 0.973451 % cut
+All: 427.969 Hz, 0.924772 % cut
+86762 events in 3584.4 s of data taking. Event rate is 462.783 Hz
+next event
+1660964 events in the file 270
+day and hour 12.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1166856 single Target Events
+311580 single Veto Events
+Target: 24.3689 Hz, 0.947473% cut
+Veto: 12.4675 Hz, 0.973126 % cut
+All: 428.774 Hz, 0.924214 % cut
+87245 events in 3580.18 s of data taking. Event rate is 463.933 Hz
+next event
+1673483 events in the file 271
+day and hour 12.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1178351 single Target Events
+312919 single Veto Events
+Target: 24.2593 Hz, 0.948041% cut
+Veto: 12.2742 Hz, 0.973711 % cut
+All: 432.024 Hz, 0.925312 % cut
+86952 events in 3584.28 s of data taking. Event rate is 466.895 Hz
+next event
+1675276 events in the file 272
+day and hour 12.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1175392 single Target Events
+312485 single Veto Events
+Target: 24.4071 Hz, 0.947786% cut
+Veto: 13.9052 Hz, 0.970253 % cut
+All: 430.924 Hz, 0.921876 % cut
+87473 events in 3583.92 s of data taking. Event rate is 467.443 Hz
+next event
+1653627 events in the file 273
+day and hour 12.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1156829 single Target Events
+309355 single Veto Events
+Target: 24.2521 Hz, 0.947557% cut
+Veto: 12.5574 Hz, 0.972846 % cut
+All: 427.322 Hz, 0.924043 % cut
+86721 events in 3575.81 s of data taking. Event rate is 462.448 Hz
+next event
+1640321 events in the file 274
+day and hour 12.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1150404 single Target Events
+306698 single Veto Events
+Target: 24.1673 Hz, 0.947237% cut
+Veto: 12.5029 Hz, 0.972703 % cut
+All: 423.03 Hz, 0.923583 % cut
+86549 events in 3581.24 s of data taking. Event rate is 458.032 Hz
+next event
+1656876 events in the file 275
+day and hour 12.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1163171 single Target Events
+312477 single Veto Events
+Target: 24.2641 Hz, 0.947578% cut
+Veto: 12.2196 Hz, 0.9736 % cut
+All: 428.048 Hz, 0.924792 % cut
+86857 events in 3579.66 s of data taking. Event rate is 462.859 Hz
+next event
+1658505 events in the file 276
+day and hour 12.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1164703 single Target Events
+310725 single Veto Events
+Target: 24.3958 Hz, 0.947281% cut
+Veto: 12.5701 Hz, 0.972836 % cut
+All: 427.453 Hz, 0.923712 % cut
+87434 events in 3583.98 s of data taking. Event rate is 462.756 Hz
+next event
+1655717 events in the file 277
+day and hour 12.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1165842 single Target Events
+308829 single Veto Events
+Target: 24.1777 Hz, 0.947785% cut
+Veto: 12.4633 Hz, 0.973084 % cut
+All: 428.039 Hz, 0.924416 % cut
+86454 events in 3575.77 s of data taking. Event rate is 463.037 Hz
+next event
+1679244 events in the file 278
+day and hour 12.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1177510 single Target Events
+317338 single Veto Events
+Target: 24.3141 Hz, 0.948136% cut
+Veto: 12.6642 Hz, 0.972986 % cut
+All: 433.467 Hz, 0.924626 % cut
+87093 events in 3581.99 s of data taking. Event rate is 468.802 Hz
+next event
+1414970 events in the file 279
+day and hour 13.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+395864 single Target Events
+207142 single Veto Events
+Target: 1027.4 Hz, 0.358535% cut
+Veto: 80.2557 Hz, 0.949892 % cut
+All: 561.078 Hz, 0.350315 % cut
+907654 events in 883.451 s of data taking. Event rate is 1601.64 Hz
+next event
+1423688 events in the file 280
+day and hour 13.2917
+2 entries in slowChain
+get entry
+24 PMTs excluded from run for bad fits
+282959 single Target Events
+3 single Veto Events
+Target: 933.422 Hz, 0.420849% cut
+Veto: 1599.62 Hz, 0.00749743 % cut
+All: 12.0837 Hz, 0.00749743 % cut
+824531 events in 883.342 s of data taking. Event rate is 1611.71 Hz
+next event
+414294 events in the file 281
+day and hour 13.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+289045 single Target Events
+77509 single Veto Events
+Target: 24.4577 Hz, 0.947713% cut
+Veto: 13.1716 Hz, 0.971841 % cut
+All: 431.742 Hz, 0.922992 % cut
+21662 events in 885.692 s of data taking. Event rate is 467.763 Hz
+next event
+412977 events in the file 282
+day and hour 13.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+281263 single Target Events
+79078 single Veto Events
+Target: 23.8517 Hz, 0.94931% cut
+Veto: 14.1841 Hz, 0.969855 % cut
+All: 434.091 Hz, 0.922545 % cut
+20934 events in 877.674 s of data taking. Event rate is 470.536 Hz
+next event
+1673006 events in the file 283
+day and hour 13.4167
+2 entries in slowChain
+get entry
+22 PMTs excluded from run for bad fits
+710522 single Target Events
+238114 single Veto Events
+Target: 15.1894 Hz, 0.967527% cut
+Veto: 9.61822 Hz, 0.979438 % cut
+All: 444.305 Hz, 0.949861 % cut
+54327 events in 3576.65 s of data taking. Event rate is 467.758 Hz
+next event
+1689885 events in the file 284
+day and hour 13.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1192741 single Target Events
+313497 single Veto Events
+Target: 24.2379 Hz, 0.948576% cut
+Veto: 12.0622 Hz, 0.974408 % cut
+All: 436.673 Hz, 0.926464 % cut
+86901 events in 3585.33 s of data taking. Event rate is 471.333 Hz
+next event
+1693931 events in the file 285
+day and hour 13.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191812 single Target Events
+314325 single Veto Events
+Target: 24.9659 Hz, 0.947248% cut
+Veto: 12.4673 Hz, 0.973657 % cut
+All: 437.521 Hz, 0.924464 % cut
+89358 events in 3579.2 s of data taking. Event rate is 473.27 Hz
+next event
+1690333 events in the file 286
+day and hour 13.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190615 single Target Events
+311904 single Veto Events
+Target: 24.6956 Hz, 0.947654% cut
+Veto: 12.4917 Hz, 0.973522 % cut
+All: 436.236 Hz, 0.924677 % cut
+88483 events in 3582.95 s of data taking. Event rate is 471.771 Hz
+next event
+1684045 events in the file 287
+day and hour 13.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1189122 single Target Events
+312199 single Veto Events
+Target: 24.5504 Hz, 0.947799% cut
+Veto: 12.4008 Hz, 0.973633 % cut
+All: 435.009 Hz, 0.92495 % cut
+87909 events in 3580.75 s of data taking. Event rate is 470.305 Hz
+next event
+1682607 events in the file 288
+day and hour 13.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1121425 single Target Events
+294241 single Veto Events
+Target: 23.1289 Hz, 0.950825% cut
+Veto: 11.8975 Hz, 0.974704 % cut
+All: 436.89 Hz, 0.928894 % cut
+82743 events in 3577.48 s of data taking. Event rate is 470.333 Hz
+next event
+1698666 events in the file 289
+day and hour 13.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199211 single Target Events
+315058 single Veto Events
+Target: 24.3492 Hz, 0.948672% cut
+Veto: 12.5177 Hz, 0.973613 % cut
+All: 439.186 Hz, 0.925799 % cut
+87189 events in 3580.77 s of data taking. Event rate is 474.386 Hz
+next event
+1706967 events in the file 290
+day and hour 13.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1208849 single Target Events
+311275 single Veto Events
+Target: 24.5615 Hz, 0.948416% cut
+Veto: 12.5608 Hz, 0.97362 % cut
+All: 440.686 Hz, 0.925525 % cut
+88052 events in 3584.96 s of data taking. Event rate is 476.147 Hz
+next event
+1703132 events in the file 291
+day and hour 13.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1205129 single Target Events
+314476 single Veto Events
+Target: 24.3884 Hz, 0.948662% cut
+Veto: 12.5903 Hz, 0.973497 % cut
+All: 439.763 Hz, 0.925716 % cut
+87436 events in 3585.15 s of data taking. Event rate is 475.052 Hz
+next event
+1707570 events in the file 292
+day and hour 13.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1206978 single Target Events
+315336 single Veto Events
+Target: 24.3841 Hz, 0.948841% cut
+Veto: 12.5865 Hz, 0.973593 % cut
+All: 441.324 Hz, 0.925923 % cut
+87358 events in 3582.58 s of data taking. Event rate is 476.632 Hz
+next event
+1692370 events in the file 293
+day and hour 13.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1192054 single Target Events
+298416 single Veto Events
+Target: 24.0197 Hz, 0.949141% cut
+Veto: 16.1923 Hz, 0.965714 % cut
+All: 433.495 Hz, 0.917886 % cut
+86073 events in 3583.44 s of data taking. Event rate is 472.276 Hz
+next event
+1688458 events in the file 294
+day and hour 13.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191174 single Target Events
+316118 single Veto Events
+Target: 24.2303 Hz, 0.948644% cut
+Veto: 12.3133 Hz, 0.973902 % cut
+All: 436.91 Hz, 0.926024 % cut
+86712 events in 3578.66 s of data taking. Event rate is 471.813 Hz
+next event
+1680681 events in the file 295
+day and hour 13.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1105085 single Target Events
+292257 single Veto Events
+Target: 22.7132 Hz, 0.951585% cut
+Veto: 11.5597 Hz, 0.975359 % cut
+All: 436.405 Hz, 0.93024 % cut
+81371 events in 3582.54 s of data taking. Event rate is 469.131 Hz
+next event
+1707334 events in the file 296
+day and hour 13.9583
+2 entries in slowChain
+get entry
+1 PMTs excluded from run for bad fits
+1208363 single Target Events
+316485 single Veto Events
+Target: 24.3493 Hz, 0.948868% cut
+Veto: 12.4307 Hz, 0.973896 % cut
+All: 441.018 Hz, 0.926116 % cut
+87300 events in 3585.32 s of data taking. Event rate is 476.201 Hz
+next event
+1698031 events in the file 297
+day and hour 14
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1204872 single Target Events
+311760 single Veto Events
+Target: 24.2256 Hz, 0.948878% cut
+Veto: 12.232 Hz, 0.974188 % cut
+All: 439.049 Hz, 0.926494 % cut
+86806 events in 3583.23 s of data taking. Event rate is 473.882 Hz
+next event
+1708709 events in the file 298
+day and hour 14.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1211103 single Target Events
+313428 single Veto Events
+Target: 24.56 Hz, 0.948493% cut
+Veto: 12.4263 Hz, 0.973939 % cut
+All: 441.475 Hz, 0.925865 % cut
+88011 events in 3583.52 s of data taking. Event rate is 476.825 Hz
+next event
+1715330 events in the file 299
+day and hour 14.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1219525 single Target Events
+314346 single Veto Events
+Target: 24.2569 Hz, 0.949304% cut
+Veto: 12.2513 Hz, 0.974395 % cut
+All: 443.634 Hz, 0.927184 % cut
+86961 events in 3584.99 s of data taking. Event rate is 478.475 Hz
+next event
+1723801 events in the file 300
+day and hour 14.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1222967 single Target Events
+316442 single Veto Events
+Target: 24.5063 Hz, 0.949057% cut
+Veto: 12.5333 Hz, 0.973946 % cut
+All: 445.715 Hz, 0.926544 % cut
+87816 events in 3583.41 s of data taking. Event rate is 481.051 Hz
+next event
+1689629 events in the file 301
+day and hour 14.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190051 single Target Events
+315798 single Veto Events
+Target: 24.5705 Hz, 0.947984% cut
+Veto: 12.4168 Hz, 0.973714 % cut
+All: 437.073 Hz, 0.925282 % cut
+87887 events in 3576.94 s of data taking. Event rate is 472.368 Hz
+next event
+1699246 events in the file 302
+day and hour 14.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1201599 single Target Events
+314343 single Veto Events
+Target: 24.3713 Hz, 0.948647% cut
+Veto: 12.46 Hz, 0.973745 % cut
+All: 439.421 Hz, 0.925906 % cut
+87261 events in 3580.49 s of data taking. Event rate is 474.585 Hz
+next event
+1686991 events in the file 303
+day and hour 14.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191024 single Target Events
+314097 single Veto Events
+Target: 24.2793 Hz, 0.948482% cut
+Veto: 12.2493 Hz, 0.974008 % cut
+All: 436.393 Hz, 0.925982 % cut
+86911 events in 3579.63 s of data taking. Event rate is 471.276 Hz
+next event
+1693098 events in the file 304
+day and hour 14.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1194086 single Target Events
+313647 single Veto Events
+Target: 24.3904 Hz, 0.948382% cut
+Veto: 12.2438 Hz, 0.974088 % cut
+All: 437.502 Hz, 0.925892 % cut
+87394 events in 3583.13 s of data taking. Event rate is 472.52 Hz
+next event
+1699416 events in the file 305
+day and hour 14.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1201552 single Target Events
+307663 single Veto Events
+Target: 24.0154 Hz, 0.94935% cut
+Veto: 14.3065 Hz, 0.969827 % cut
+All: 437.333 Hz, 0.92236 % cut
+86075 events in 3584.16 s of data taking. Event rate is 474.146 Hz
+next event
+1691369 events in the file 306
+day and hour 14.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1194950 single Target Events
+311855 single Veto Events
+Target: 24.3517 Hz, 0.948402% cut
+Veto: 12.4998 Hz, 0.973514 % cut
+All: 436.766 Hz, 0.925457 % cut
+87272 events in 3583.82 s of data taking. Event rate is 471.946 Hz
+next event
+1693867 events in the file 307
+day and hour 14.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198946 single Target Events
+311574 single Veto Events
+Target: 24.3658 Hz, 0.94846% cut
+Veto: 12.5371 Hz, 0.973481 % cut
+All: 437.539 Hz, 0.925509 % cut
+87302 events in 3582.97 s of data taking. Event rate is 472.755 Hz
+next event
+1695934 events in the file 308
+day and hour 14.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1202180 single Target Events
+310320 single Veto Events
+Target: 24.3863 Hz, 0.948532% cut
+Veto: 12.5169 Hz, 0.973583 % cut
+All: 438.574 Hz, 0.925621 % cut
+87286 events in 3579.31 s of data taking. Event rate is 473.816 Hz
+next event
+1692501 events in the file 309
+day and hour 14.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1200892 single Target Events
+312470 single Veto Events
+Target: 24 Hz, 0.949272% cut
+Veto: 12.1606 Hz, 0.974297 % cut
+All: 438.574 Hz, 0.926997 % cut
+85857 events in 3577.38 s of data taking. Event rate is 473.112 Hz
+next event
+1736819 events in the file 310
+day and hour 14.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1241522 single Target Events
+312961 single Veto Events
+Target: 24.4683 Hz, 0.949576% cut
+Veto: 12.3399 Hz, 0.97457 % cut
+All: 450.102 Hz, 0.927562 % cut
+87577 events in 3579.2 s of data taking. Event rate is 485.253 Hz
+next event
+1712817 events in the file 311
+day and hour 14.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1219384 single Target Events
+313180 single Veto Events
+Target: 24.1644 Hz, 0.949525% cut
+Veto: 12.0365 Hz, 0.974858 % cut
+All: 444.184 Hz, 0.927822 % cut
+86455 events in 3577.78 s of data taking. Event rate is 478.738 Hz
+next event
+1737821 events in the file 312
+day and hour 14.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1242783 single Target Events
+312553 single Veto Events
+Target: 24.3705 Hz, 0.949825% cut
+Veto: 12.4415 Hz, 0.974385 % cut
+All: 450.544 Hz, 0.927609 % cut
+87196 events in 3577.94 s of data taking. Event rate is 485.705 Hz
+next event
+1747678 events in the file 313
+day and hour 14.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1249289 single Target Events
+313658 single Veto Events
+Target: 24.4726 Hz, 0.949825% cut
+Veto: 12.3945 Hz, 0.974588 % cut
+All: 452.505 Hz, 0.927752 % cut
+87690 events in 3583.19 s of data taking. Event rate is 487.744 Hz
+next event
+1725668 events in the file 314
+day and hour 14.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1229069 single Target Events
+311670 single Veto Events
+Target: 24.5146 Hz, 0.949162% cut
+Veto: 12.588 Hz, 0.973895 % cut
+All: 446.815 Hz, 0.926592 % cut
+87729 events in 3578.64 s of data taking. Event rate is 482.213 Hz
+next event
+1691484 events in the file 315
+day and hour 14.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198507 single Target Events
+311414 single Veto Events
+Target: 24.1761 Hz, 0.948864% cut
+Veto: 12.3903 Hz, 0.973793 % cut
+All: 437.884 Hz, 0.926182 % cut
+86495 events in 3577.71 s of data taking. Event rate is 472.784 Hz
+next event
+1729549 events in the file 316
+day and hour 14.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1233161 single Target Events
+314376 single Veto Events
+Target: 24.2844 Hz, 0.94969% cut
+Veto: 12.2915 Hz, 0.974536 % cut
+All: 447.781 Hz, 0.927672 % cut
+87014 events in 3583.12 s of data taking. Event rate is 482.693 Hz
+next event
+1711324 events in the file 317
+day and hour 14.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1214875 single Target Events
+314493 single Veto Events
+Target: 24.1863 Hz, 0.949409% cut
+Veto: 12.326 Hz, 0.974218 % cut
+All: 443.221 Hz, 0.927089 % cut
+86577 events in 3579.59 s of data taking. Event rate is 478.078 Hz
+next event
+1695610 events in the file 318
+day and hour 14.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1196383 single Target Events
+314150 single Veto Events
+Target: 24.4265 Hz, 0.94835% cut
+Veto: 12.4351 Hz, 0.973706 % cut
+All: 437.685 Hz, 0.925494 % cut
+87579 events in 3585.4 s of data taking. Event rate is 472.92 Hz
+next event
+1692062 events in the file 319
+day and hour 14.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1196026 single Target Events
+312316 single Veto Events
+Target: 24.276 Hz, 0.948667% cut
+Veto: 12.4405 Hz, 0.973694 % cut
+All: 437.858 Hz, 0.92588 % cut
+86859 events in 3577.98 s of data taking. Event rate is 472.91 Hz
+next event
+1696196 events in the file 320
+day and hour 14.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198333 single Target Events
+312910 single Veto Events
+Target: 24.3727 Hz, 0.948522% cut
+Veto: 12.3696 Hz, 0.973874 % cut
+All: 438.403 Hz, 0.925962 % cut
+87317 events in 3582.58 s of data taking. Event rate is 473.456 Hz
+next event
+1711714 events in the file 321
+day and hour 15
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1211194 single Target Events
+314191 single Veto Events
+Target: 24.542 Hz, 0.948646% cut
+Veto: 12.266 Hz, 0.974333 % cut
+All: 442.774 Hz, 0.926507 % cut
+87904 events in 3581.77 s of data taking. Event rate is 477.896 Hz
+next event
+1752230 events in the file 322
+day and hour 15.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1251424 single Target Events
+316799 single Veto Events
+Target: 24.2403 Hz, 0.950401% cut
+Veto: 12.29 Hz, 0.974853 % cut
+All: 453.853 Hz, 0.928637 % cut
+86908 events in 3585.27 s of data taking. Event rate is 488.73 Hz
+next event
+1714318 events in the file 323
+day and hour 15.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1214803 single Target Events
+316742 single Veto Events
+Target: 24.3184 Hz, 0.949205% cut
+Veto: 12.3044 Hz, 0.974299 % cut
+All: 443.82 Hz, 0.927018 % cut
+87078 events in 3580.74 s of data taking. Event rate is 478.761 Hz
+next event
+1686500 events in the file 324
+day and hour 15.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1109388 single Target Events
+293610 single Veto Events
+Target: 22.735 Hz, 0.951778% cut
+Veto: 11.592 Hz, 0.975413 % cut
+All: 438.672 Hz, 0.930439 % cut
+81326 events in 3577.12 s of data taking. Event rate is 471.468 Hz
+next event
+1701979 events in the file 325
+day and hour 15.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1195327 single Target Events
+318232 single Veto Events
+Target: 24.5429 Hz, 0.948361% cut
+Veto: 12.5903 Hz, 0.97351 % cut
+All: 439.83 Hz, 0.925412 % cut
+87888 events in 3581 s of data taking. Event rate is 475.28 Hz
+next event
+1713316 events in the file 326
+day and hour 15.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1206190 single Target Events
+314943 single Veto Events
+Target: 24.5208 Hz, 0.948729% cut
+Veto: 12.6332 Hz, 0.973585 % cut
+All: 442.772 Hz, 0.925797 % cut
+87843 events in 3582.39 s of data taking. Event rate is 478.261 Hz
+next event
+1690471 events in the file 327
+day and hour 15.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1190271 single Target Events
+315740 single Veto Events
+Target: 24.3517 Hz, 0.948415% cut
+Veto: 12.2548 Hz, 0.97404 % cut
+All: 437.179 Hz, 0.92609 % cut
+87203 events in 3580.97 s of data taking. Event rate is 472.07 Hz
+next event
+1689267 events in the file 328
+day and hour 15.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1193618 single Target Events
+315251 single Veto Events
+Target: 24.1589 Hz, 0.948806% cut
+Veto: 12.0508 Hz, 0.974463 % cut
+All: 437.341 Hz, 0.926756 % cut
+86481 events in 3579.67 s of data taking. Event rate is 471.906 Hz
+next event
+1689485 events in the file 329
+day and hour 15.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1189825 single Target Events
+314938 single Veto Events
+Target: 24.4001 Hz, 0.948271% cut
+Veto: 12.3454 Hz, 0.973828 % cut
+All: 436.601 Hz, 0.925606 % cut
+87395 events in 3581.75 s of data taking. Event rate is 471.693 Hz
+next event
+1690467 events in the file 330
+day and hour 15.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191471 single Target Events
+315862 single Veto Events
+Target: 24.3553 Hz, 0.948435% cut
+Veto: 12.529 Hz, 0.973474 % cut
+All: 437.117 Hz, 0.925464 % cut
+87169 events in 3579.05 s of data taking. Event rate is 472.322 Hz
+next event
+1668068 events in the file 331
+day and hour 15.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1169897 single Target Events
+314902 single Veto Events
+Target: 24.3533 Hz, 0.947707% cut
+Veto: 12.3838 Hz, 0.973409 % cut
+All: 430.596 Hz, 0.9246 % cut
+87228 events in 3581.77 s of data taking. Event rate is 465.711 Hz
+next event
+1690569 events in the file 332
+day and hour 15.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191349 single Target Events
+314185 single Veto Events
+Target: 24.2655 Hz, 0.948533% cut
+Veto: 12.3722 Hz, 0.973759 % cut
+All: 436.469 Hz, 0.925752 % cut
+87009 events in 3585.7 s of data taking. Event rate is 471.475 Hz
+next event
+1681102 events in the file 333
+day and hour 15.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1185063 single Target Events
+315483 single Veto Events
+Target: 24.0998 Hz, 0.948596% cut
+Veto: 12.1078 Hz, 0.974175 % cut
+All: 434.253 Hz, 0.926239 % cut
+86415 events in 3585.71 s of data taking. Event rate is 468.834 Hz
+next event
+1678019 events in the file 334
+day and hour 15.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1179882 single Target Events
+315420 single Veto Events
+Target: 24.4104 Hz, 0.94793% cut
+Veto: 12.3427 Hz, 0.973672 % cut
+All: 433.749 Hz, 0.925229 % cut
+87374 events in 3579.38 s of data taking. Event rate is 468.802 Hz
+next event
+1698612 events in the file 335
+day and hour 15.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1198195 single Target Events
+314447 single Veto Events
+Target: 24.2948 Hz, 0.948828% cut
+Veto: 14.7677 Hz, 0.968895 % cut
+All: 437.528 Hz, 0.92157 % cut
+86922 events in 3577.8 s of data taking. Event rate is 474.764 Hz
+next event
+1699032 events in the file 336
+day and hour 15.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1202693 single Target Events
+313948 single Veto Events
+Target: 24.3835 Hz, 0.948656% cut
+Veto: 12.4652 Hz, 0.973752 % cut
+All: 439.697 Hz, 0.925863 % cut
+87235 events in 3577.63 s of data taking. Event rate is 474.905 Hz
+next event
+1691551 events in the file 337
+day and hour 15.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1191677 single Target Events
+316236 single Veto Events
+Target: 24.606 Hz, 0.94795% cut
+Veto: 12.4656 Hz, 0.973631 % cut
+All: 437.333 Hz, 0.925115 % cut
+88046 events in 3578.24 s of data taking. Event rate is 472.733 Hz
+next event
+1711385 events in the file 338
+day and hour 15.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1213316 single Target Events
+1304272 single Veto Events
+Target: 24.3326 Hz, 0.949141% cut
+Veto: 100.675 Hz, 0.789573 % cut
+All: 355.314 Hz, 0.74266 % cut
+87039 events in 3577.05 s of data taking. Event rate is 478.435 Hz
+next event
+1705917 events in the file 339
+day and hour 16
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1203692 single Target Events
+319470 single Veto Events
+Target: 24.3786 Hz, 0.948882% cut
+Veto: 12.5073 Hz, 0.973774 % cut
+All: 441.699 Hz, 0.926171 % cut
+87203 events in 3577.03 s of data taking. Event rate is 476.908 Hz
+next event
+1714861 events in the file 340
+day and hour 16.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1212725 single Target Events
+318960 single Veto Events
+Target: 24.4265 Hz, 0.949023% cut
+Veto: 12.3054 Hz, 0.974319 % cut
+All: 444.081 Hz, 0.926774 % cut
+87418 events in 3578.83 s of data taking. Event rate is 479.169 Hz
+next event
+1696532 events in the file 341
+day and hour 16.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1197288 single Target Events
+316916 single Veto Events
+Target: 24.4157 Hz, 0.948526% cut
+Veto: 12.4161 Hz, 0.973824 % cut
+All: 439.139 Hz, 0.925817 % cut
+87328 events in 3576.72 s of data taking. Event rate is 474.326 Hz
+next event
+1722382 events in the file 342
+day and hour 16.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1217481 single Target Events
+303285 single Veto Events
+Target: 24.063 Hz, 0.949904% cut
+Veto: 16.5622 Hz, 0.96552 % cut
+All: 441.097 Hz, 0.918299 % cut
+86284 events in 3585.75 s of data taking. Event rate is 480.341 Hz
+next event
+1706762 events in the file 343
+day and hour 16.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1204730 single Target Events
+292151 single Veto Events
+Target: 23.717 Hz, 0.950283% cut
+Veto: 19.0899 Hz, 0.959983 % cut
+All: 435.432 Hz, 0.912779 % cut
+84855 events in 3577.82 s of data taking. Event rate is 477.04 Hz
+next event
+1719151 events in the file 344
+day and hour 16.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1220064 single Target Events
+312478 single Veto Events
+Target: 24.0231 Hz, 0.950005% cut
+Veto: 13.6367 Hz, 0.97162 % cut
+All: 444.355 Hz, 0.924758 % cut
+85949 events in 3577.77 s of data taking. Event rate is 480.509 Hz
+next event
+1706324 events in the file 345
+day and hour 16.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1204871 single Target Events
+319551 single Veto Events
+Target: 24.3032 Hz, 0.948964% cut
+Veto: 12.3838 Hz, 0.973994 % cut
+All: 441.173 Hz, 0.926452 % cut
+87084 events in 3583.24 s of data taking. Event rate is 476.196 Hz
+next event
+1726670 events in the file 346
+day and hour 16.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1225012 single Target Events
+317803 single Veto Events
+Target: 24.518 Hz, 0.949164% cut
+Veto: 12.4211 Hz, 0.974246 % cut
+All: 447.01 Hz, 0.926838 % cut
+87777 events in 3580.11 s of data taking. Event rate is 482.295 Hz
+next event
+1724583 events in the file 347
+day and hour 16.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1220664 single Target Events
+293621 single Veto Events
+Target: 23.7155 Hz, 0.950708% cut
+Veto: 18.7408 Hz, 0.961047 % cut
+All: 439.89 Hz, 0.914307 % cut
+85009 events in 3584.53 s of data taking. Event rate is 481.119 Hz
+next event
+1718807 events in the file 348
+day and hour 16.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216488 single Target Events
+292611 single Veto Events
+Target: 23.7176 Hz, 0.950638% cut
+Veto: 19.6891 Hz, 0.959023 % cut
+All: 438.33 Hz, 0.912261 % cut
+84843 events in 3577.21 s of data taking. Event rate is 480.488 Hz
+next event
+1724057 events in the file 349
+day and hour 16.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1223483 single Target Events
+317057 single Veto Events
+Target: 24.4788 Hz, 0.949101% cut
+Veto: 12.4378 Hz, 0.974138 % cut
+All: 445.65 Hz, 0.926648 % cut
+87753 events in 3584.86 s of data taking. Event rate is 480.927 Hz
+next event
+1705018 events in the file 350
+day and hour 16.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1207486 single Target Events
+316369 single Veto Events
+Target: 24.292 Hz, 0.949011% cut
+Veto: 12.2175 Hz, 0.974355 % cut
+All: 441.56 Hz, 0.926844 % cut
+86938 events in 3578.87 s of data taking. Event rate is 476.412 Hz
+next event
+1719534 events in the file 351
+day and hour 16.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1224503 single Target Events
+313413 single Veto Events
+Target: 24.309 Hz, 0.949444% cut
+Veto: 12.368 Hz, 0.974278 % cut
+All: 445.821 Hz, 0.927187 % cut
+86933 events in 3576.17 s of data taking. Event rate is 480.832 Hz
+next event
+1701558 events in the file 352
+day and hour 16.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1123946 single Target Events
+293187 single Veto Events
+Target: 22.855 Hz, 0.951907% cut
+Veto: 11.6323 Hz, 0.975522 % cut
+All: 442.288 Hz, 0.930692 % cut
+81833 events in 3580.53 s of data taking. Event rate is 475.225 Hz
+next event
+1714779 events in the file 353
+day and hour 16.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1218260 single Target Events
+313959 single Veto Events
+Target: 24.2226 Hz, 0.949437% cut
+Veto: 12.5533 Hz, 0.973796 % cut
+All: 443.948 Hz, 0.926708 % cut
+86704 events in 3579.47 s of data taking. Event rate is 479.059 Hz
+next event
+1696571 events in the file 354
+day and hour 16.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199023 single Target Events
+301853 single Veto Events
+Target: 23.946 Hz, 0.949406% cut
+Veto: 15.5691 Hz, 0.967105 % cut
+All: 435.265 Hz, 0.919651 % cut
+85837 events in 3584.6 s of data taking. Event rate is 473.294 Hz
+next event
+1697199 events in the file 355
+day and hour 16.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1201405 single Target Events
+312768 single Veto Events
+Target: 24.2897 Hz, 0.948816% cut
+Veto: 12.4738 Hz, 0.973715 % cut
+All: 439.457 Hz, 0.926033 % cut
+86869 events in 3576.37 s of data taking. Event rate is 474.559 Hz
+next event
+1701722 events in the file 356
+day and hour 16.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1205235 single Target Events
+315570 single Veto Events
+Target: 24.2053 Hz, 0.949058% cut
+Veto: 12.0629 Hz, 0.974613 % cut
+All: 440.499 Hz, 0.927064 % cut
+86689 events in 3581.4 s of data taking. Event rate is 475.155 Hz
+next event
+1716154 events in the file 357
+day and hour 16.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216360 single Target Events
+317410 single Veto Events
+Target: 24.2632 Hz, 0.949424% cut
+Veto: 12.4662 Hz, 0.974015 % cut
+All: 444.656 Hz, 0.926869 % cut
+86796 events in 3577.26 s of data taking. Event rate is 479.739 Hz
+next event
+1738070 events in the file 358
+day and hour 16.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1237932 single Target Events
+317847 single Veto Events
+Target: 24.3304 Hz, 0.949895% cut
+Veto: 12.0811 Hz, 0.975121 % cut
+All: 450.825 Hz, 0.92841 % cut
+87086 events in 3579.31 s of data taking. Event rate is 485.588 Hz
+next event
+1717724 events in the file 359
+day and hour 16.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216964 single Target Events
+316532 single Veto Events
+Target: 24.5731 Hz, 0.948794% cut
+Veto: 12.4777 Hz, 0.973999 % cut
+All: 444.506 Hz, 0.926273 % cut
+87958 events in 3579.44 s of data taking. Event rate is 479.887 Hz
+next event
+1703113 events in the file 360
+day and hour 16.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1203474 single Target Events
+315105 single Veto Events
+Target: 24.5116 Hz, 0.948503% cut
+Veto: 12.4076 Hz, 0.973932 % cut
+All: 440.708 Hz, 0.925903 % cut
+87706 events in 3578.14 s of data taking. Event rate is 475.977 Hz
+next event
+1711260 events in the file 361
+day and hour 16.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1210649 single Target Events
+316462 single Veto Events
+Target: 24.3621 Hz, 0.949017% cut
+Veto: 12.4776 Hz, 0.973888 % cut
+All: 442.659 Hz, 0.926368 % cut
+87246 events in 3581.21 s of data taking. Event rate is 477.843 Hz
+next event
+1706623 events in the file 362
+day and hour 16.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1204747 single Target Events
+314399 single Veto Events
+Target: 24.3601 Hz, 0.948821% cut
+Veto: 12.4209 Hz, 0.973905 % cut
+All: 440.866 Hz, 0.926227 % cut
+87343 events in 3585.49 s of data taking. Event rate is 475.98 Hz
+next event
+1717235 events in the file 363
+day and hour 17
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1218211 single Target Events
+318022 single Veto Events
+Target: 24.2659 Hz, 0.949406% cut
+Veto: 12.0465 Hz, 0.974883 % cut
+All: 444.966 Hz, 0.927737 % cut
+86881 events in 3580.37 s of data taking. Event rate is 479.625 Hz
+next event
+1739416 events in the file 364
+day and hour 17.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1235972 single Target Events
+318426 single Veto Events
+Target: 24.3719 Hz, 0.949779% cut
+Veto: 12.3142 Hz, 0.974625 % cut
+All: 450.249 Hz, 0.927786 % cut
+87355 events in 3584.25 s of data taking. Event rate is 485.295 Hz
+next event
+1730525 events in the file 365
+day and hour 17.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1229265 single Target Events
+318112 single Veto Events
+Target: 24.4331 Hz, 0.949403% cut
+Veto: 12.4752 Hz, 0.974166 % cut
+All: 447.603 Hz, 0.92692 % cut
+87560 events in 3583.66 s of data taking. Event rate is 482.893 Hz
+next event
+1699864 events in the file 366
+day and hour 17.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1117063 single Target Events
+296149 single Veto Events
+Target: 22.8488 Hz, 0.951849% cut
+Veto: 11.5596 Hz, 0.975639 % cut
+All: 441.691 Hz, 0.930819 % cut
+81851 events in 3582.29 s of data taking. Event rate is 474.519 Hz
+next event
+1708910 events in the file 367
+day and hour 17.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1205434 single Target Events
+319881 single Veto Events
+Target: 24.5542 Hz, 0.948587% cut
+Veto: 12.5947 Hz, 0.973628 % cut
+All: 442.101 Hz, 0.925703 % cut
+87861 events in 3578.24 s of data taking. Event rate is 477.584 Hz
+next event
+1740038 events in the file 368
+day and hour 17.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1237476 single Target Events
+317404 single Veto Events
+Target: 24.2914 Hz, 0.949975% cut
+Veto: 12.3296 Hz, 0.974609 % cut
+All: 450.615 Hz, 0.92799 % cut
+87046 events in 3583.41 s of data taking. Event rate is 485.582 Hz
+next event
+1739461 events in the file 369
+day and hour 17.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1240251 single Target Events
+317980 single Veto Events
+Target: 24.3555 Hz, 0.949914% cut
+Veto: 12.1266 Hz, 0.975062 % cut
+All: 451.453 Hz, 0.928385 % cut
+87122 events in 3577.09 s of data taking. Event rate is 486.278 Hz
+next event
+1756784 events in the file 370
+day and hour 17.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1253451 single Target Events
+318750 single Veto Events
+Target: 24.5783 Hz, 0.949892% cut
+Veto: 12.4068 Hz, 0.974706 % cut
+All: 455.219 Hz, 0.928059 % cut
+88029 events in 3581.57 s of data taking. Event rate is 490.506 Hz
+next event
+1741168 events in the file 371
+day and hour 17.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1239806 single Target Events
+317975 single Veto Events
+Target: 24.4121 Hz, 0.949776% cut
+Veto: 12.4389 Hz, 0.974409 % cut
+All: 450.865 Hz, 0.927577 % cut
+87448 events in 3582.15 s of data taking. Event rate is 486.068 Hz
+next event
+1743907 events in the file 372
+day and hour 17.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1242740 single Target Events
+316929 single Veto Events
+Target: 24.4341 Hz, 0.949841% cut
+Veto: 12.5511 Hz, 0.974235 % cut
+All: 451.82 Hz, 0.927502 % cut
+87472 events in 3579.92 s of data taking. Event rate is 487.136 Hz
+next event
+1763960 events in the file 373
+day and hour 17.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1262525 single Target Events
+315944 single Veto Events
+Target: 24.4183 Hz, 0.950388% cut
+Veto: 12.4255 Hz, 0.974755 % cut
+All: 457.03 Hz, 0.928566 % cut
+87513 events in 3583.91 s of data taking. Event rate is 492.189 Hz
+next event
+1741307 events in the file 374
+day and hour 17.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1243822 single Target Events
+308414 single Veto Events
+Target: 23.7112 Hz, 0.951272% cut
+Veto: 14.3847 Hz, 0.970438 % cut
+All: 450.001 Hz, 0.924786 % cut
+84851 events in 3578.52 s of data taking. Event rate is 486.6 Hz
+next event
+1753551 events in the file 375
+day and hour 17.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1253273 single Target Events
+318660 single Veto Events
+Target: 24.3203 Hz, 0.950349% cut
+Veto: 12.198 Hz, 0.975097 % cut
+All: 454.97 Hz, 0.928835 % cut
+87065 events in 3579.93 s of data taking. Event rate is 489.829 Hz
+next event
+1761821 events in the file 376
+day and hour 17.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1260834 single Target Events
+309728 single Veto Events
+Target: 24.1262 Hz, 0.95092% cut
+Veto: 14.6088 Hz, 0.970281 % cut
+All: 454.363 Hz, 0.92431 % cut
+86470 events in 3584.07 s of data taking. Event rate is 491.57 Hz
+next event
+1725461 events in the file 377
+day and hour 17.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1223194 single Target Events
+317779 single Veto Events
+Target: 24.3815 Hz, 0.949419% cut
+Veto: 12.1713 Hz, 0.97475 % cut
+All: 447.122 Hz, 0.927576 % cut
+87275 events in 3579.56 s of data taking. Event rate is 482.032 Hz
+next event
+1725057 events in the file 378
+day and hour 17.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1224681 single Target Events
+316615 single Veto Events
+Target: 24.5994 Hz, 0.948987% cut
+Veto: 12.4869 Hz, 0.974105 % cut
+All: 446.78 Hz, 0.926515 % cut
+88001 events in 3577.36 s of data taking. Event rate is 482.215 Hz
+next event
+1699564 events in the file 379
+day and hour 17.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1199420 single Target Events
+317326 single Veto Events
+Target: 24.4158 Hz, 0.948595% cut
+Veto: 12.4974 Hz, 0.973688 % cut
+All: 439.713 Hz, 0.92577 % cut
+87366 events in 3578.25 s of data taking. Event rate is 474.971 Hz
+next event
+1709337 events in the file 380
+day and hour 17.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1206952 single Target Events
+306573 single Veto Events
+Target: 24.2643 Hz, 0.949133% cut
+Veto: 15.1673 Hz, 0.968204 % cut
+All: 439.08 Hz, 0.920464 % cut
+86948 events in 3583.37 s of data taking. Event rate is 477.02 Hz
+next event
+1732435 events in the file 381
+day and hour 17.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1231703 single Target Events
+319357 single Veto Events
+Target: 24.226 Hz, 0.949885% cut
+Veto: 12.119 Hz, 0.97493 % cut
+All: 448.715 Hz, 0.928231 % cut
+86821 events in 3583.79 s of data taking. Event rate is 483.408 Hz
+next event
+1711066 events in the file 382
+day and hour 17.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1210329 single Target Events
+316941 single Veto Events
+Target: 24.4982 Hz, 0.948679% cut
+Veto: 12.4152 Hz, 0.973992 % cut
+All: 442.073 Hz, 0.926086 % cut
+87813 events in 3584.46 s of data taking. Event rate is 477.356 Hz
+next event
+1728239 events in the file 383
+day and hour 17.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1226668 single Target Events
+320153 single Veto Events
+Target: 24.3805 Hz, 0.94952% cut
+Veto: 12.1231 Hz, 0.974899 % cut
+All: 448.098 Hz, 0.927783 % cut
+87241 events in 3578.31 s of data taking. Event rate is 482.977 Hz
+next event
+1732774 events in the file 384
+day and hour 17.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1230404 single Target Events
+318169 single Veto Events
+Target: 24.2648 Hz, 0.949816% cut
+Veto: 12.4361 Hz, 0.97428 % cut
+All: 448.475 Hz, 0.927522 % cut
+86957 events in 3583.67 s of data taking. Event rate is 483.519 Hz
+next event
+1753644 events in the file 385
+day and hour 17.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1244807 single Target Events
+321390 single Veto Events
+Target: 24.6373 Hz, 0.949676% cut
+Veto: 12.6611 Hz, 0.974138 % cut
+All: 453.964 Hz, 0.92727 % cut
+88251 events in 3582.01 s of data taking. Event rate is 489.57 Hz
+next event
+1757213 events in the file 386
+day and hour 17.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1251306 single Target Events
+319770 single Veto Events
+Target: 24.4928 Hz, 0.950029% cut
+Veto: 12.5449 Hz, 0.974405 % cut
+All: 454.72 Hz, 0.927737 % cut
+87810 events in 3585.13 s of data taking. Event rate is 490.139 Hz
+next event
+1729041 events in the file 387
+day and hour 18
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1227064 single Target Events
+320122 single Veto Events
+Target: 24.3386 Hz, 0.94959% cut
+Veto: 12.0935 Hz, 0.974952 % cut
+All: 448.035 Hz, 0.927966 % cut
+87161 events in 3581.18 s of data taking. Event rate is 482.814 Hz
+next event
+1737305 events in the file 388
+day and hour 18.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1233850 single Target Events
+318743 single Veto Events
+Target: 24.3733 Hz, 0.949705% cut
+Veto: 12.3076 Hz, 0.974603 % cut
+All: 449.612 Hz, 0.927779 % cut
+87377 events in 3584.94 s of data taking. Event rate is 484.612 Hz
+next event
+1746040 events in the file 389
+day and hour 18.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1242331 single Target Events
+320308 single Veto Events
+Target: 24.5965 Hz, 0.94957% cut
+Veto: 12.2422 Hz, 0.9749 % cut
+All: 452.578 Hz, 0.92792 % cut
+88053 events in 3579.9 s of data taking. Event rate is 487.734 Hz
+next event
+1738690 events in the file 390
+day and hour 18.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1233318 single Target Events
+320445 single Veto Events
+Target: 24.5848 Hz, 0.9494% cut
+Veto: 12.571 Hz, 0.974126 % cut
+All: 450.436 Hz, 0.927082 % cut
+87978 events in 3578.55 s of data taking. Event rate is 485.864 Hz
+next event
+1743033 events in the file 391
+day and hour 18.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1237214 single Target Events
+321631 single Veto Events
+Target: 24.4279 Hz, 0.94981% cut
+Veto: 12.4648 Hz, 0.974389 % cut
+All: 451.481 Hz, 0.927623 % cut
+87483 events in 3581.27 s of data taking. Event rate is 486.708 Hz
+next event
+1739125 events in the file 392
+day and hour 18.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1239104 single Target Events
+317067 single Veto Events
+Target: 24.5622 Hz, 0.949472% cut
+Veto: 12.4324 Hz, 0.974424 % cut
+All: 450.78 Hz, 0.927326 % cut
+87875 events in 3577.66 s of data taking. Event rate is 486.107 Hz
+next event
+1764699 events in the file 393
+day and hour 18.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1257373 single Target Events
+321296 single Veto Events
+Target: 24.5627 Hz, 0.950107% cut
+Veto: 12.2795 Hz, 0.975057 % cut
+All: 457.148 Hz, 0.928593 % cut
+88047 events in 3584.59 s of data taking. Event rate is 492.302 Hz
+next event
+1733555 events in the file 394
+day and hour 18.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1224378 single Target Events
+319229 single Veto Events
+Target: 24.3195 Hz, 0.949802% cut
+Veto: 16.5101 Hz, 0.965921 % cut
+All: 445.618 Hz, 0.919801 % cut
+87021 events in 3578.24 s of data taking. Event rate is 484.472 Hz
+next event
+1748849 events in the file 395
+day and hour 18.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1244428 single Target Events
+321209 single Veto Events
+Target: 24.5429 Hz, 0.949743% cut
+Veto: 12.3955 Hz, 0.974618 % cut
+All: 453.062 Hz, 0.927744 % cut
+87892 events in 3581.15 s of data taking. Event rate is 488.348 Hz
+next event
+1752261 events in the file 396
+day and hour 18.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247054 single Target Events
+320210 single Veto Events
+Target: 24.3236 Hz, 0.950288% cut
+Veto: 12.3664 Hz, 0.974726 % cut
+All: 454.278 Hz, 0.928448 % cut
+87109 events in 3581.25 s of data taking. Event rate is 489.288 Hz
+next event
+1774396 events in the file 397
+day and hour 18.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1268639 single Target Events
+321853 single Veto Events
+Target: 24.3268 Hz, 0.950884% cut
+Veto: 12.5232 Hz, 0.974715 % cut
+All: 460.068 Hz, 0.928888 % cut
+87152 events in 3582.55 s of data taking. Event rate is 495.289 Hz
+next event
+1720792 events in the file 398
+day and hour 18.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1139486 single Target Events
+298572 single Veto Events
+Target: 22.8911 Hz, 0.952364% cut
+Veto: 11.6798 Hz, 0.975694 % cut
+All: 447.506 Hz, 0.931258 % cut
+81972 events in 3580.96 s of data taking. Event rate is 480.539 Hz
+next event
+1723438 events in the file 399
+day and hour 18.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1215623 single Target Events
+323492 single Veto Events
+Target: 24.4928 Hz, 0.949149% cut
+Veto: 12.4707 Hz, 0.974109 % cut
+All: 446.337 Hz, 0.92667 % cut
+87639 events in 3578.15 s of data taking. Event rate is 481.656 Hz
+next event
+1725180 events in the file 400
+day and hour 18.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1220548 single Target Events
+323166 single Veto Events
+Target: 24.1997 Hz, 0.949815% cut
+Veto: 12.1266 Hz, 0.974852 % cut
+All: 447.539 Hz, 0.928108 % cut
+86579 events in 3577.68 s of data taking. Event rate is 482.206 Hz
+next event
+1726033 events in the file 401
+day and hour 18.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1223972 single Target Events
+319228 single Veto Events
+Target: 24.3116 Hz, 0.949508% cut
+Veto: 12.2884 Hz, 0.974478 % cut
+All: 446.555 Hz, 0.927437 % cut
+87151 events in 3584.75 s of data taking. Event rate is 481.493 Hz
+next event
+1731312 events in the file 402
+day and hour 18.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1222798 single Target Events
+304329 single Veto Events
+Target: 23.7786 Hz, 0.950823% cut
+Veto: 18.1169 Hz, 0.962532 % cut
+All: 442.961 Hz, 0.916089 % cut
+85140 events in 3580.53 s of data taking. Event rate is 483.535 Hz
+next event
+1752896 events in the file 403
+day and hour 18.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247142 single Target Events
+320703 single Veto Events
+Target: 24.3837 Hz, 0.950182% cut
+Veto: 12.3299 Hz, 0.974809 % cut
+All: 454.412 Hz, 0.928394 % cut
+87325 events in 3581.29 s of data taking. Event rate is 489.46 Hz
+next event
+1725415 events in the file 404
+day and hour 18.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1223791 single Target Events
+318857 single Veto Events
+Target: 24.4068 Hz, 0.949352% cut
+Veto: 12.334 Hz, 0.974405 % cut
+All: 446.776 Hz, 0.927133 % cut
+87389 events in 3580.52 s of data taking. Event rate is 481.89 Hz
+next event
+1752533 events in the file 405
+day and hour 18.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247794 single Target Events
+320749 single Veto Events
+Target: 24.4226 Hz, 0.950076% cut
+Veto: 12.4272 Hz, 0.974597 % cut
+All: 453.956 Hz, 0.927961 % cut
+87493 events in 3582.46 s of data taking. Event rate is 489.198 Hz
+next event
+1711589 events in the file 406
+day and hour 18.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1213068 single Target Events
+316261 single Veto Events
+Target: 24.1346 Hz, 0.949488% cut
+Veto: 12.1643 Hz, 0.974541 % cut
+All: 443.157 Hz, 0.927487 % cut
+86455 events in 3582.2 s of data taking. Event rate is 477.804 Hz
+next event
+1746255 events in the file 407
+day and hour 18.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1241106 single Target Events
+322392 single Veto Events
+Target: 24.4252 Hz, 0.949867% cut
+Veto: 12.1734 Hz, 0.975014 % cut
+All: 452.269 Hz, 0.928287 % cut
+87545 events in 3584.21 s of data taking. Event rate is 487.208 Hz
+next event
+1753215 events in the file 408
+day and hour 18.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1247807 single Target Events
+321795 single Veto Events
+Target: 24.4144 Hz, 0.950184% cut
+Veto: 12.4409 Hz, 0.974615 % cut
+All: 454.874 Hz, 0.928137 % cut
+87338 events in 3577.31 s of data taking. Event rate is 490.093 Hz
+next event
+1765095 events in the file 409
+day and hour 18.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1262153 single Target Events
+321271 single Veto Events
+Target: 24.3395 Hz, 0.95066% cut
+Veto: 12.0139 Hz, 0.975646 % cut
+All: 458.597 Hz, 0.929642 % cut
+87089 events in 3578.1 s of data taking. Event rate is 493.305 Hz
+next event
+1756065 events in the file 410
+day and hour 18.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1251236 single Target Events
+321410 single Veto Events
+Target: 24.4833 Hz, 0.950035% cut
+Veto: 12.4257 Hz, 0.974642 % cut
+All: 454.786 Hz, 0.92811 % cut
+87741 events in 3583.71 s of data taking. Event rate is 490.013 Hz
+next event
+1733241 events in the file 411
+day and hour 19
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1229014 single Target Events
+320556 single Veto Events
+Target: 24.4503 Hz, 0.949497% cut
+Veto: 12.4684 Hz, 0.974246 % cut
+All: 448.887 Hz, 0.927195 % cut
+87534 events in 3580.08 s of data taking. Event rate is 484.134 Hz
+next event
+1719270 events in the file 412
+day and hour 19.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1215986 single Target Events
+318900 single Veto Events
+Target: 24.4983 Hz, 0.948994% cut
+Veto: 12.5091 Hz, 0.973956 % cut
+All: 444.943 Hz, 0.926379 % cut
+87693 events in 3579.55 s of data taking. Event rate is 480.304 Hz
+next event
+1745971 events in the file 413
+day and hour 19.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1239838 single Target Events
+318290 single Veto Events
+Target: 24.4825 Hz, 0.949748% cut
+Veto: 13.6761 Hz, 0.971929 % cut
+All: 450.804 Hz, 0.925299 % cut
+87738 events in 3583.7 s of data taking. Event rate is 487.198 Hz
+next event
+1739840 events in the file 414
+day and hour 19.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1233373 single Target Events
+322561 single Veto Events
+Target: 24.2723 Hz, 0.949989% cut
+Veto: 12.1607 Hz, 0.974944 % cut
+All: 450.519 Hz, 0.928266 % cut
+87012 events in 3584.83 s of data taking. Event rate is 485.334 Hz
+next event
+1725136 events in the file 415
+day and hour 19.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1224317 single Target Events
+318071 single Veto Events
+Target: 24.4784 Hz, 0.949257% cut
+Veto: 12.4465 Hz, 0.974199 % cut
+All: 447.135 Hz, 0.926903 % cut
+87539 events in 3576.17 s of data taking. Event rate is 482.397 Hz
+next event
+1737052 events in the file 416
+day and hour 19.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1237446 single Target Events
+318991 single Veto Events
+Target: 24.062 Hz, 0.950369% cut
+Veto: 12.0815 Hz, 0.97508 % cut
+All: 450.293 Hz, 0.928792 % cut
+86212 events in 3582.91 s of data taking. Event rate is 484.815 Hz
+next event
+1787452 events in the file 417
+day and hour 19.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1284249 single Target Events
+319369 single Veto Events
+Target: 24.516 Hz, 0.950906% cut
+Veto: 12.5469 Hz, 0.974874 % cut
+All: 463.934 Hz, 0.929049 % cut
+87754 events in 3579.45 s of data taking. Event rate is 499.365 Hz
+next event
+1794902 events in the file 418
+day and hour 19.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1286201 single Target Events
+300073 single Veto Events
+Target: 23.851 Hz, 0.95245% cut
+Veto: 19.4154 Hz, 0.961293 % cut
+All: 459.605 Hz, 0.916277 % cut
+85347 events in 3578.35 s of data taking. Event rate is 501.601 Hz
+next event
+1737505 events in the file 419
+day and hour 19.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1233774 single Target Events
+319046 single Veto Events
+Target: 24.3514 Hz, 0.949836% cut
+Veto: 12.5101 Hz, 0.974229 % cut
+All: 450.26 Hz, 0.927535 % cut
+87160 events in 3579.26 s of data taking. Event rate is 485.437 Hz
+next event
+1751551 events in the file 420
+day and hour 19.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1250648 single Target Events
+321671 single Veto Events
+Target: 23.9146 Hz, 0.951139% cut
+Veto: 12.0181 Hz, 0.975445 % cut
+All: 455.116 Hz, 0.929872 % cut
+85583 events in 3578.69 s of data taking. Event rate is 489.439 Hz
+next event
+1719418 events in the file 421
+day and hour 19.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1216889 single Target Events
+320513 single Veto Events
+Target: 24.2631 Hz, 0.949432% cut
+Veto: 12.3912 Hz, 0.974175 % cut
+All: 444.812 Hz, 0.927049 % cut
+86947 events in 3583.5 s of data taking. Event rate is 479.815 Hz
+next event
+2455273 events in the file 422
+day and hour 26.7083
+2 entries in slowChain
+get entry
+31 PMTs excluded from run for bad fits
+815607 single Target Events
+234188 single Veto Events
+Target: 12.5994 Hz, 0.981624% cut
+Veto: 9.10743 Hz, 0.986717 % cut
+All: 665.213 Hz, 0.970217 % cut
+45119 events in 3581.03 s of data taking. Event rate is 685.633 Hz
+next event
+2365267 events in the file 423
+day and hour 26.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1804010 single Target Events
+370684 single Veto Events
+Target: 24.8335 Hz, 0.962382% cut
+Veto: 12.0287 Hz, 0.981779 % cut
+All: 624.905 Hz, 0.946614 % cut
+88977 events in 3582.94 s of data taking. Event rate is 660.147 Hz
+next event
+2294209 events in the file 424
+day and hour 26.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1739929 single Target Events
+364305 single Veto Events
+Target: 24.9028 Hz, 0.961148% cut
+Veto: 12.3891 Hz, 0.980671 % cut
+All: 605.34 Hz, 0.944413 % cut
+89134 events in 3579.28 s of data taking. Event rate is 640.97 Hz
+next event
+2256168 events in the file 425
+day and hour 26.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1702802 single Target Events
+362132 single Veto Events
+Target: 24.7922 Hz, 0.960604% cut
+Veto: 12.6049 Hz, 0.97997 % cut
+All: 593.575 Hz, 0.94323 % cut
+88885 events in 3585.2 s of data taking. Event rate is 629.3 Hz
+next event
+2220467 events in the file 426
+day and hour 26.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1670451 single Target Events
+358635 single Veto Events
+Target: 25.0741 Hz, 0.959587% cut
+Veto: 12.552 Hz, 0.97977 % cut
+All: 584.538 Hz, 0.942116 % cut
+89735 events in 3578.79 s of data taking. Event rate is 620.452 Hz
+next event
+2201385 events in the file 427
+day and hour 26.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1653235 single Target Events
+357737 single Veto Events
+Target: 24.9233 Hz, 0.9595% cut
+Veto: 12.582 Hz, 0.979555 % cut
+All: 579.571 Hz, 0.941781 % cut
+89155 events in 3577.17 s of data taking. Event rate is 615.399 Hz
+next event
+2185755 events in the file 428
+day and hour 26.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1638079 single Target Events
+345322 single Veto Events
+Target: 24.566 Hz, 0.959731% cut
+Veto: 16.2357 Hz, 0.973386 % cut
+All: 570.68 Hz, 0.935479 % cut
+88019 events in 3582.97 s of data taking. Event rate is 610.04 Hz
+next event
+2173824 events in the file 429
+day and hour 27
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1626685 single Target Events
+355751 single Veto Events
+Target: 24.934 Hz, 0.958923% cut
+Veto: 12.6207 Hz, 0.979208 % cut
+All: 571.106 Hz, 0.940865 % cut
+89295 events in 3581.25 s of data taking. Event rate is 607.001 Hz
+next event
+2173814 events in the file 430
+day and hour 27.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1630233 single Target Events
+355392 single Veto Events
+Target: 24.9266 Hz, 0.958933% cut
+Veto: 12.4193 Hz, 0.979539 % cut
+All: 571.267 Hz, 0.941163 % cut
+89271 events in 3581.36 s of data taking. Event rate is 606.98 Hz
+next event
+2170360 events in the file 431
+day and hour 27.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1624744 single Target Events
+356169 single Veto Events
+Target: 24.9957 Hz, 0.958708% cut
+Veto: 12.3739 Hz, 0.979559 % cut
+All: 569.591 Hz, 0.940948 % cut
+89619 events in 3585.37 s of data taking. Event rate is 605.338 Hz
+next event
+2158420 events in the file 432
+day and hour 27.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1612013 single Target Events
+353570 single Veto Events
+Target: 24.9597 Hz, 0.958564% cut
+Veto: 12.5224 Hz, 0.979211 % cut
+All: 566.593 Hz, 0.940619 % cut
+89437 events in 3583.26 s of data taking. Event rate is 602.362 Hz
+next event
+2154237 events in the file 433
+day and hour 27.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1606260 single Target Events
+354902 single Veto Events
+Target: 25.008 Hz, 0.958374% cut
+Veto: 12.5436 Hz, 0.979121 % cut
+All: 564.868 Hz, 0.940222 % cut
+89672 events in 3585.73 s of data taking. Event rate is 600.781 Hz
+next event
+2093883 events in the file 434
+day and hour 27.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1548256 single Target Events
+353499 single Veto Events
+Target: 25.0271 Hz, 0.957188% cut
+Veto: 14.4296 Hz, 0.975316 % cut
+All: 546.9 Hz, 0.93555 % cut
+89644 events in 3581.88 s of data taking. Event rate is 584.576 Hz
+next event
+2082507 events in the file 435
+day and hour 27.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1538692 single Target Events
+353255 single Veto Events
+Target: 25.2695 Hz, 0.956537% cut
+Veto: 12.5867 Hz, 0.978351 % cut
+All: 545.216 Hz, 0.937759 % cut
+90512 events in 3581.86 s of data taking. Event rate is 581.403 Hz
+next event
+2099667 events in the file 436
+day and hour 27.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1552183 single Target Events
+356163 single Veto Events
+Target: 25.2625 Hz, 0.956867% cut
+Veto: 12.6843 Hz, 0.978343 % cut
+All: 549.445 Hz, 0.938107 % cut
+90564 events in 3584.91 s of data taking. Event rate is 585.695 Hz
+next event
+2095045 events in the file 437
+day and hour 27.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1549630 single Target Events
+354885 single Veto Events
+Target: 25.2603 Hz, 0.956811% cut
+Veto: 12.6635 Hz, 0.978348 % cut
+All: 548.607 Hz, 0.937986 % cut
+90483 events in 3582.02 s of data taking. Event rate is 584.877 Hz
+next event
+2066608 events in the file 438
+day and hour 27.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1520616 single Target Events
+356007 single Veto Events
+Target: 25.2315 Hz, 0.956269% cut
+Veto: 12.483 Hz, 0.978365 % cut
+All: 540.922 Hz, 0.937522 % cut
+90375 events in 3581.83 s of data taking. Event rate is 576.969 Hz
+next event
+2067377 events in the file 439
+day and hour 27.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1520666 single Target Events
+325814 single Veto Events
+Target: 24.2619 Hz, 0.957936% cut
+Veto: 20.9333 Hz, 0.963707 % cut
+All: 532.769 Hz, 0.923695 % cut
+86963 events in 3584.34 s of data taking. Event rate is 576.781 Hz
+next event
+2066769 events in the file 440
+day and hour 27.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1528117 single Target Events
+348915 single Veto Events
+Target: 25.158 Hz, 0.956389% cut
+Veto: 12.5054 Hz, 0.978322 % cut
+All: 540.867 Hz, 0.937577 % cut
+90133 events in 3582.68 s of data taking. Event rate is 576.878 Hz
+next event
+2058462 events in the file 441
+day and hour 27.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1519537 single Target Events
+332292 single Veto Events
+Target: 24.5489 Hz, 0.957243% cut
+Veto: 16.4858 Hz, 0.971287 % cut
+All: 534.547 Hz, 0.931015 % cut
+88013 events in 3585.21 s of data taking. Event rate is 574.155 Hz
+next event
+2029741 events in the file 442
+day and hour 27.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1499995 single Target Events
+342719 single Veto Events
+Target: 24.7685 Hz, 0.956264% cut
+Veto: 12.2828 Hz, 0.978311 % cut
+All: 530.92 Hz, 0.937496 % cut
+88773 events in 3584.11 s of data taking. Event rate is 566.317 Hz
+next event
+2020367 events in the file 443
+day and hour 27.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1493425 single Target Events
+341043 single Veto Events
+Target: 24.6127 Hz, 0.956348% cut
+Veto: 12.3926 Hz, 0.978021 % cut
+All: 528.476 Hz, 0.937293 % cut
+88194 events in 3583.28 s of data taking. Event rate is 563.832 Hz
+next event
+2030347 events in the file 444
+day and hour 27.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1499605 single Target Events
+343688 single Veto Events
+Target: 24.794 Hz, 0.956287% cut
+Veto: 12.5392 Hz, 0.977893 % cut
+All: 531.541 Hz, 0.937126 % cut
+88752 events in 3579.57 s of data taking. Event rate is 567.204 Hz
+next event
+2055085 events in the file 445
+day and hour 27.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1523599 single Target Events
+344837 single Veto Events
+Target: 24.7815 Hz, 0.956831% cut
+Veto: 12.3772 Hz, 0.978439 % cut
+All: 538.586 Hz, 0.9382 % cut
+88715 events in 3579.89 s of data taking. Event rate is 574.064 Hz
+next event
+2027632 events in the file 446
+day and hour 27.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1498267 single Target Events
+340898 single Veto Events
+Target: 24.7889 Hz, 0.956176% cut
+Veto: 12.4256 Hz, 0.978033 % cut
+All: 530.093 Hz, 0.937145 % cut
+88859 events in 3584.63 s of data taking. Event rate is 565.647 Hz
+next event
+2016947 events in the file 447
+day and hour 27.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1488136 single Target Events
+341486 single Veto Events
+Target: 24.8553 Hz, 0.955857% cut
+Veto: 12.4614 Hz, 0.977869 % cut
+All: 527.402 Hz, 0.936666 % cut
+89034 events in 3582.09 s of data taking. Event rate is 563.064 Hz
+next event
+2000228 events in the file 448
+day and hour 27.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1474614 single Target Events
+339688 single Veto Events
+Target: 24.5736 Hz, 0.955985% cut
+Veto: 12.3397 Hz, 0.977898 % cut
+All: 523.049 Hz, 0.936869 % cut
+88041 events in 3582.74 s of data taking. Event rate is 558.295 Hz
+next event
+1989912 events in the file 449
+day and hour 27.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1467363 single Target Events
+337928 single Veto Events
+Target: 24.5799 Hz, 0.955722% cut
+Veto: 12.2274 Hz, 0.977973 % cut
+All: 519.909 Hz, 0.936569 % cut
+88110 events in 3584.64 s of data taking. Event rate is 555.121 Hz
+next event
+2010875 events in the file 450
+day and hour 27.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1411094 single Target Events
+319049 single Veto Events
+Target: 23.4094 Hz, 0.958279% cut
+Veto: 12.944 Hz, 0.976931 % cut
+All: 526.254 Hz, 0.937899 % cut
+83895 events in 3583.81 s of data taking. Event rate is 561.099 Hz
+next event
+1986924 events in the file 451
+day and hour 27.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1457350 single Target Events
+340506 single Veto Events
+Target: 24.7649 Hz, 0.955315% cut
+Veto: 12.2345 Hz, 0.977925 % cut
+All: 518.877 Hz, 0.936239 % cut
+88785 events in 3585.12 s of data taking. Event rate is 554.214 Hz
+next event
+1995793 events in the file 452
+day and hour 27.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1467056 single Target Events
+338452 single Veto Events
+Target: 24.8615 Hz, 0.955374% cut
+Veto: 12.469 Hz, 0.977618 % cut
+All: 521.443 Hz, 0.93598 % cut
+89064 events in 3582.41 s of data taking. Event rate is 557.109 Hz
+next event
+2011587 events in the file 453
+day and hour 28
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1486969 single Target Events
+337224 single Veto Events
+Target: 24.7376 Hz, 0.955909% cut
+Veto: 12.3816 Hz, 0.977932 % cut
+All: 525.597 Hz, 0.936787 % cut
+88692 events in 3585.31 s of data taking. Event rate is 561.063 Hz
+next event
+2015368 events in the file 454
+day and hour 28.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1489057 single Target Events
+336659 single Veto Events
+Target: 24.6913 Hz, 0.956099% cut
+Veto: 12.4587 Hz, 0.977849 % cut
+All: 526.933 Hz, 0.936878 % cut
+88476 events in 3583.29 s of data taking. Event rate is 562.435 Hz
+next event
+1999703 events in the file 455
+day and hour 28.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1472558 single Target Events
+340687 single Veto Events
+Target: 24.6942 Hz, 0.955731% cut
+Veto: 12.2697 Hz, 0.978004 % cut
+All: 522.476 Hz, 0.936638 % cut
+88525 events in 3584.85 s of data taking. Event rate is 557.821 Hz
+next event
+2001087 events in the file 456
+day and hour 28.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1472345 single Target Events
+339820 single Veto Events
+Target: 24.9702 Hz, 0.95533% cut
+Veto: 12.5978 Hz, 0.977463 % cut
+All: 523.101 Hz, 0.935798 % cut
+89389 events in 3579.83 s of data taking. Event rate is 558.989 Hz
+next event
+1999076 events in the file 457
+day and hour 28.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1474951 single Target Events
+338816 single Veto Events
+Target: 24.6383 Hz, 0.955905% cut
+Veto: 12.2037 Hz, 0.978159 % cut
+All: 523.528 Hz, 0.936963 % cut
+88150 events in 3577.77 s of data taking. Event rate is 558.75 Hz
+next event
+1996070 events in the file 458
+day and hour 28.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1466732 single Target Events
+339950 single Veto Events
+Target: 24.9263 Hz, 0.955244% cut
+Veto: 12.458 Hz, 0.977631 % cut
+All: 521.217 Hz, 0.935873 % cut
+89337 events in 3584.05 s of data taking. Event rate is 556.931 Hz
+next event
+2014746 events in the file 459
+day and hour 28.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1484665 single Target Events
+339368 single Veto Events
+Target: 25.1666 Hz, 0.955242% cut
+Veto: 12.5346 Hz, 0.977708 % cut
+All: 526.222 Hz, 0.93586 % cut
+90175 events in 3583.13 s of data taking. Event rate is 562.287 Hz
+next event
+2004034 events in the file 460
+day and hour 28.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1476049 single Target Events
+338743 single Veto Events
+Target: 25.0454 Hz, 0.955274% cut
+Veto: 12.567 Hz, 0.977558 % cut
+All: 523.995 Hz, 0.935757 % cut
+89633 events in 3578.83 s of data taking. Event rate is 559.969 Hz
+next event
+1981308 events in the file 461
+day and hour 28.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1459909 single Target Events
+337160 single Veto Events
+Target: 24.444 Hz, 0.955838% cut
+Veto: 12.2638 Hz, 0.977843 % cut
+All: 518.484 Hz, 0.936729 % cut
+87499 events in 3579.57 s of data taking. Event rate is 553.505 Hz
+next event
+1994547 events in the file 462
+day and hour 28.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1472335 single Target Events
+336243 single Veto Events
+Target: 24.7743 Hz, 0.955532% cut
+Veto: 12.4083 Hz, 0.977728 % cut
+All: 521.624 Hz, 0.93627 % cut
+88693 events in 3580.04 s of data taking. Event rate is 557.13 Hz
+next event
+2001641 events in the file 463
+day and hour 28.4167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1479455 single Target Events
+334624 single Veto Events
+Target: 24.6853 Hz, 0.955787% cut
+Veto: 12.5309 Hz, 0.977556 % cut
+All: 522.76 Hz, 0.936292 % cut
+88498 events in 3585.05 s of data taking. Event rate is 558.33 Hz
+next event
+1990641 events in the file 464
+day and hour 28.4583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1472216 single Target Events
+332388 single Veto Events
+Target: 24.6807 Hz, 0.955569% cut
+Veto: 12.2382 Hz, 0.977968 % cut
+All: 520.184 Hz, 0.93645 % cut
+88446 events in 3583.61 s of data taking. Event rate is 555.485 Hz
+next event
+1931910 events in the file 465
+day and hour 28.5
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1412115 single Target Events
+331904 single Veto Events
+Target: 24.55 Hz, 0.954466% cut
+Veto: 12.3914 Hz, 0.977017 % cut
+All: 503.883 Hz, 0.934581 % cut
+87968 events in 3583.22 s of data taking. Event rate is 539.154 Hz
+next event
+1951623 events in the file 466
+day and hour 28.5417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1432306 single Target Events
+333675 single Veto Events
+Target: 24.6188 Hz, 0.954807% cut
+Veto: 12.3414 Hz, 0.977345 % cut
+All: 509.458 Hz, 0.935209 % cut
+88199 events in 3582.59 s of data taking. Event rate is 544.753 Hz
+next event
+1951750 events in the file 467
+day and hour 28.5833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1435966 single Target Events
+331274 single Veto Events
+Target: 24.7001 Hz, 0.954691% cut
+Veto: 12.1373 Hz, 0.977736 % cut
+All: 509.974 Hz, 0.93547 % cut
+88431 events in 3580.19 s of data taking. Event rate is 545.152 Hz
+next event
+1944002 events in the file 468
+day and hour 28.625
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1426597 single Target Events
+335124 single Veto Events
+Target: 24.5547 Hz, 0.954719% cut
+Veto: 12.0012 Hz, 0.977869 % cut
+All: 507.328 Hz, 0.935552 % cut
+88026 events in 3584.89 s of data taking. Event rate is 542.277 Hz
+next event
+1939221 events in the file 469
+day and hour 28.6667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1340374 single Target Events
+312012 single Veto Events
+Target: 23.1573 Hz, 0.957245% cut
+Veto: 11.6041 Hz, 0.978575 % cut
+All: 508.416 Hz, 0.938687 % cut
+82912 events in 3580.38 s of data taking. Event rate is 541.625 Hz
+next event
+1929874 events in the file 470
+day and hour 28.7083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1410251 single Target Events
+328178 single Veto Events
+Target: 24.4458 Hz, 0.954677% cut
+Veto: 14.3346 Hz, 0.973424 % cut
+All: 502.158 Hz, 0.931003 % cut
+87467 events in 3577.99 s of data taking. Event rate is 539.374 Hz
+next event
+1921881 events in the file 471
+day and hour 28.75
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1399898 single Target Events
+325788 single Veto Events
+Target: 24.4485 Hz, 0.954394% cut
+Veto: 14.8916 Hz, 0.972221 % cut
+All: 498.339 Hz, 0.929594 % cut
+87649 events in 3585.05 s of data taking. Event rate is 536.083 Hz
+next event
+1947510 events in the file 472
+day and hour 28.7917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1427550 single Target Events
+335450 single Veto Events
+Target: 24.5986 Hz, 0.954813% cut
+Veto: 12.3585 Hz, 0.977298 % cut
+All: 509.034 Hz, 0.935083 % cut
+88002 events in 3577.53 s of data taking. Event rate is 544.373 Hz
+next event
+1962492 events in the file 473
+day and hour 28.8333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1445923 single Target Events
+331202 single Veto Events
+Target: 24.6365 Hz, 0.955088% cut
+Veto: 12.3234 Hz, 0.977535 % cut
+All: 513.262 Hz, 0.935664 % cut
+88139 events in 3577.57 s of data taking. Event rate is 548.554 Hz
+next event
+1962177 events in the file 474
+day and hour 28.875
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1442617 single Target Events
+336526 single Veto Events
+Target: 24.4573 Hz, 0.955374% cut
+Veto: 12.1581 Hz, 0.977815 % cut
+All: 513.065 Hz, 0.936173 % cut
+87565 events in 3580.32 s of data taking. Event rate is 548.045 Hz
+next event
+1940734 events in the file 475
+day and hour 28.9167
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1420989 single Target Events
+334651 single Veto Events
+Target: 24.5539 Hz, 0.954728% cut
+Veto: 12.3753 Hz, 0.977183 % cut
+All: 507.059 Hz, 0.934894 % cut
+87860 events in 3578.24 s of data taking. Event rate is 542.37 Hz
+next event
+1959691 events in the file 476
+day and hour 28.9583
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1437509 single Target Events
+335962 single Veto Events
+Target: 24.8531 Hz, 0.954633% cut
+Veto: 12.4562 Hz, 0.977262 % cut
+All: 512.177 Hz, 0.934937 % cut
+88906 events in 3577.26 s of data taking. Event rate is 547.82 Hz
+next event
+1923499 events in the file 477
+day and hour 29
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1404128 single Target Events
+333999 single Veto Events
+Target: 24.6364 Hz, 0.954164% cut
+Veto: 12.4086 Hz, 0.976914 % cut
+All: 502.098 Hz, 0.934147 % cut
+88165 events in 3578.65 s of data taking. Event rate is 537.493 Hz
+next event
+1911105 events in the file 478
+day and hour 29.0417
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1390004 single Target Events
+335463 single Veto Events
+Target: 24.6045 Hz, 0.953874% cut
+Veto: 12.5399 Hz, 0.976492 % cut
+All: 497.906 Hz, 0.933418 % cut
+88151 events in 3582.72 s of data taking. Event rate is 533.422 Hz
+next event
+1943822 events in the file 479
+day and hour 29.0833
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1421026 single Target Events
+336377 single Veto Events
+Target: 24.6248 Hz, 0.954624% cut
+Veto: 12.292 Hz, 0.97735 % cut
+All: 507.415 Hz, 0.935003 % cut
+88202 events in 3581.84 s of data taking. Event rate is 542.689 Hz
+next event
+1934458 events in the file 480
+day and hour 29.125
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1414622 single Target Events
+336438 single Veto Events
+Target: 24.4824 Hz, 0.954688% cut
+Veto: 12.2388 Hz, 0.977348 % cut
+All: 505.183 Hz, 0.935003 % cut
+87655 events in 3580.33 s of data taking. Event rate is 540.301 Hz
+next event
+1958463 events in the file 481
+day and hour 29.1667
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1430255 single Target Events
+341262 single Veto Events
+Target: 24.9639 Hz, 0.954379% cut
+Veto: 12.4698 Hz, 0.977212 % cut
+All: 511.439 Hz, 0.934645 % cut
+89347 events in 3579.05 s of data taking. Event rate is 547.202 Hz
+next event
+1954037 events in the file 482
+day and hour 29.2083
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1427048 single Target Events
+338395 single Veto Events
+Target: 24.9079 Hz, 0.954327% cut
+Veto: 12.4153 Hz, 0.977234 % cut
+All: 509.688 Hz, 0.934603 % cut
+89247 events in 3583.07 s of data taking. Event rate is 545.352 Hz
+next event
+1934653 events in the file 483
+day and hour 29.25
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1409764 single Target Events
+337117 single Veto Events
+Target: 24.81 Hz, 0.954052% cut
+Veto: 12.4971 Hz, 0.976855 % cut
+All: 504.293 Hz, 0.933956 % cut
+88894 events in 3583 s of data taking. Event rate is 539.954 Hz
+next event
+1932859 events in the file 484
+day and hour 29.2917
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1405283 single Target Events
+337602 single Veto Events
+Target: 24.815 Hz, 0.953994% cut
+Veto: 12.4035 Hz, 0.977005 % cut
+All: 503.818 Hz, 0.934057 % cut
+88923 events in 3583.44 s of data taking. Event rate is 539.387 Hz
+next event
+1909047 events in the file 485
+day and hour 29.3333
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1388256 single Target Events
+334936 single Veto Events
+Target: 24.7921 Hz, 0.953509% cut
+Veto: 12.3867 Hz, 0.976772 % cut
+All: 497.732 Hz, 0.93336 % cut
+88753 events in 3579.89 s of data taking. Event rate is 533.269 Hz
+next event
+1902753 events in the file 486
+day and hour 29.375
+2 entries in slowChain
+get entry
+0 PMTs excluded from run for bad fits
+1381811 single Target Events
+336194 single Veto Events
+Target: 24.7822 Hz, 0.953342% cut
+Veto: 12.1605 Hz, 0.977105 % cut
+All: 495.859 Hz, 0.933558 % cut
+88778 events in 3582.33 s of data taking. Event rate is 531.15 Hz
+next event
+1.72958e+06 live seconds in y14m06
+Stop time 1411469676
+CPU time: 41869 seconds

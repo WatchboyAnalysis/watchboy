@@ -1,0 +1,17 @@
+This folder contains the state of health codes. The code takes in a list of data files in the form of a txt file and produces a set of plots. 
+
+The the code is executed as:
+./soh filename
+
+where filename is the name of the text file where the list of runs is stored without the name attachment. 
+
+The plots are made in the same directory and have file names of 
+filenameEventRateTable.C
+filenamePMTRateTable.C
+filenameCanvas.C
+
+The canvases folder contains the scatter plots of the rates. 
+The rateTables folder contains the same information but displayed as a density plot. 
+The pmtTables contains information in the individual PMT rates for a given month, as well as the sigmas and means of the individual PMT pedestals. 
+
+The scatter plots have been cleaned up some, and are reproduced in pdf and .C form in the plotsPDF folder. 
