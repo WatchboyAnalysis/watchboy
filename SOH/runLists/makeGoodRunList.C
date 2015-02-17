@@ -13,13 +13,13 @@
     
     TString files[2000];
     ifstream runList;
-    //mName is a string that has the year and month of runs to be convereted in the format yYYmMM
+    //mName is a string that has the year and month of runs to be convereted in the formatyYYmMM
     TString mName="y14m06";
     TString listName=mName+".txt";
     TString dName="ratesAfterCuts/"+mName+"_cutRate.txt";
     TString oLName="outlierRuns/"+mName+"_outliers.txt";
     TString gRName="goodRuns/"+mName+"_goodRuns.txt";
-    
+    TString graphTitle=mName+": Rate vs Run for >1 PMT triggering in either Veto or Target";
     //read in the runlist
     runList.open(listName);
     // runList.open("marchTest");
@@ -93,6 +93,9 @@
     //  gr->Draw("AC*");
     //gr2->SetLineColor(2);
     // gr2->Draw("CP");
+    gr1->SetTitle(graphTitle);
+    gr1->GetXaxis()->SetTitle("Run Number");
+    gr1->GetYaxis()->SetTitle("Rate [HZ]");
     gr1->SetMarkerColor(4);
     gr1->Draw("AC*");
     // superimpose the second graph by leaving out the axis option "A" gr2->SetLineWidth(3);

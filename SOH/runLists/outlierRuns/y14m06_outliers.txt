@@ -3,4 +3,3 @@
 /p/lscratche/adg/Watchboy/simplifiedData/y14m06/mars_2014-06-13_07-03-48_simplified.root
 /p/lscratche/adg/Watchboy/simplifiedData/y14m06/mars_2014-06-13_07-18-39_simplified.root
 /p/lscratche/adg/Watchboy/simplifiedData/y14m06/mars_2014-06-15_20-10-18_simplified.root
-
